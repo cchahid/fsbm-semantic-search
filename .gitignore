@@ -1,3 +1,10 @@
+.idea/
 .venv/
 */.venv/
-.idea
+**/__pycache__/
+*.pyc
+data_pipeline/data/raw/*
+!data_pipeline/data/raw/.gitkeep
+data_pipeline/data/processed/*
+!data_pipeline/data/processed/.gitkeep
+.env
