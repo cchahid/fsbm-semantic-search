@@ -1,0 +1,50 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="python-dotenv" />
+          <option value="PyYAML" />
+          <option value="tweepy" />
+          <option value="kafka-python" />
+          <option value="elasticsearch" />
+          <option value="nltk" />
+          <option value="textblob" />
+          <option value="python-json-logger" />
+          <option value="pytest" />
+          <option value="pytest-cov" />
+          <option value="black" />
+          <option value="flake8" />
+          <option value="pylint" />
+          <option value="mypy" />
+          <option value="ipython" />
+          <option value="requests" />
+          <option value="Django" />
+          <option value="django-htmx" />
+          <option value="django-unfold" />
+          <option value="django-browser-reload" />
+          <option value="djangorestframework" />
+          <option value="python-decouple" />
+          <option value="sqlparse" />
+          <option value="psycopg2-binary" />
+          <option value="asgiref" />
+          <option value="pyclamd" />
+          <option value="django-extensions" />
+          <option value="pydotplus" />
+          <option value="python-magic" />
+          <option value="sentencepiece" />
+          <option value="msal" />
+          <option value="playwright" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pandas" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
