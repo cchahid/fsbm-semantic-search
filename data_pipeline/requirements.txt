@@ -1,0 +1,5 @@
+scholarly
+pandas
+pyarrow
+requests
+beautifulsoup4
