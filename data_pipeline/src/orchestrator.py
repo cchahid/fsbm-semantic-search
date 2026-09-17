@@ -24,10 +24,9 @@ def setup_proxies():
 
 
 def main():
-    # 1. Setup Proxies before doing anything else
+    # 1. Setup Proxies (Optional: comment this out if using your real IP with long delays)
     setup_proxies()
 
-    # 2. Load the target researchers
     if not os.path.exists(INPUT_FILE):
         print(f"[!] Input file not found at {INPUT_FILE}")
         return
@@ -38,28 +37,56 @@ def main():
     print(f"[*] Loaded {len(researchers)} target profiles.")
 
     all_scraped_data = []
+    scraped_names = set()
 
-    # 3. Loop through each researcher
+    # --- ADDED: RESUME CAPABILITY ---
+    # Load existing data to figure out who we already scraped
+    if os.path.exists(OUTPUT_FILE):
+        try:
+            with open(OUTPUT_FILE, "r", encoding="utf-8") as out_f:
+                all_scraped_data = json.load(out_f)
+                # Assuming the scraper returns a dictionary with a 'name' or 'scholar_id' key.
+                # We will extract names to a set for fast lookup.
+                scraped_names = {str(item.get("name", "")).lower() for item in all_scraped_data}
+            print(f"[*] Found {len(all_scraped_data)} profiles already scraped. Resuming...")
+        except Exception as e:
+            print(f"[*] No valid existing output found or error parsing: {e}")
+            all_scraped_data = []
+    # --------------------------------
+
     for index, researcher in enumerate(researchers):
-        name = researcher.get("nom_complet")
+        raw_name = researcher.get("nom_complet")
         author_id = researcher.get("chercheur_id")
 
         print(f"\n==================================================")
-        print(f"[*] Processing Profile {index + 1}/{len(researchers)}: {name}")
+        print(f"[*] Processing Profile {index + 1}/{len(researchers)}: {raw_name}")
         print(f"==================================================")
 
-        # Scrape the profile
-        profile_data = scrape_scholar_profile(author_name=name, author_id=author_id, max_articles=15)
+        # --- ADDED: SKIP LOGIC ---
+        # If a variation of the name is already in our saved data, skip the network request
+        if any(raw_name.lower() in saved_name for saved_name in scraped_names) or \
+                any(saved_name in raw_name.lower() for saved_name in scraped_names if saved_name):
+            print(f"[*] Skipping {raw_name} - Already successfully scraped.")
+            continue
+        # -------------------------
 
+        # Scrape the profile
+        profile_data = scrape_scholar_profile(author_name=raw_name, author_id=author_id, max_articles=15)
+
+        # We only append and save if profile_data is not empty (i.e., not blocked)
         if profile_data:
             all_scraped_data.append(profile_data)
+
+            # Update the skip list so we don't scrape them again if we loop somehow
+            scraped_names.add(str(profile_data.get("name", "")).lower())
 
             with open(OUTPUT_FILE, "w", encoding="utf-8") as out_f:
                 json.dump(all_scraped_data, out_f, indent=2, ensure_ascii=False)
 
-            print(f"[*] Saved data for {name} to raw/ folder.")
+            print(f"[*] Saved data for {raw_name} to raw/ folder.")
 
         if index < len(researchers) - 1:
+            # If you are NOT using proxies, increase this to random.uniform(15.0, 30.0)
             pause = random.uniform(5.0, 10.0)
             print(f"[*] Sleeping for {pause:.2f} seconds before next profile...")
             time.sleep(pause)
