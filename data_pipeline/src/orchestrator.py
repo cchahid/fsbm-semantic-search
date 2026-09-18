@@ -37,17 +37,15 @@ def main():
     print(f"[*] Loaded {len(researchers)} target profiles.")
 
     all_scraped_data = []
-    scraped_names = set()
+    scraped_ids = set()
 
-    # --- ADDED: RESUME CAPABILITY ---
-    # Load existing data to figure out who we already scraped
+    # --- UPDATED: RESUME CAPABILITY USING ID ---
     if os.path.exists(OUTPUT_FILE):
         try:
             with open(OUTPUT_FILE, "r", encoding="utf-8") as out_f:
                 all_scraped_data = json.load(out_f)
-                # Assuming the scraper returns a dictionary with a 'name' or 'scholar_id' key.
-                # We will extract names to a set for fast lookup.
-                scraped_names = {str(item.get("name", "")).lower() for item in all_scraped_data}
+                # Extract the unique IDs instead of the names
+                scraped_ids = {str(item.get("chercheur_id", "")) for item in all_scraped_data}
             print(f"[*] Found {len(all_scraped_data)} profiles already scraped. Resuming...")
         except Exception as e:
             print(f"[*] No valid existing output found or error parsing: {e}")
@@ -62,10 +60,9 @@ def main():
         print(f"[*] Processing Profile {index + 1}/{len(researchers)}: {raw_name}")
         print(f"==================================================")
 
-        # --- ADDED: SKIP LOGIC ---
-        # If a variation of the name is already in our saved data, skip the network request
-        if any(raw_name.lower() in saved_name for saved_name in scraped_names) or \
-                any(saved_name in raw_name.lower() for saved_name in scraped_names if saved_name):
+        # --- UPDATED: SKIP LOGIC USING ID ---
+        # Simply check if the unique ID is already in our saved list
+        if author_id in scraped_ids:
             print(f"[*] Skipping {raw_name} - Already successfully scraped.")
             continue
         # -------------------------
@@ -73,12 +70,11 @@ def main():
         # Scrape the profile
         profile_data = scrape_scholar_profile(author_name=raw_name, author_id=author_id, max_articles=15)
 
-        # We only append and save if profile_data is not empty (i.e., not blocked)
         if profile_data:
             all_scraped_data.append(profile_data)
 
-            # Update the skip list so we don't scrape them again if we loop somehow
-            scraped_names.add(str(profile_data.get("name", "")).lower())
+            # Add the newly scraped ID to the set
+            scraped_ids.add(author_id)
 
             with open(OUTPUT_FILE, "w", encoding="utf-8") as out_f:
                 json.dump(all_scraped_data, out_f, indent=2, ensure_ascii=False)
@@ -86,7 +82,6 @@ def main():
             print(f"[*] Saved data for {raw_name} to raw/ folder.")
 
         if index < len(researchers) - 1:
-            # If you are NOT using proxies, increase this to random.uniform(15.0, 30.0)
             pause = random.uniform(5.0, 10.0)
             print(f"[*] Sleeping for {pause:.2f} seconds before next profile...")
             time.sleep(pause)
