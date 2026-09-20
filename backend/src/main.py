@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from typing import Any
 
 import chromadb
@@ -18,7 +19,6 @@ app.add_middleware(
 )
 
 # --- Configuration & Paths ---
-# Navigate up from backend/src/main.py -> backend/ -> root project folder
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CHROMA_DB_DIR = os.path.join(BASE_DIR, "nlp_engine", "chroma_data")
 RAW_DATA_FILE = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "fsbm_researchers_raw.json")
@@ -27,7 +27,8 @@ RAW_DATA_FILE = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "fsbm_res
 client = None
 collection = None
 model = None
-article_lookup = {}
+article_lookup: dict[str, dict[str, Any]] = {}
+faculty_profiles: list[dict[str, Any]] = []
 
 
 def _first_non_empty(*values: Any, default: str = "") -> str:
@@ -58,13 +59,11 @@ def _parse_authors(value: Any) -> list[str]:
         return []
 
     if isinstance(value, list):
-        authors = [str(author).strip() for author in value if str(author).strip()]
-        return authors
+        return [str(author).strip() for author in value if str(author).strip()]
 
     text = str(value).strip()
     if not text:
         return []
-
     if " and " in text:
         return [chunk.strip() for chunk in text.split(" and ") if chunk.strip()]
     if "," in text:
@@ -73,19 +72,53 @@ def _parse_authors(value: Any) -> list[str]:
     return [text]
 
 
-def _load_article_lookup() -> dict[str, dict[str, Any]]:
+def _derive_department(affiliation: str) -> str:
+    text = (affiliation or "").strip()
+    if not text:
+        return "FSBM Research Faculty"
+
+    professor_match = re.search(r"professor in ([^,]+)", text, flags=re.IGNORECASE)
+    if professor_match:
+        return f"{professor_match.group(1).strip().title()} Department"
+
+    lowered = text.lower()
+    keyword_map = [
+        ("computer", "Computer Science Department"),
+        ("informatics", "Computer Science Department"),
+        ("data", "Data Science Department"),
+        ("math", "Mathematics Department"),
+        ("physics", "Physics Department"),
+        ("chem", "Chemistry Department"),
+        ("bio", "Biology Department"),
+        ("geology", "Earth Sciences Department"),
+    ]
+    for keyword, department in keyword_map:
+        if keyword in lowered:
+            return department
+
+    return "FSBM Research Faculty"
+
+
+def _load_raw_researchers() -> list[dict[str, Any]]:
     if not os.path.exists(RAW_DATA_FILE):
         print(f"[!] Raw data file not found: {RAW_DATA_FILE}")
-        return {}
+        return []
 
     try:
         with open(RAW_DATA_FILE, "r", encoding="utf-8") as handle:
-            researchers = json.load(handle)
+            rows = json.load(handle)
     except (OSError, json.JSONDecodeError) as exc:
         print(f"[!] Failed to load raw data file: {exc}")
-        return {}
+        return []
 
+    if not isinstance(rows, list):
+        return []
+    return rows
+
+
+def _build_article_lookup(researchers: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     lookup: dict[str, dict[str, Any]] = {}
+
     for researcher in researchers:
         researcher_name = _first_non_empty(researcher.get("nom_complet"), default="Unknown author")
         for article in researcher.get("articles", []):
@@ -108,34 +141,80 @@ def _load_article_lookup() -> dict[str, dict[str, Any]]:
     return lookup
 
 
+def _build_faculty_profiles(researchers: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    profiles: list[dict[str, Any]] = []
+
+    for researcher in researchers:
+        metrics = researcher.get("metriques", {}) or {}
+        name = _first_non_empty(researcher.get("nom_complet"), default="Unknown researcher")
+        affiliation = _first_non_empty(researcher.get("affiliation"), default="FSBM")
+        publications = researcher.get("articles", []) if isinstance(researcher.get("articles"), list) else []
+
+        top_publication = ""
+        top_citations = 0
+        if publications:
+            best_article = max(publications, key=lambda row: _to_int(row.get("citations"), default=0))
+            top_publication = _first_non_empty(best_article.get("titre"))
+            top_citations = _to_int(best_article.get("citations"), default=0)
+
+        profiles.append({
+            "id": _first_non_empty(researcher.get("chercheur_id"), default=name.lower().replace(" ", "-")),
+            "name": name,
+            "department": _derive_department(affiliation),
+            "affiliation": affiliation,
+            "citations_total": _to_int(metrics.get("citations_totales"), default=0),
+            "h_index": _to_int(metrics.get("h_index"), default=0),
+            "i10_index": _to_int(metrics.get("i10_index"), default=0),
+            "publications_count": len(publications),
+            "top_publication": top_publication,
+            "top_publication_citations": top_citations,
+        })
+
+    profiles.sort(
+        key=lambda row: (
+            row.get("citations_total", 0),
+            row.get("h_index", 0),
+            row.get("i10_index", 0),
+        ),
+        reverse=True,
+    )
+    return profiles
+
+
 @app.on_event("startup")
 async def startup_event():
-    global client, collection, model, article_lookup
+    global client, collection, model, article_lookup, faculty_profiles
     print("[*] Starting API Server...")
 
-    # 1. Connect to ChromaDB
     try:
         client = chromadb.PersistentClient(path=CHROMA_DB_DIR)
         collection = client.get_collection(name="fsbm_publications")
         print(f"[*] Connected to ChromaDB. Total documents: {collection.count()}")
-    except Exception as e:
-        print(f"[!] Error connecting to ChromaDB: {e}")
+    except Exception as exc:
+        print(f"[!] Error connecting to ChromaDB: {exc}")
 
-    article_lookup = _load_article_lookup()
+    researchers = _load_raw_researchers()
+    article_lookup = _build_article_lookup(researchers)
+    faculty_profiles = _build_faculty_profiles(researchers)
     print(f"[*] Loaded {len(article_lookup)} article records from raw data lookup.")
+    print(f"[*] Loaded {len(faculty_profiles)} faculty profiles.")
 
-    # 2. Load the Embedding Model
     print("[*] Loading zembed-1 model... (This may take a minute)")
     try:
         model = SentenceTransformer("zeroentropy/zembed-1-embedding", trust_remote_code=True)
         print("[*] Model loaded successfully.")
-    except Exception as e:
-        print(f"[!] Error loading model: {e}")
+    except Exception as exc:
+        print(f"[!] Error loading model: {exc}")
 
 
 @app.get("/")
 def read_root():
     return {"status": "API is running", "model": "zembed-1", "database": "ChromaDB"}
+
+
+@app.get("/faculty-profiles")
+def get_faculty_profiles():
+    return {"count": len(faculty_profiles), "profiles": faculty_profiles}
 
 
 @app.get("/search")
@@ -145,17 +224,9 @@ def search_articles(query: str, top_k: int = 5):
 
     print(f"[*] Processing search query: '{query}'")
 
-    # 1. Convert the user's text query into a vector
-    # This might take ~30 seconds on a standard CPU
     query_vector = model.encode([query])[0].tolist()
+    results = collection.query(query_embeddings=[query_vector], n_results=top_k)
 
-    # 2. Search ChromaDB using Cosine Similarity
-    results = collection.query(
-        query_embeddings=[query_vector],
-        n_results=top_k
-    )
-
-    # 3. Format the results for the frontend
     formatted_results = []
     if results["ids"]:
         for i in range(len(results["ids"][0])):
@@ -216,7 +287,7 @@ def search_articles(query: str, top_k: int = 5):
                 "year": year,
                 "citations": citations,
                 "match_score": match_score,
-                "distance": distance,  # Lower distance = higher similarity
+                "distance": distance,
                 "metadata": metadata,
                 "abstract": abstract_text,
             })
