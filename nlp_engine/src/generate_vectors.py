@@ -38,13 +38,15 @@ def generate_embeddings():
         model = SentenceTransformer("all-MiniLM-L6-v2")
 
     # 3. Generate Vectors
-    # We extract the clean abstracts as a list of strings
-    abstracts = df['abstract_clean'].tolist()
+    # Concatenate the Title and Abstract for richer semantic context
+    df['text_to_embed'] = "Title: " + df['titre'].astype(str) + " . Abstract: " + df['abstract_clean'].astype(str)
+    abstracts = df['text_to_embed'].tolist()
 
     print(f"[*] Encoding {len(abstracts)} abstracts... (This may take a minute depending on your CPU/GPU)")
 
     # encode() handles batching automatically. batch_size=32 prevents RAM overflow.
     # show_progress_bar gives you a nice visual in the PyCharm terminal.
+    # encode() handles batching automatically.
     embeddings = model.encode(abstracts, batch_size=32, show_progress_bar=True)
 
     # 4. Attach Vectors to the DataFrame

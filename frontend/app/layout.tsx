@@ -40,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">
+      <body className="flex min-h-screen flex-col antialiased">
         {children}
         {process.env.NODE_ENV === 'production' && <Analytics />}
       </body>

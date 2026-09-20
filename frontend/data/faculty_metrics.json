@@ -1,0 +1,1083 @@
+[
+  {
+    "chercheur_id": "upOdTrEAAAAJ",
+    "nom_complet": "Habib BEN LAHMAR",
+    "affiliation": "Professor in computer science at  HASSAN 2 University, Casablanca Faculty  of science Ben M'Sik",
+    "h_index": 25,
+    "i10_index": 63,
+    "citations_total": 2823,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "upOdTrEAAAAJ:5qfkUJPXOUwC",
+        "title": "Machine Learning Applications in Supply Chain Management: A Deep Learning Model Using an Optimized LSTM Network for Demand Forecasting.",
+        "year": "2022"
+      },
+      {
+        "article_id": "upOdTrEAAAAJ:xtoqd-5pKcoC",
+        "title": "Decision support tool for dynamic inventory management using machine learning, time series and combinatorial optimization",
+        "year": "2022"
+      },
+      {
+        "article_id": "upOdTrEAAAAJ:EkHepimYqZsC",
+        "title": "Machine learning algorithms for breast cancer prediction and diagnosis",
+        "year": "2021"
+      },
+      {
+        "article_id": "upOdTrEAAAAJ:zLWjf1WUPmwC",
+        "title": "Breast cancer prediction and diagnosis through a new approach based on majority voting ensemble classifier",
+        "year": "2021"
+      },
+      {
+        "article_id": "upOdTrEAAAAJ:kRWSkSYxWN8C",
+        "title": "An innovative approach to autocorrecting grammatical errors in Arabic texts",
+        "year": "2021"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "hfAJHyYAAAAJ",
+    "nom_complet": "sael nawal",
+    "affiliation": "university hassan II casablanca",
+    "h_index": 22,
+    "i10_index": 51,
+    "citations_total": 1889,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "hfAJHyYAAAAJ:eq2jaN3J8jMC",
+        "title": "Driver behavior classification: A systematic literature review",
+        "year": "2023"
+      },
+      {
+        "article_id": "hfAJHyYAAAAJ:ye4kPcJQO24C",
+        "title": "A systematic literature review of Arabic dialect sentiment analysis",
+        "year": "2023"
+      },
+      {
+        "article_id": "hfAJHyYAAAAJ:SdhP9T11ey4C",
+        "title": "Machine Learning for IoT based networks intrusion detection: a comparative study",
+        "year": "2022"
+      },
+      {
+        "article_id": "hfAJHyYAAAAJ:R3hNpaxXUhUC",
+        "title": "Student profile modeling using boosting algorithms",
+        "year": "2022"
+      },
+      {
+        "article_id": "hfAJHyYAAAAJ:35N4QoGY0k4C",
+        "title": "Survey of machine learning techniques for student profile modeling",
+        "year": "2021"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "2aKw_8kAAAAJ",
+    "nom_complet": "Said Nouh",
+    "affiliation": "Faculté sciences ben m'sik",
+    "h_index": 7,
+    "i10_index": 5,
+    "citations_total": 122,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "2aKw_8kAAAAJ:qjMakFHDy7sC",
+        "title": "A Fast Method to Estimate Partial Weights Enumerators by Hash Techniques and Automorphism",
+        "year": "2017"
+      },
+      {
+        "article_id": "2aKw_8kAAAAJ:UeHWp8X0CEIC",
+        "title": "New Efficient Scheme Based on Reduction of the Dimension in the Multiple Impulse Method to Find the Minimum Distance of Linear Codes",
+        "year": "2016"
+      },
+      {
+        "article_id": "2aKw_8kAAAAJ:9yKSN-GCB0IC",
+        "title": "Good Quasi-Cyclic Codes from Circulant Matrices Concatenation using a Heuristic Method",
+        "year": "2016"
+      },
+      {
+        "article_id": "2aKw_8kAAAAJ:W7OEmFMy1HYC",
+        "title": "Construction and iterative threshold decoding for low rates Quasi-Cyclic One Step Majority logic decodable codes",
+        "year": "2016"
+      },
+      {
+        "article_id": "2aKw_8kAAAAJ:IjCSPb-OGe4C",
+        "title": "Discovery of good double and triple circulant codes using multiple impulse method",
+        "year": "2015"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "C_Gt_7IAAAAJ",
+    "nom_complet": "KHALID KANDALI",
+    "affiliation": "Professeur d'Informatique, Faculté des Sciences Ben M'sick, Université Hassan II de Casablanca",
+    "h_index": 8,
+    "i10_index": 8,
+    "citations_total": 315,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "C_Gt_7IAAAAJ:W7OEmFMy1HYC",
+        "title": "A Comprehensive Survey on VANET–IoT Integration Toward the Internet of Vehicles: Architectures, Communications, and System Challenges.",
+        "year": "2026"
+      },
+      {
+        "article_id": "C_Gt_7IAAAAJ:YsMSGLbcyi4C",
+        "title": "AI-Native V2X and Internet of Vehicles Systems: Architectures, Learning Paradigms, and Open Challenges",
+        "year": "2026"
+      },
+      {
+        "article_id": "C_Gt_7IAAAAJ:LkGwnXOMwfcC",
+        "title": "A-MCAC: An Adaptive Mobility-and Connectivity-Aware Clustering Framework for Stable and Efficient Internet of Vehicles Communications",
+        "year": "2026"
+      },
+      {
+        "article_id": "C_Gt_7IAAAAJ:roLk4NBRz8UC",
+        "title": "1Faculty of Sciences Ben M’Sick, Laboratory of Information Technology and Modeling (LTIM), TCA Team, Hassan II University of Casablanca February 02, 2026",
+        "year": "2026"
+      },
+      {
+        "article_id": "C_Gt_7IAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Automated grading method of Python code submissions using large language models and machine learning",
+        "year": "2025"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "vGoUWM8AAAAJ",
+    "nom_complet": "Yassine Elhaouari",
+    "affiliation": "باحث في المسرح ودراسات الفرجة",
+    "h_index": 2,
+    "i10_index": 2,
+    "citations_total": 99,
+    "publications_count": 9,
+    "top_papers": [
+      {
+        "article_id": "vGoUWM8AAAAJ:hqOjcs7Dif8C",
+        "title": "التَّعبيـــرُ الجَّســـديُّ في مســــرَح الألفيَّـــة الثَّالـثـــة العرضُ الفرجـــــويُّ\" بــوبـرص\" نموذجـاً",
+        "year": "2026"
+      },
+      {
+        "article_id": "vGoUWM8AAAAJ:eQOLeE2rZwMC",
+        "title": "Metaheuristic Optimization of Artificial Neural Networks: A Comprehensive Survey of Techniques, Taxonomies, and Trends (2015–2025).",
+        "year": "2025"
+      },
+      {
+        "article_id": "vGoUWM8AAAAJ:ufrVoPGSRksC",
+        "title": "A Focused Review on AI-Powered Intrusion Detection in IoT",
+        "year": "2025"
+      },
+      {
+        "article_id": "vGoUWM8AAAAJ:WF5omc3nYNoC",
+        "title": "Fuzzy C-Means Segmentation Enhanced by the Improved Sine Cosine Algorithm: Experiments on Medical Images",
+        "year": "2025"
+      },
+      {
+        "article_id": "vGoUWM8AAAAJ:IjCSPb-OGe4C",
+        "title": "In vitro anti-onychomycosis and radical-scavenging activities of Pistacia lentiscus L.",
+        "year": "2025"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "QOxPeEoAAAAJ",
+    "nom_complet": "faouzia Benabbou",
+    "affiliation": "University  Hassan  II  of  Casablanca",
+    "h_index": 21,
+    "i10_index": 46,
+    "citations_total": 1737,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "QOxPeEoAAAAJ:ZHo1McVdvXMC",
+        "title": "A hybrid deep learning architecture for social media bots detection based on BiGRU-LSTM and GloVe word embedding",
+        "year": "2024"
+      },
+      {
+        "article_id": "QOxPeEoAAAAJ:BqipwSGYUEgC",
+        "title": "Driver behavior classification: A systematic literature review",
+        "year": "2023"
+      },
+      {
+        "article_id": "QOxPeEoAAAAJ:NaGl4SEjCO4C",
+        "title": "A systematic literature review of Arabic dialect sentiment analysis",
+        "year": "2023"
+      },
+      {
+        "article_id": "QOxPeEoAAAAJ:O3NaXMp0MMsC",
+        "title": "Systematic literature review of social media bots detection systems",
+        "year": "2023"
+      },
+      {
+        "article_id": "QOxPeEoAAAAJ:hFOr9nPyWt4C",
+        "title": "Student profile modeling using boosting algorithms",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "3ztbunUAAAAJ",
+    "nom_complet": "Talea Mohamed",
+    "affiliation": "Université Hassan II de Casablanca",
+    "h_index": 40,
+    "i10_index": 125,
+    "citations_total": 6932,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "3ztbunUAAAAJ:XoXfffV-tXoC",
+        "title": "Fusion of engineering insights and emerging trends: Intelligent urban traffic management system",
+        "year": "2022"
+      },
+      {
+        "article_id": "3ztbunUAAAAJ:e_rmSamDkqQC",
+        "title": "Overview of road traffic management solutions based on IoT and AI",
+        "year": "2022"
+      },
+      {
+        "article_id": "3ztbunUAAAAJ:vDijr-p_gm4C",
+        "title": "Barriers to information technology adoption within small and medium enterprises: A systematic literature review",
+        "year": "2020"
+      },
+      {
+        "article_id": "3ztbunUAAAAJ:tzM49s52ZIMC",
+        "title": "Shortest path problem using Bellman algorithm under neutrosophic environment",
+        "year": "2019"
+      },
+      {
+        "article_id": "3ztbunUAAAAJ:_Ybze24A_UAC",
+        "title": "The shortest path problem in interval valued trapezoidal and triangular neutrosophic environment",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "xztEVFoAAAAJ",
+    "nom_complet": "Abderrahim Sekkaki",
+    "affiliation": "Université Hassan II",
+    "h_index": 18,
+    "i10_index": 32,
+    "citations_total": 1068,
+    "publications_count": 10,
+    "top_papers": [
+      {
+        "article_id": "xztEVFoAAAAJ:u9iWguZQMMsC",
+        "title": "A novel modeling approach for vertical handover based on dynamic k-partite graph in heterogeneous networks",
+        "year": "2019"
+      },
+      {
+        "article_id": "xztEVFoAAAAJ:SP6oXDckpogC",
+        "title": "Blockchain and IoT for security and privacy: a platform for diabetes self-management",
+        "year": "2018"
+      },
+      {
+        "article_id": "xztEVFoAAAAJ:fPk4N6BV_jEC",
+        "title": "Optimal vertical handover based on TOPSIS algorithm and utility function in heterogeneous wireless networks",
+        "year": "2017"
+      },
+      {
+        "article_id": "xztEVFoAAAAJ:35N4QoGY0k4C",
+        "title": "Survey and comparison of MADM methods for network selection access in heterogeneous networks",
+        "year": "2015"
+      },
+      {
+        "article_id": "xztEVFoAAAAJ:JV2RwH3_ST0C",
+        "title": "Automatically density based breast segmentation for mammograms by using dynamic K-means algorithm and seed based region growing",
+        "year": "2015"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "OcbnqJIAAAAJ",
+    "nom_complet": "Abdelhakim Alali",
+    "affiliation": "enseignant-chercheur en génie électrique",
+    "h_index": 5,
+    "i10_index": 2,
+    "citations_total": 103,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "OcbnqJIAAAAJ:kNdYIx-mwKoC",
+        "title": "Emerging Technologies in Learning: A Bibliometric Analysis of Technology Integration and Applications.",
+        "year": "2025"
+      },
+      {
+        "article_id": "OcbnqJIAAAAJ:MXK_kJrjxJIC",
+        "title": "Optimizing Training Hyperparameters for Multilayer Perceptrons in Deep Learning",
+        "year": "2025"
+      },
+      {
+        "article_id": "OcbnqJIAAAAJ:roLk4NBRz8UC",
+        "title": "Open-source Hardware FPGA Platforms for IoT: Paradigms, opportunities and open issues",
+        "year": "2023"
+      },
+      {
+        "article_id": "OcbnqJIAAAAJ:qjMakFHDy7sC",
+        "title": "V-net performances for 2D ultrasound image segmentation",
+        "year": "2022"
+      },
+      {
+        "article_id": "OcbnqJIAAAAJ:_FxGoFyzp5QC",
+        "title": "A Review of Open-Source Systems on Chip Case of LiteX RubyRTL and PyMTL",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "PA70UmkAAAAJ",
+    "nom_complet": "Abdellatif Slimani",
+    "affiliation": "PhD at Sidi Mohamed Ben Abdellah University",
+    "h_index": 8,
+    "i10_index": 7,
+    "citations_total": 140,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "PA70UmkAAAAJ:8k81kl-MbHgC",
+        "title": "Second order microstrip bandpass filter design based on square resonator for 5G sub-6 GHz band",
+        "year": "2022"
+      },
+      {
+        "article_id": "PA70UmkAAAAJ:MXK_kJrjxJIC",
+        "title": "A miniaturized high isolation printed diplexer model based on band pass filter technique for 4G-LTE/5G-Sub 6 GHz applications",
+        "year": "2022"
+      },
+      {
+        "article_id": "PA70UmkAAAAJ:0EnyYjriUFMC",
+        "title": "Phase shift switching of a miniaturized ultra‐wideband hybrid coupler for 5G technology",
+        "year": "2021"
+      },
+      {
+        "article_id": "PA70UmkAAAAJ:Y0pCki6q_DkC",
+        "title": "Gain and bandwidth enhancement of new planar microstrip array antennas geometry for C band weather radar applications",
+        "year": "2017"
+      },
+      {
+        "article_id": "PA70UmkAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Ultra Wideband Planar Microstrip Array Antennas for C‐Band Aircraft Weather Radar Applications",
+        "year": "2017"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "5S8wkxEAAAAJ",
+    "nom_complet": "GUENNOUN Asmae",
+    "affiliation": "LTI lab, Faculty of Sciences Ben M'sick, University Hassan II of Casablanca",
+    "h_index": 3,
+    "i10_index": 0,
+    "citations_total": 16,
+    "publications_count": 4,
+    "top_papers": [
+      {
+        "article_id": "5S8wkxEAAAAJ:d1gkVwhDpl0C",
+        "title": "Monte Carlo simulations of pure tungsten and advanced “smart” tungsten alloys under helium bombardment for future fusion power plants",
+        "year": "2021"
+      },
+      {
+        "article_id": "5S8wkxEAAAAJ:2osOgNQ5qMEC",
+        "title": "Noble gas ion beam bombardment effects on H-, graphite-, Na-, Fe-and Zn-doped MgO thin films in plasma-related discharge devices",
+        "year": "2021"
+      },
+      {
+        "article_id": "5S8wkxEAAAAJ:u5HHmVD_uO8C",
+        "title": "Monte Carlo simulations of MgO and complex oxide protective thin layers bombarded with noble-gas ion in plasma discharge devices",
+        "year": "2020"
+      },
+      {
+        "article_id": "5S8wkxEAAAAJ:9yKSN-GCB0IC",
+        "title": "Nspp: A novel algorithm for neutrosophic shortest path problem",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "ADagKpAAAAAJ",
+    "nom_complet": "Aziza Elbakali Kassimi",
+    "affiliation": "Maitre de Conférence. Université Hassan II Casa Maroc",
+    "h_index": 2,
+    "i10_index": 0,
+    "citations_total": 7,
+    "publications_count": 3,
+    "top_papers": [
+      {
+        "article_id": "ADagKpAAAAAJ:u-x6o8ySG0sC",
+        "title": "Mohamed Laarabi, Badreeddine Chegri, Abdelilah Maach and Khaoula Lafriouni The Commonly used Approaches for the Diagnosis of Discrete Event Systems: Overview and Comparative Study.................................................................. 9 Omar Amri, Mohamed Fri, Mohammed Msaaf and Fouad Belmajdoub A Deep Neural Network for Detecting the Severity Level of Diabetic Retinopathy from",
+        "year": "Unknown"
+      },
+      {
+        "article_id": "ADagKpAAAAAJ:d1gkVwhDpl0C",
+        "title": "Optimizing Training Hyperparameters for Multilayer Perceptrons in Deep Learning",
+        "year": "2025"
+      },
+      {
+        "article_id": "ADagKpAAAAAJ:u5HHmVD_uO8C",
+        "title": "A deep neural network for detecting the severity level of diabetic retinopathy from retinography images",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "4Rdvq2YAAAAJ",
+    "nom_complet": "issam Atouf",
+    "affiliation": "université Hassan II Casablanca",
+    "h_index": 12,
+    "i10_index": 15,
+    "citations_total": 726,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "4Rdvq2YAAAAJ:M3ejUd6NZC8C",
+        "title": "Comprehensive review of intrusion detection techniques: ML and DL in different networks",
+        "year": "2025"
+      },
+      {
+        "article_id": "4Rdvq2YAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Traffic monitoring system for vehicle detection in day and night conditions",
+        "year": "2023"
+      },
+      {
+        "article_id": "4Rdvq2YAAAAJ:LkGwnXOMwfcC",
+        "title": "Performance evaluation and implementations of MFCC, SVM and MLP algorithms in the FPGA board",
+        "year": "2021"
+      },
+      {
+        "article_id": "4Rdvq2YAAAAJ:eQOLeE2rZwMC",
+        "title": "A vehicular queue length measurement system in real-time based on SSD Network",
+        "year": "2021"
+      },
+      {
+        "article_id": "4Rdvq2YAAAAJ:8k81kl-MbHgC",
+        "title": "Distance measurement system for autonomous vehicles using stereo camera",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "WyhosLcAAAAJ",
+    "nom_complet": "Abdelmoghit ZAARANE",
+    "affiliation": "Faculty of Sciences Ben M'sick, University Hassan II of Casablanca",
+    "h_index": 8,
+    "i10_index": 8,
+    "citations_total": 412,
+    "publications_count": 8,
+    "top_papers": [
+      {
+        "article_id": "WyhosLcAAAAJ:QIV2ME_5wuYC",
+        "title": "Traffic monitoring system for vehicle detection in day and night conditions",
+        "year": "2023"
+      },
+      {
+        "article_id": "WyhosLcAAAAJ:Wp0gIr-vW9MC",
+        "title": "A vehicular queue length measurement system in real-time based on SSD Network",
+        "year": "2021"
+      },
+      {
+        "article_id": "WyhosLcAAAAJ:4TOpqqG69KYC",
+        "title": "Distance measurement system for autonomous vehicles using stereo camera",
+        "year": "2020"
+      },
+      {
+        "article_id": "WyhosLcAAAAJ:YOwf2qJgpHMC",
+        "title": "Vehicle license plate localization and recognition system for intelligent transportation applications",
+        "year": "2019"
+      },
+      {
+        "article_id": "WyhosLcAAAAJ:_kc_bZDykSQC",
+        "title": "Vehicle to vehicle distance measurement for self-driving systems",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "22H8d4UAAAAJ",
+    "nom_complet": "Youssef NAIMI",
+    "affiliation": "Hassan II University of Casablanca, Faculty of Science BenM’Sick",
+    "h_index": 13,
+    "i10_index": 17,
+    "citations_total": 710,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "22H8d4UAAAAJ:-f6ydRqryjwC",
+        "title": "Exploring sustainable corrosion inhibition of copper in saline environment: An examination of hydroquinazolinones via experimental and ab initio DFT simulations",
+        "year": "2024"
+      },
+      {
+        "article_id": "22H8d4UAAAAJ:4JMBOYKVnBMC",
+        "title": "Thermal transformation of kaolinite clays: analyzing dehydroxylation and amorphization for improved pozzolanic performance",
+        "year": "2024"
+      },
+      {
+        "article_id": "22H8d4UAAAAJ:7PzlFSSx8tAC",
+        "title": "Elucidating the role of novel halogenated hydroquinazolinone derivatives in mitigating copper corrosion in saline conditions: a joint assessment of experimental outcomes and computational analysis",
+        "year": "2023"
+      },
+      {
+        "article_id": "22H8d4UAAAAJ:ZeXyd9-uunAC",
+        "title": "Hydrogen production by water electrolysis",
+        "year": "2023"
+      },
+      {
+        "article_id": "22H8d4UAAAAJ:_kc_bZDykSQC",
+        "title": "Performance of triazole derivatives as potential corrosion in-hibitors for mild steel in a strong phosphoric acid medium: Combining experimental and computational (DFT, MDs & QSAR) approaches",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "J1rNqKQAAAAJ",
+    "nom_complet": "Tarik CHAFIQ",
+    "affiliation": "Hassan II University",
+    "h_index": 10,
+    "i10_index": 10,
+    "citations_total": 385,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "J1rNqKQAAAAJ:KxtntwgDAa4C",
+        "title": "The impact of blockchain on the banking sector: A systematic review of applications, challenges, and future directions",
+        "year": "2026"
+      },
+      {
+        "article_id": "J1rNqKQAAAAJ:_xSYboBqXhAC",
+        "title": "Morphodynamic analysis and identification of triggering mechanisms of flow-like landslides in the Trougoût torrential watershed",
+        "year": "2025"
+      },
+      {
+        "article_id": "J1rNqKQAAAAJ:yD5IFk8b50cC",
+        "title": "Blockchain-based electronic voting systems: A case study in Morocco",
+        "year": "2024"
+      },
+      {
+        "article_id": "J1rNqKQAAAAJ:4OULZ7Gr8RgC",
+        "title": "Assessing hydrological response to future climate change in the Bouregreg watershed, Morocco",
+        "year": "2024"
+      },
+      {
+        "article_id": "J1rNqKQAAAAJ:bFI3QPDXJZMC",
+        "title": "Investigating the potential of blockchain technology for geospatial data sharing: Opportunities, challenges, and solutions",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "aHie7pgAAAAJ",
+    "nom_complet": "Sefri Youssef",
+    "affiliation": "Unknown affiliation",
+    "h_index": 6,
+    "i10_index": 1,
+    "citations_total": 59,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "aHie7pgAAAAJ:roLk4NBRz8UC",
+        "title": "Entrepreneurship 4.0: Young learners’ perspectives on traditional and techno-pedagogical approaches",
+        "year": "2026"
+      },
+      {
+        "article_id": "aHie7pgAAAAJ:_FxGoFyzp5QC",
+        "title": "Social Media in Professional Learning: A Comprehensive Study in the Automotive Industry",
+        "year": "2025"
+      },
+      {
+        "article_id": "aHie7pgAAAAJ:ufrVoPGSRksC",
+        "title": "Social Media and Professional Learning in the Automotive Industry: A Mixed-Methods Study on Engagement, Collaboration, and AI-Enhanced Digital Learning",
+        "year": "2025"
+      },
+      {
+        "article_id": "aHie7pgAAAAJ:WF5omc3nYNoC",
+        "title": "Rapid learning in the teaching of physical education and sport",
+        "year": "2024"
+      },
+      {
+        "article_id": "aHie7pgAAAAJ:IjCSPb-OGe4C",
+        "title": "Factors affecting students’ career choices in Morocco",
+        "year": "2023"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "GcpkTJYAAAAJ",
+    "nom_complet": "Abdellah Hamdaoui",
+    "affiliation": "Professeur de mécanique, Université Hassan II de Casablanca",
+    "h_index": 8,
+    "i10_index": 7,
+    "citations_total": 155,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "GcpkTJYAAAAJ:Wp0gIr-vW9MC",
+        "title": "A dimensionless study of Functionally Graded Material membranes wrinkling using the Asymptotic Numerical Method",
+        "year": "2025"
+      },
+      {
+        "article_id": "GcpkTJYAAAAJ:4DMP91E08xMC",
+        "title": "A 3D micromechanical model for hyperelastic rubber-like materials and its numerical resolution by the Asymptotic Numerical Method (ANM)",
+        "year": "2025"
+      },
+      {
+        "article_id": "GcpkTJYAAAAJ:_kc_bZDykSQC",
+        "title": "Investigation of FGM membrane wrinkling using reduced models based on a multi-scale method",
+        "year": "2024"
+      },
+      {
+        "article_id": "GcpkTJYAAAAJ:Zph67rFs4hoC",
+        "title": "A dimensionless analytical analysis for buckling and lateral buckling interaction of thin-walled beams with open cross sections",
+        "year": "2024"
+      },
+      {
+        "article_id": "GcpkTJYAAAAJ:YOwf2qJgpHMC",
+        "title": "A coupled SFM-ASCRIBE model to investigate the influence of emotions and collective behavior in homogeneous and heterogeneous crowds",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "4GVCnygAAAAJ",
+    "nom_complet": "abdenbi khouaja",
+    "affiliation": "professeur de physique nucléaire, université hassan2 de Casablanca",
+    "h_index": 11,
+    "i10_index": 11,
+    "citations_total": 637,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "4GVCnygAAAAJ:TFP_iSt0sucC",
+        "title": "Matter distribution of  isotopes",
+        "year": "2024"
+      },
+      {
+        "article_id": "4GVCnygAAAAJ:RHpTSmoSYBkC",
+        "title": "Monte carlo simulation of a 18 mv medical linac photon beam using gate/geant4",
+        "year": "2021"
+      },
+      {
+        "article_id": "4GVCnygAAAAJ:-f6ydRqryjwC",
+        "title": "Cross sections, stopping power and Bragg peak range calculation of proton collisions with the DNA base adenine",
+        "year": "2019"
+      },
+      {
+        "article_id": "4GVCnygAAAAJ:M3ejUd6NZC8C",
+        "title": "Method for range calculation based on empirical models of proton in liquid water: Validation study using Monte-Carlo method and ICRU data",
+        "year": "2017"
+      },
+      {
+        "article_id": "4GVCnygAAAAJ:_kc_bZDykSQC",
+        "title": "The nuclear matrix elements of 0vββ decay and the NUMEN project at INFN-LNS",
+        "year": "2016"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "M9BcVSUAAAAJ",
+    "nom_complet": "Bouazza Braikat",
+    "affiliation": "Professeur de Mécanique;Université Hassan II de Casablanca",
+    "h_index": 23,
+    "i10_index": 50,
+    "citations_total": 1541,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "M9BcVSUAAAAJ:BrmTIyaxlBUC",
+        "title": "Spectral Chebyshev method coupled with a high order continuation for nonlinear bending and buckling analysis of functionally graded sandwich beams",
+        "year": "2022"
+      },
+      {
+        "article_id": "M9BcVSUAAAAJ:pyW8ca7W8N0C",
+        "title": "On the use of radial point interpolation method (RPIM) in a high order continuation for the resolution of the geometrically nonlinear elasticity problems",
+        "year": "2020"
+      },
+      {
+        "article_id": "M9BcVSUAAAAJ:nb7KW1ujOQ8C",
+        "title": "Method of fundamental solutions and a high order continuation for bifurcation analysis within Föppl-von Karman plate theory",
+        "year": "2020"
+      },
+      {
+        "article_id": "M9BcVSUAAAAJ:vV6vV6tmYwMC",
+        "title": "Method of fundamental solutions and high order algorithm to solve nonlinear elastic problems",
+        "year": "2018"
+      },
+      {
+        "article_id": "M9BcVSUAAAAJ:35N4QoGY0k4C",
+        "title": "High order mesh-free method for frictional contact",
+        "year": "2018"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "oDDe4n4AAAAJ",
+    "nom_complet": "Mohamed IDIRI",
+    "affiliation": "Professeur de physique, Université Hassan II de Casablanca",
+    "h_index": 15,
+    "i10_index": 22,
+    "citations_total": 895,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "oDDe4n4AAAAJ:TQgYirikUcIC",
+        "title": "Electronic structure, Optical, Phonon, Mechanical, Thermodynamic, and Hydrogen Storage properties of A2BH6 (A= Ca, Sr, Ba) perovskite hydrides by DFT calculations",
+        "year": "2026"
+      },
+      {
+        "article_id": "oDDe4n4AAAAJ:9ZlFYXVOiuMC",
+        "title": "First principles computational study of MgX3H8 (X= V and Fe) for hydrogen storage applications",
+        "year": "2025"
+      },
+      {
+        "article_id": "oDDe4n4AAAAJ:dhFuZR0502QC",
+        "title": "First-principles study on the physical properties of double perovskites LiX3H8 (X= Ni and Mn) for hydrogen storage",
+        "year": "2025"
+      },
+      {
+        "article_id": "oDDe4n4AAAAJ:7PzlFSSx8tAC",
+        "title": "New alkali metal compounds XCo3H8 (X= Li, Na and K) for hydrogen storage technology",
+        "year": "2025"
+      },
+      {
+        "article_id": "oDDe4n4AAAAJ:ZeXyd9-uunAC",
+        "title": "Comprehensive first-principles and AIMD study of alkali metal LiX3H8 (X= Fe, Cr) hydrides for hydrogen storage applications",
+        "year": "2025"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "xpxjPL4AAAAJ",
+    "nom_complet": "Benlattar mourad",
+    "affiliation": "Hassan II University, Faculty of Sciences Ben M'sik",
+    "h_index": 10,
+    "i10_index": 12,
+    "citations_total": 274,
+    "publications_count": 8,
+    "top_papers": [
+      {
+        "article_id": "xpxjPL4AAAAJ:KlAtU1dfN6UC",
+        "title": "Coupled electrical–thermal modeling of photovoltaic modules: An overview",
+        "year": "2024"
+      },
+      {
+        "article_id": "xpxjPL4AAAAJ:kNdYIx-mwKoC",
+        "title": "A simulation and modeling approach of coupled thermal and electrical behavior of PV panels using the artificial hummingbird algorithm and two-dimensional finite difference-based model",
+        "year": "2024"
+      },
+      {
+        "article_id": "xpxjPL4AAAAJ:8k81kl-MbHgC",
+        "title": "Emerging parameters extraction method of PV modules based on the survival strategies of flying foxes optimization (FFO)",
+        "year": "2023"
+      },
+      {
+        "article_id": "xpxjPL4AAAAJ:LkGwnXOMwfcC",
+        "title": "Daytime radiative cooling purposes with selective multilayer design based on Ta2O5",
+        "year": "2020"
+      },
+      {
+        "article_id": "xpxjPL4AAAAJ:UebtZRa9Y70C",
+        "title": "Daytime radiative cooler using porous TiO2: new approach",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "1W-uvFYAAAAJ",
+    "nom_complet": "Othmane DAOUDI",
+    "affiliation": "Hassan II University of Casablanca",
+    "h_index": 8,
+    "i10_index": 8,
+    "citations_total": 225,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "1W-uvFYAAAAJ:WF5omc3nYNoC",
+        "title": "Low-temperature growth of highly crystalline ZnO nanopillars by mist chemical vapor deposition technique",
+        "year": "2025"
+      },
+      {
+        "article_id": "1W-uvFYAAAAJ:YsMSGLbcyi4C",
+        "title": "SILAR-engineered ZnO thin films: exploring the impact of Ni, Co, and Fe dopants on structural, optical, and electronic properties",
+        "year": "2024"
+      },
+      {
+        "article_id": "1W-uvFYAAAAJ:eQOLeE2rZwMC",
+        "title": "The outcomes of Zn doping on the properties of CuO thin films prepared via modified SILAR method and its impact on the performance of CuO-based solar cells using Cd0. 4Zn0. 6S-ETL and Spiro-OMeTAD-HTL",
+        "year": "2024"
+      },
+      {
+        "article_id": "1W-uvFYAAAAJ:ufrVoPGSRksC",
+        "title": "Impact of different rinsing temperatures on SnS thin films created using the SILAR technique.",
+        "year": "2024"
+      },
+      {
+        "article_id": "1W-uvFYAAAAJ:zYLM7Y9cAGgC",
+        "title": "Successive ionic layer adsorption and reaction (SILAR) synthesis of micro-structured Cu-doped ZnO thin films with enhanced photocatalytic activity",
+        "year": "2023"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "S26uLeQAAAAJ",
+    "nom_complet": "Rachida Moultif",
+    "affiliation": "Faculté des sciences Ben M'sik universités Hassan II",
+    "h_index": 4,
+    "i10_index": 2,
+    "citations_total": 82,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "S26uLeQAAAAJ:KlAtU1dfN6UC",
+        "title": "Simulating and analyzing the dynamics of collective movement with elastic interactions and leadership influence",
+        "year": "2025"
+      },
+      {
+        "article_id": "S26uLeQAAAAJ:kNdYIx-mwKoC",
+        "title": "Modeling the Intercalation and Pulverization Phenomena of Lithium Ions in Energy Storage Battery Systems: H. Mallah et al.",
+        "year": "2025"
+      },
+      {
+        "article_id": "S26uLeQAAAAJ:3fE2CSJIrl8C",
+        "title": "Degradation process and energy storage in Lithium-Ion batteries",
+        "year": "2025"
+      },
+      {
+        "article_id": "S26uLeQAAAAJ:ULOm3_A8WrAC",
+        "title": "Optimizing CZTS solar cells efficiency using eco-friendly layers by SCAPS simulation",
+        "year": "2024"
+      },
+      {
+        "article_id": "S26uLeQAAAAJ:5nxA0vEk-isC",
+        "title": "Fatigue and Failure Mechanism Induced by Mechanical Strain and Electrochemical Cycling of Li+ Intercalation and Deintercalation in CF Structural Batteries",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "iVcGR4wAAAAJ",
+    "nom_complet": "Ahmed Fekri",
+    "affiliation": "professeur, hydrogéologie , université Hassan II de Casablanca",
+    "h_index": 19,
+    "i10_index": 23,
+    "citations_total": 1112,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "iVcGR4wAAAAJ:RHpTSmoSYBkC",
+        "title": "A GIS-based multi-criteria decision-making approach for site suitability analysis of solar-powered hydrogen production in the Souss-Massa Region, Morocco",
+        "year": "2023"
+      },
+      {
+        "article_id": "iVcGR4wAAAAJ:YsMSGLbcyi4C",
+        "title": "Marine plastic pollution in Morocco: State of the knowledge on origin, occurrence, fate, and management",
+        "year": "2023"
+      },
+      {
+        "article_id": "iVcGR4wAAAAJ:roLk4NBRz8UC",
+        "title": "Flood risk management practices in Morocco: facts and challenges",
+        "year": "2022"
+      },
+      {
+        "article_id": "iVcGR4wAAAAJ:4JMBOYKVnBMC",
+        "title": "GIS-based multi-criteria analysis of offshore wind farm development in Morocco",
+        "year": "2021"
+      },
+      {
+        "article_id": "iVcGR4wAAAAJ:aqlVkmm33-oC",
+        "title": "Disposal behavior of used masks during the COVID-19 pandemic in the Moroccan community: potential environmental impact",
+        "year": "2021"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "5nrRDxAAAAAJ",
+    "nom_complet": "Allal Labriki",
+    "affiliation": "Enseignant chercheur, Université Hassan II de Casablanca,  Faculté Des sciences Ben M’sick",
+    "h_index": 6,
+    "i10_index": 3,
+    "citations_total": 123,
+    "publications_count": 12,
+    "top_papers": [
+      {
+        "article_id": "5nrRDxAAAAAJ:3fE2CSJIrl8C",
+        "title": "Detection of deformations and active faults related to the Al Haouz Mw 6.8 earthquake on September 8, 2023 (High Atlas, Morocco): an integrated approach combining radar interferometry and 3D seismic data modeling",
+        "year": "2026"
+      },
+      {
+        "article_id": "5nrRDxAAAAAJ:WF5omc3nYNoC",
+        "title": "Geotechnical analysis and stabilization of the Jebha Landslide: A case study from Morocco’s Mediterranean ring road",
+        "year": "2025"
+      },
+      {
+        "article_id": "5nrRDxAAAAAJ:roLk4NBRz8UC",
+        "title": "Co-seismic landslide mapping following the 2023 El Haouz earthquake using differential interferometric synthetic aperture radar and optical imagery (High Atlas, Morocco)",
+        "year": "2025"
+      },
+      {
+        "article_id": "5nrRDxAAAAAJ:eQOLeE2rZwMC",
+        "title": "Morphodynamic analysis and identification of triggering mechanisms of flow-like landslides in the Trougoût torrential watershed",
+        "year": "2025"
+      },
+      {
+        "article_id": "5nrRDxAAAAAJ:Y0pCki6q_DkC",
+        "title": "Inventory and quantitative assessment of Devonian geosites in the Azrou-Khenifra Basin (eastern band of the Central Hercynian Massif, Morocco)",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "AKNLvIEAAAAJ",
+    "nom_complet": "mostafa oukassou",
+    "affiliation": "Université Hassan II de Casablanca",
+    "h_index": 17,
+    "i10_index": 21,
+    "citations_total": 631,
+    "publications_count": 10,
+    "top_papers": [
+      {
+        "article_id": "AKNLvIEAAAAJ:kNdYIx-mwKoC",
+        "title": "A new stegosaurian dinosaur (Ornithischia: Thyreophora) with a remarkable dermal armour from the Middle Jurassic of North Africa",
+        "year": "2024"
+      },
+      {
+        "article_id": "AKNLvIEAAAAJ:UebtZRa9Y70C",
+        "title": "Integrated remote sensing data and field investigations for geological mapping and structural analysis. The case of SW Tichoukt ridge (Middle Atlas, Morocco)",
+        "year": "2023"
+      },
+      {
+        "article_id": "AKNLvIEAAAAJ:WF5omc3nYNoC",
+        "title": "Evaluate the Effect of Topographic Factors and Lithology on Forest Cover Distribution: a Case Study of the Moroccan High Atlas",
+        "year": "2021"
+      },
+      {
+        "article_id": "AKNLvIEAAAAJ:W7OEmFMy1HYC",
+        "title": "The Tichoukt Massif: a geotouristic play in the folded Middle Atlas (Morocco)",
+        "year": "2019"
+      },
+      {
+        "article_id": "AKNLvIEAAAAJ:u5HHmVD_uO8C",
+        "title": "Polyonyx-like tracks from Middle-? Upper Jurassic red beds of Morocco: Implications for sauropod communities on southern margins of tethys",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "DCymGMEAAAAJ",
+    "nom_complet": "Mustapha MOUFLIH",
+    "affiliation": "Professeur Hassan II University of Casablanca",
+    "h_index": 15,
+    "i10_index": 19,
+    "citations_total": 1277,
+    "publications_count": 1,
+    "top_papers": [
+      {
+        "article_id": "DCymGMEAAAAJ:_FxGoFyzp5QC",
+        "title": "Removal of heavy metal ions from water by using calcined phosphate as a new adsorbent",
+        "year": "2004"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "IOR7TaoAAAAJ",
+    "nom_complet": "Faouziya Haissen",
+    "affiliation": "Hassan II University of Casablanca",
+    "h_index": 17,
+    "i10_index": 24,
+    "citations_total": 925,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "IOR7TaoAAAAJ:4JMBOYKVnBMC",
+        "title": "Zircon U–Pb geochronology and Sm–Nd and Rb–Sr isotope systematics of Neoproterozoic granitoïds from Bou Azzer (Anti-Atlas-Morocco): the obduction trigger of the central Anti-Atlas terrane",
+        "year": "2023"
+      },
+      {
+        "article_id": "IOR7TaoAAAAJ:4DMP91E08xMC",
+        "title": "100 myr cycles of oceanic lithosphere generation in peri-Gondwana: Neoproterozoic–Devonian ophiolites from the NW African–Iberian margin of Gondwana and the Variscan Orogen",
+        "year": "2021"
+      },
+      {
+        "article_id": "IOR7TaoAAAAJ:L8Ckcad2t8MC",
+        "title": "The chromitites of the neoproterozoic Bou Azzer ophiolite (central Anti-Atlas, Morocco) revisited",
+        "year": "2021"
+      },
+      {
+        "article_id": "IOR7TaoAAAAJ:_FxGoFyzp5QC",
+        "title": "The structure of the Central-Eastern External Rif (Morocco); Poly-phased deformation and role of the under-thrusting of the North-West African paleo-margin",
+        "year": "2020"
+      },
+      {
+        "article_id": "IOR7TaoAAAAJ:qjMakFHDy7sC",
+        "title": "The Archean to Late-Paleozoic architecture of the Oulad Dlim Massif, the main Gondwanan indenter during the collision with Laurentia",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "AvtWIt8AAAAJ",
+    "nom_complet": "NADIA BARHOUN",
+    "affiliation": "Professor",
+    "h_index": 12,
+    "i10_index": 14,
+    "citations_total": 820,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "AvtWIt8AAAAJ:5nxA0vEk-isC",
+        "title": "Pre-Zanclean end of the Messinian Salinity Crisis: new evidence from central Mediterranean reference sections",
+        "year": "2021"
+      },
+      {
+        "article_id": "AvtWIt8AAAAJ:zYLM7Y9cAGgC",
+        "title": "Vegetation climate and marine environmental reconstruction in the western Mediterranean (southern Rifian corridor, Morocco) over the Tortonian-Messinian transition",
+        "year": "2021"
+      },
+      {
+        "article_id": "AvtWIt8AAAAJ:u-x6o8ySG0sC",
+        "title": "Palaeogeographic evolution of the late Miocene Rifian Corridor (Morocco): reconstructions from surface and subsurface data",
+        "year": "2018"
+      },
+      {
+        "article_id": "AvtWIt8AAAAJ:_kc_bZDykSQC",
+        "title": "Data on lithofacies, sedimentology and palaeontology of South Rifian Corridor sections (Morocco)",
+        "year": "2018"
+      },
+      {
+        "article_id": "AvtWIt8AAAAJ:YOwf2qJgpHMC",
+        "title": "Age refinement and basin evolution of the North Rifian Corridor (Morocco): No evidence for a marine connection during the Messinian Salinity Crisis",
+        "year": "2017"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "TvMcd8oAAAAJ",
+    "nom_complet": "Soufiane Maimouni",
+    "affiliation": "Université Hassan II de Casablanca",
+    "h_index": 11,
+    "i10_index": 11,
+    "citations_total": 388,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "TvMcd8oAAAAJ:3fE2CSJIrl8C",
+        "title": "Decision tree machine learning algorithm for pegmatites mapping using remote sensing data (Anti-Atlas, Morocco)",
+        "year": "2025"
+      },
+      {
+        "article_id": "TvMcd8oAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Mapping soil suitability using phenological information derived from MODIS time series data in a semi-arid region: A case study of Khouribga, Morocco",
+        "year": "2024"
+      },
+      {
+        "article_id": "TvMcd8oAAAAJ:WF5omc3nYNoC",
+        "title": "Spatiotemporal monitoring of low water turbidity in Moroccan coastal lagoon using Sentinel-2 data",
+        "year": "2022"
+      },
+      {
+        "article_id": "TvMcd8oAAAAJ:Se3iqnhoufwC",
+        "title": "Pegmatite mapping using spectroradiometry and ASTER data (Zenaga, Central Anti-Atlas, Morocco)",
+        "year": "2021"
+      },
+      {
+        "article_id": "TvMcd8oAAAAJ:LkGwnXOMwfcC",
+        "title": "Evaluate the effect of topographic factors and lithology on forest cover distribution: a case study of the Moroccan high atlas",
+        "year": "2021"
+      }
+    ]
+  }
+]
