@@ -47,32 +47,64 @@ def scrape_scholar_profile(author_name: str, author_id: str, max_articles: int =
         for i, pub in enumerate(pubs_to_fetch):
             print(f"    -> [{i + 1}/{total_pubs}] Fetching article: {pub['bib'].get('title')}")
 
+            bib = {}
+            abstract_text = ""
+
             try:
-                # Fill the publication to get the abstract
+                # Attempt 1: Standard extraction from the author's profile modal
                 pub_filled = scholarly.fill(pub)
                 bib = pub_filled.get("bib", {})
+                abstract_text = bib.get("abstract", "")
 
-                # Extract authors safely
-                author_string = bib.get("author", "")
-                auteurs_list = [a.strip() for a in author_string.split(" and ") if a.strip()] if author_string else []
+            except AttributeError as pub_err:
+                # This specifically catches the 'NoneType' object has no attribute 'text' error
+                print(f"    [*] DOM Error on profile. Attempting fallback global search for abstract...")
 
-                # Build the article dictionary
-                article_data = {
-                    "article_id": pub_filled.get("author_pub_id", f"art_{uuid.uuid4().hex[:8]}"),
-                    "titre": bib.get("title", "No Title"),
-                    "auteurs": auteurs_list,
-                    "date_publication": str(bib.get("pub_year", "Unknown")),
-                    "journal": bib.get("journal", bib.get("citation", "Unknown Source")),
-                    "citations": pub_filled.get("num_citations", 0),
-                    "abstract": bib.get("abstract", ""),
-                    "abstract_clean": "",
-                    "embedding_zembed1": []
-                }
+                try:
+                    # Attempt 2: Fallback to global search
+                    title = pub.get("bib", {}).get("title", "")
+                    if title:
+                        search_iterator = scholarly.search_pubs(title)
+                        fallback_pub = next(search_iterator)  # Get the first search result
+                        bib = fallback_pub.get("bib", {})
+                        abstract_text = bib.get("abstract", "")
 
-                researcher_data["articles"].append(article_data)
+                        # Apply a small delay since we made an extra request
+                        time.sleep(random.uniform(1.5, 3.0))
+                    else:
+                        print("    [!] Fallback failed: No title available to search.")
+                        bib = pub.get("bib", {})
+
+                except StopIteration:
+                    print("    [!] Fallback failed: Article not found in global search.")
+                    bib = pub.get("bib", {})
+                except Exception as fallback_err:
+                    print(f"    [!] Fallback failed with error: {fallback_err}")
+                    bib = pub.get("bib", {})
 
             except Exception as pub_error:
-                print(f"    [!] Skipping article due to error: {pub_error}")
+                print(f"    [!] Skipping article due to critical error: {pub_error}")
+                continue  # Skip to the next article if it's a completely different error
+
+            # Extract authors safely
+            author_string = bib.get("author", "")
+            auteurs_list = [a.strip() for a in author_string.split(" and ") if a.strip()] if author_string else []
+
+            # Build the article dictionary safely using fallback data if necessary
+            article_data = {
+                "article_id": pub.get("author_pub_id", f"art_{uuid.uuid4().hex[:8]}"),
+                "titre": bib.get("title", pub.get("bib", {}).get("title", "No Title")),
+                "auteurs": auteurs_list,
+                "date_publication": str(bib.get("pub_year", pub.get("bib", {}).get("pub_year", "Unknown"))),
+                "journal": bib.get("journal",
+                                   bib.get("citation", pub.get("bib", {}).get("citation", "Unknown Source"))),
+                "citations": pub.get("num_citations", 0),
+                "abstract": abstract_text,
+                "abstract_clean": "",
+                "embedding_zembed1": []
+            }
+
+            researcher_data["articles"].append(article_data)
 
             # CRITICAL: Rate Limiting (Polite scraping to avoid IP Ban)
             time.sleep(random.uniform(2.5, 5.5))

@@ -24,7 +24,7 @@ def clean_text(text):
 
 
 def process_incremental_batch():
-    print("[*] Starting Incremental Cleaning Process (Bronze -> Silver)...")
+    print("[*] Starting Cleaning Process (Bronze -> Silver)...")
 
     # 1. Safely load the Bronze data (Raw JSON)
     try:
@@ -44,7 +44,10 @@ def process_incremental_batch():
                 "nom_complet": researcher.get("nom_complet"),
                 "article_id": article.get("article_id"),
                 "titre": article.get("titre"),
+                "auteurs": article.get("auteurs", []),
                 "date_publication": article.get("date_publication"),
+                "citations": article.get("citations", 0),
+                "journal": article.get("journal"),
                 "abstract_raw": article.get("abstract")
             })
 
@@ -53,40 +56,30 @@ def process_incremental_batch():
         print("[*] Bronze layer is empty. Nothing to process.")
         return
 
-    # 2. Check the Silver layer to find the Delta (New data)
+    # Keep the latest duplicate by article_id if any accidental duplicates exist in raw data.
+    df_bronze = df_bronze.drop_duplicates(subset=["article_id"], keep="last")
+
+    # 2. Clean the complete Bronze dataset.
+    # For this project size, rebuilding Silver from source of truth is safer than incremental patching.
     os.makedirs(os.path.dirname(SILVER_FILE), exist_ok=True)
+    print(f"[*] Processing {len(df_bronze)} scraped articles...")
 
-    if os.path.exists(SILVER_FILE):
-        df_silver = pd.read_parquet(SILVER_FILE)
-        existing_article_ids = set(df_silver["article_id"].dropna())
+    # Remove rows with no abstract (cannot be vectorized later)
+    df_bronze["abstract_raw"] = df_bronze["abstract_raw"].fillna("").astype(str)
+    df_clean = df_bronze[df_bronze["abstract_raw"].str.strip() != ""].copy()
 
-        # Isolate only the rows in Bronze that are NOT in Silver
-        df_delta = df_bronze[~df_bronze["article_id"].isin(existing_article_ids)].copy()
-        print(f"[*] Found {len(existing_article_ids)} articles in Silver layer.")
-    else:
-        df_delta = df_bronze.copy()
-        df_silver = pd.DataFrame()
-        print("[*] Silver layer not found. Creating a new one.")
+    # Normalize text for embeddings
+    df_clean["abstract_clean"] = df_clean["abstract_raw"].apply(clean_text)
 
-    if df_delta.empty:
-        print("[*] No new articles to clean. Silver layer is completely up to date.")
-        return
+    # Normalize authors to a stable display string
+    df_clean["auteurs"] = df_clean["auteurs"].apply(
+        lambda authors: authors if isinstance(authors, list) else []
+    )
+    df_clean["auteurs_str"] = df_clean["auteurs"].apply(lambda authors: ", ".join(authors))
 
-    print(f"[*] Processing {len(df_delta)} NEW articles...")
+    df_clean.to_parquet(SILVER_FILE, index=False)
 
-    # 3. Clean the Delta Batch
-    # Remove rows with absolutely no abstract (cannot be vectorized later)
-    df_delta = df_delta[df_delta['abstract_raw'].str.strip() != ""]
-
-    # Apply text normalization to abstracts
-    df_delta['abstract_clean'] = df_delta['abstract_raw'].apply(clean_text)
-
-    # 4. Append and Save to Silver (Parquet format)
-    df_final = pd.concat([df_silver, df_delta], ignore_index=True)
-    df_final.to_parquet(SILVER_FILE, index=False)
-
-    print(f"[+] Success! Cleaned {len(df_delta)} new articles.")
-    print(f"[+] Silver layer now contains {len(df_final)} total articles ready for vectorization.")
+    print(f"[+] Success! Silver layer rebuilt with {len(df_clean)} articles ready for vectorization.")
 
 
 if __name__ == "__main__":

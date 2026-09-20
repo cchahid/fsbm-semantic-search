@@ -22,6 +22,20 @@ type SearchResult = {
   match_score: number
 }
 
+type BackendSearchResult = {
+  id?: string
+  article_id?: string
+  title?: string
+  authors?: string[] | string
+  author_display?: string
+  year?: string | number
+  citations?: number | string
+  match_score?: number
+  distance?: number
+  metadata?: Record<string, unknown>
+  abstract?: string
+}
+
 function PaperCard({ result }: { result: SearchResult }) {
   const [expanded, setExpanded] = useState(false)
   return (
@@ -91,12 +105,45 @@ export default function Page() {
     setIsLoading(true)
 
     try {
-      const response = await fetch(`http://127.0.0.1:8000/search?q=${encodeURIComponent(query)}`)
+      const params = new URLSearchParams({ query: query.trim() })
+      const response = await fetch(`http://127.0.0.1:8000/search?${params.toString()}`)
       if (!response.ok) {
         throw new Error(`Server error: ${response.status}`)
       }
       const data = await response.json()
-      setResults(data.results || [])
+      const normalizedResults: SearchResult[] = (data.results || []).map((item: BackendSearchResult, index: number) => {
+        const metadata = item.metadata || {}
+        const distance = typeof item.distance === 'number' ? item.distance : 1
+        const scoreFromDistance = Math.max(0, Math.min(100, Math.round((1 - distance) * 100)))
+        const score = typeof item.match_score === 'number'
+          ? Math.max(0, Math.min(100, Math.round(item.match_score)))
+          : scoreFromDistance
+
+        const rawAuthor = item.author_display ?? item.authors ?? metadata['author'] ?? metadata['authors'] ?? metadata['auteurs'] ?? metadata['nom_complet']
+        const author = Array.isArray(rawAuthor)
+          ? rawAuthor.join(', ')
+          : typeof rawAuthor === 'string'
+            ? rawAuthor
+            : 'Unknown author'
+
+        const rawYear = item.year ?? metadata['year'] ?? metadata['publication_year'] ?? metadata['date_publication']
+        const year = rawYear ? String(rawYear) : 'N/A'
+
+        const rawCitations = item.citations ?? metadata['citations'] ?? metadata['citation_count'] ?? 0
+        const numericCitations = typeof rawCitations === 'number' ? rawCitations : Number(rawCitations)
+        const citations = Number.isFinite(numericCitations) ? numericCitations : 0
+
+        return {
+          id: item.id || item.article_id || `result-${index}`,
+          title: String(item.title ?? metadata['title'] ?? metadata['titre'] ?? item.article_id ?? 'Untitled'),
+          author,
+          year,
+          citations,
+          abstract: item.abstract || 'No abstract available.',
+          match_score: score,
+        }
+      })
+      setResults(normalizedResults)
     } catch (err) {
       console.error("Search request failed:", err)
       alert("Cannot reach backend server. Make sure FastAPI is running.")
