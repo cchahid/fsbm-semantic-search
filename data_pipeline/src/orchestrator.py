@@ -3,7 +3,7 @@ import os
 import time
 import random
 from scholarly import scholarly, ProxyGenerator
-from scraper import scrape_scholar_profile
+from scholar_scraper import scrape_scholar_profile
 
 # Define paths relative to the src folder
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

@@ -46,13 +46,18 @@ def scrape_scholar_profile(author_name: str, author_id: str, max_articles: int =
         for i, pub in enumerate(pubs_to_fetch):
             print(f"    -> [{i + 1}/{total_pubs}] Fetching article: {pub.get('bib', {}).get('title')}")
 
-            bib = {}
+            bib = pub.get("bib", {})  # Fallback base
             abstract_text = ""
+            eprint_url = None  # Initialize at the top
 
             try:
+                # 1. Fill the publication ONCE
                 pub_filled = scholarly.fill(pub)
                 bib = pub_filled.get("bib", {})
                 abstract_text = bib.get("abstract", "")
+
+                # Extract eprint_url immediately while we have the filled object
+                eprint_url = pub_filled.get("eprint_url", None)
 
             except AttributeError as pub_err:
                 print(f"    [*] DOM Error on profile. Attempting fallback global search for abstract...")
@@ -63,17 +68,16 @@ def scrape_scholar_profile(author_name: str, author_id: str, max_articles: int =
                         fallback_pub = next(search_iterator)
                         bib = fallback_pub.get("bib", {})
                         abstract_text = bib.get("abstract", "")
+                        # Note: We usually don't get the eprint_url reliably from a global search fallback,
+                        # so we leave it as None and let OpenAlex handle it later.
                         time.sleep(random.uniform(1.5, 3.0))
-                    else:
-                        bib = pub.get("bib", {})
                 except Exception as fallback_err:
                     print(f"    [!] Fallback failed with error: {fallback_err}")
-                    bib = pub.get("bib", {})
             except Exception as pub_error:
                 print(f"    [!] Skipping article due to critical error: {pub_error}")
                 continue
 
-                # Hardened Author Extraction (handles both string and list formats)
+            # Hardened Author Extraction
             raw_authors = bib.get("author", "")
             if isinstance(raw_authors, list):
                 auteurs_list = [str(a).strip() for a in raw_authors]
@@ -82,6 +86,7 @@ def scrape_scholar_profile(author_name: str, author_id: str, max_articles: int =
             else:
                 auteurs_list = []
 
+            # Build the dictionary using the variables we safely extracted above
             article_data = {
                 "article_id": pub.get("author_pub_id", f"art_{uuid.uuid4().hex[:8]}"),
                 "titre": bib.get("title", pub.get("bib", {}).get("title", "No Title")),
@@ -92,7 +97,8 @@ def scrape_scholar_profile(author_name: str, author_id: str, max_articles: int =
                 "citations": pub.get("num_citations", 0),
                 "abstract": abstract_text,
                 "abstract_clean": "",
-                "embedding_zembed1": []
+                "embedding_zembed1": [],
+                "eprint_url": eprint_url  # Added cleanly here
             }
 
             researcher_data["articles"].append(article_data)

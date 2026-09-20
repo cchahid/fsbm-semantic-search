@@ -99,13 +99,10 @@ def process_incremental_batch():
 
         # --- OVERRIDE EDGE CASES ---
         # Map the exact Google Scholar name to the exact PDF name
-        manual_name_fixes = {
-            "Habib BEN LAHMAR": "ELHABIB.BENLAHMAR",
-            "Aziza ElBakali Kassimi": "AZIZA.ELBAKALI",
-        }
+        #manual_name_fixes = {}
 
         # Apply the mapping to the 'nom_complet' column
-        df_clean['nom_complet'] = df_clean['nom_complet'].replace(manual_name_fixes)
+        #df_clean['nom_complet'] = df_clean['nom_complet'].replace(manual_name_fixes)
         # ---------------------------
 
         # Create matching keys
