@@ -9,7 +9,7 @@ DATA_PIPELINE_DIR = os.path.join(os.path.dirname(BASE_DIR), "data_pipeline")
 # Input from the cleaner
 SILVER_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_clean.parquet")
 # Output to be used by ChromaDB
-GOLD_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_vectors.parquet")
+GOLD_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_vector.parquet")
 
 
 def generate_embeddings():
@@ -47,7 +47,7 @@ def generate_embeddings():
     # encode() handles batching automatically. batch_size=32 prevents RAM overflow.
     # show_progress_bar gives you a nice visual in the PyCharm terminal.
     # encode() handles batching automatically.
-    embeddings = model.encode(abstracts, batch_size=32, show_progress_bar=True)
+    embeddings = model.encode(abstracts, batch_size=8, show_progress_bar=True)
 
     # 4. Attach Vectors to the DataFrame
     # Convert the numpy arrays to standard Python lists so they save perfectly in Parquet

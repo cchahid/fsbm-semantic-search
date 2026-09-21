@@ -8,7 +8,7 @@ from tqdm import tqdm
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PIPELINE_DIR = os.path.join(os.path.dirname(BASE_DIR), "data_pipeline")
 
-GOLD_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_vectors.parquet")
+GOLD_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_vector.parquet")
 CHROMA_DB_DIR = os.path.join(BASE_DIR, "chroma_data")  # Where the DB files will live
 RAW_DATA_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "raw", "fsbm_researchers_raw.json")
 

@@ -4,12 +4,12 @@ import os
 import re
 import unicodedata
 
-
 # Paths
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BRONZE_FILE = os.path.join(BASE_DIR, "data", "raw", "fsbm_researchers_raw.json")
 SILVER_FILE = os.path.join(BASE_DIR, "data", "processed", "fsbm_researchers_clean.parquet")
-REF_FILE = os.path.join(BASE_DIR, "data", "references", "fsbm_departments.csv")  # <-- NEW PATH
+REF_FILE = os.path.join(BASE_DIR, "data", "references", "fsbm_departments.csv")
+ENRICHMENT_FILE = os.path.join(BASE_DIR, "data", "raw", "openalex_enrichment.json") # <-- NEW PATH
 
 
 def clean_text(text):
@@ -38,7 +38,6 @@ def normalize_name_for_join(name):
     name = re.sub(r'[^a-zA-Z\s]', ' ', name)
 
     # 3. Lowercase, split into words, sort alphabetically, and join
-    # Example: "Chakli Abdelhak" -> ['abdelhak', 'chakli'] -> "abdelhakchakli"
     words = name.lower().split()
     words.sort()
 
@@ -91,40 +90,68 @@ def process_incremental_batch():
     df_clean["auteurs_str"] = df_clean["auteurs"].apply(lambda x: ", ".join(x))
 
     # ---------------------------------------------------------
-    # NEW LOGIC: Merge with Reference Data (PDF Extraction)
+    # Merge with Reference Data (Departments)
     # ---------------------------------------------------------
     if os.path.exists(REF_FILE):
         print("[*] Merging with reference department data...")
         df_ref = pd.read_csv(REF_FILE)
 
-        # --- OVERRIDE EDGE CASES ---
-        # Map the exact Google Scholar name to the exact PDF name
-        #manual_name_fixes = {}
-
-        # Apply the mapping to the 'nom_complet' column
-        #df_clean['nom_complet'] = df_clean['nom_complet'].replace(manual_name_fixes)
-        # ---------------------------
-
-        # Create matching keys
         df_clean['join_key'] = df_clean['nom_complet'].apply(normalize_name_for_join)
         df_ref['join_key'] = df_ref['Enseignant Chercheur'].apply(normalize_name_for_join)
 
-        # Keep only necessary columns from the reference file
         df_ref_subset = df_ref[['join_key', 'Etablissement', 'Laboratoire', 'Equipe']].drop_duplicates(
             subset=['join_key'])
 
-        # Perform Left Join
         df_clean = df_clean.merge(df_ref_subset, on='join_key', how='left')
 
-        # Handle missing matches
         df_clean['Etablissement'] = df_clean['Etablissement'].fillna("Unknown")
         df_clean['Laboratoire'] = df_clean['Laboratoire'].fillna("Unknown")
         df_clean['Equipe'] = df_clean['Equipe'].fillna("Unknown")
-
-        # Drop the temporary join key
         df_clean = df_clean.drop(columns=['join_key'])
     else:
         print(f"[!] Warning: Reference file not found at {REF_FILE}. Department columns will be missing.")
+
+    # ---------------------------------------------------------
+    # NEW LOGIC: Merge with OpenAlex Enrichment Data
+    # ---------------------------------------------------------
+    if os.path.exists(ENRICHMENT_FILE):
+        print("[*] Merging with OpenAlex enrichment data (PDF URLs and References)...")
+        try:
+            with open(ENRICHMENT_FILE, "r", encoding="utf-8") as f:
+                enrich_data = json.load(f)
+
+            # Convert JSON dict to Pandas DataFrame
+            if isinstance(enrich_data, dict):
+                df_enrich = pd.DataFrame.from_dict(enrich_data, orient='index')
+            elif isinstance(enrich_data, list):
+                df_enrich = pd.DataFrame(enrich_data)
+            else:
+                df_enrich = pd.DataFrame()
+
+            if not df_enrich.empty and 'article_id' in df_enrich.columns:
+                # Isolate target columns to avoid overlapping duplicates
+                cols_to_keep = ['article_id']
+                if 'pdf_url' in df_enrich.columns: cols_to_keep.append('pdf_url')
+                if 'references' in df_enrich.columns: cols_to_keep.append('references')
+
+                df_enrich_subset = df_enrich[cols_to_keep].drop_duplicates(subset=['article_id'])
+
+                # Perform Left Join mapping on article_id
+                df_clean = df_clean.merge(df_enrich_subset, on='article_id', how='left')
+
+                # Clean missing data (NaN) gracefully
+                if 'pdf_url' in df_clean.columns:
+                    df_clean['pdf_url'] = df_clean['pdf_url'].fillna("")
+                if 'references' in df_clean.columns:
+                    df_clean['references'] = df_clean['references'].apply(lambda x: x if isinstance(x, list) else [])
+
+        except Exception as e:
+            print(f"[!] Failed to merge enrichment data: {e}")
+    else:
+        print(f"[*] Enrichment file not found at {ENRICHMENT_FILE}. Initializing empty schema columns.")
+        # Ensure schema consistency for downstream processing if enrichment hasn't run yet
+        df_clean['pdf_url'] = ""
+        df_clean['references'] = [[] for _ in range(len(df_clean))]
     # ---------------------------------------------------------
 
     df_clean.to_parquet(SILVER_FILE, index=False)
