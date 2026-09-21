@@ -16765,5 +16765,917 @@
         "embedding_zembed1": []
       }
     ]
+  },
+  {
+    "chercheur_id": "hIN0ScAAAAAJ",
+    "nom_complet": "Soumia Mordane",
+    "affiliation": "université hassan II",
+    "metriques": {
+      "citations_totales": 688,
+      "h_index": 12,
+      "i10_index": 17
+    },
+    "articles": [
+      {
+        "article_id": "hIN0ScAAAAAJ:Zph67rFs4hoC",
+        "titre": "An improved coastal upwelling index from sea surface temperature using satellite-based approach–The case of the Canary Current upwelling system",
+        "auteurs": [
+          "Aïssa Benazzouz",
+          "Soumia Mordane",
+          "Abdellatif Orbi",
+          "Mohamed Chagdali",
+          "Karim Hilmi",
+          "Abderrahman Atillah",
+          "Josep Lluís Pelegrí",
+          "Demarcq Hervé"
+        ],
+        "date_publication": "2014",
+        "journal": "Continental Shelf Research",
+        "citations": 255,
+        "abstract": "A new methodology to derive an SST-based upwelling index was based on a rigorous spatial analysis of satellite SST fields and their variability, by referring to previous works, from Wooster et al. (1976) to Santos et al. (2011). The data was precautiously processed by considering data quality aspects (including cloud cover) and the best way to derive accurate coastal SST and its offshore reference. The relevance of the developed index was evaluated by comparing its spatial and seasonal consistency against two wind-based indices as well as with the previous SST-based indices, largely superseding these later ones in term of overall quality and spatio-temporal dynamic. Our index adequately describes the spatio-temporal variability of the coastal upwelling intensity in the Canary Current upwelling system and has the advantage of describing complementary aspects of the coastal dynamics of the region that were …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:iH-uZ7U-co4C",
+        "titre": "Offshore wind energy resource in the Kingdom of Morocco: Assessment of the seasonal potential variability based on satellite data",
+        "auteurs": [
+          "Aïssa Benazzouz",
+          "Hassan Mabchour",
+          "Khalid El Had",
+          "Bendahhou Zourarah",
+          "Soumia Mordane"
+        ],
+        "date_publication": "2020",
+        "journal": "Journal of Marine Science and Engineering",
+        "citations": 63,
+        "abstract": "This study provides a first estimate of the offshore wind power potential along the Moroccan Atlantic shelf based on remotely sensed data. An in-depth knowledge of wind potential characteristics allows assessment of the offshore wind energy project. Based on consistent daily satellite data retrieved from the Advanced Scatterometer (ASCAT) spanning the period from 2008 to 2017, the seasonal wind characteristics were statistically analyzed using the climatological Weibull distribution functions and an assessment of the Moroccan potential coastal wind energy resources was qualitatively analyzed across a range of sites likely to be suitable for possible exploitation. Also, an atlas of wind power density (WPD) at a height of 80 m was provided for the whole Moroccan coast. An examination of the bathymetrical conditions of the study area was carried out since bathymetry is among the primary factors that need to be examined with the wind potential during offshore wind project planning. The results were presented based on the average wind intensity and the prevailing direction, and also the wind power density was shown at monthly, seasonal and interannual time scale. The analysis indicated that the coastal wind regime of the southern area of Morocco has the greatest energy potential, with an average power density which can reach in some places a value around 450 W/m2 at heights of 10 m and 80 m above sea level (a.s.l) (wind turbine hub height) more particularly in the south of the country.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:R3hNpaxXUhUC",
+        "titre": "Impact of the variational assimilation of ground-based GNSS zenith total delay into AROME-Morocco model",
+        "auteurs": [
+          "Fatima Zahra Hdidou",
+          "Soumia Mordane",
+          "Patrick Moll",
+          "Jean-François Mahfouf",
+          "Hassnae Erraji",
+          "Zaineb Dahmane"
+        ],
+        "date_publication": "2020",
+        "journal": "Tellus A: Dynamic Meteorology and Oceanography",
+        "citations": 27,
+        "abstract": "The impact of assimilating zenith total delay (ZTD) observations from the Moroccan ground-based Global Navigation Satellite System (GNSS) network into the high-resolution operational model AROME-Morocco (2.5 km) is assessed over one month. The objective is to investigate the impact on moisture field and rainy event forecasts in a three-dimensional variational (3D-Var) data assimilation framework with a 3-hour cycling. As a first step, a pre-processing of ZTD observations is performed for quality control and bias correction and it points out that all GNSS stations available in the network can be potentially assimilated. Then, two parallel experiments, with and without assimilation of GNSS ZTD, are performed during February–March 2018, for 48-hour lead times. Compared against other observation systems of humidity (radiosonde and surface network), a small and beneficial improvement is found in the …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:9ZlFYXVOiuMC",
+        "titre": "Radar rainfall estimation in Morocco: Quality control and gauge adjustment",
+        "auteurs": [
+          "Zahra Sahlaoui",
+          "Soumia Mordane"
+        ],
+        "date_publication": "2019",
+        "journal": "Hydrology",
+        "citations": 25,
+        "abstract": "This study focused on investigating the impact of gauge adjustment on the rainfall estimate from a Moroccan C-band weather radar located in Khouribga City. The radar reflectivity underwent a quality check before deployment to retrieve the rainfall amount. The process consisted of clutter identification and the correction of signal attenuation. Thereafter, the radar reflectivity was converted into rainfall depth over a period of 24 h. An assessment of the accuracy of the radar rainfall estimate over the study area showed an overall underestimation when compared to the rain gauges (bias = −6.4 mm and root mean square error [RMSE] = 8.9 mm). The adjustment model was applied, and a validation of the adjusted rainfall versus the rain gauges showed a positive impact (bias = −0.96 mm and RMSE = 6.7 mm). The case study conducted on December 16, 2016 revealed substantial improvements in the precipitation structure and intensity with reference to African Rainfall Climatology version 2 (ARC2) precipitations.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:hqOjcs7Dif8C",
+        "titre": "Impact des vents sur l’upwelling au sud du Maroc; apport du modèle ROMS forcé par les données ALADIN et QuikSCAT",
+        "auteurs": [
+          "Abderrahim Moujane",
+          "Mohamed Chagdali",
+          "Bruno Blanke",
+          "Soumia Mordane"
+        ],
+        "date_publication": "2011",
+        "journal": "Bulletin de l’Institut Scientifique, Rabat",
+        "citations": 21,
+        "abstract": "La présence du Courant des Canaries dans le domaine océanique du Sud du Maroc a un effet majeur sur la température de la surface marine au large et à la côte, et sur l’upwelling des Canaries. L’objectif de notre étude était de simuler le comportement des courants par le modèle ROMS (Regional Ocean Modelling System) avec deux forçages par le vent issus du modèle de méso-échelle ALADIN et du diffusiomètre QuikSCAT. À cet effet, le recours au modèle numérique ALADIN a permis de mettre en évidence la sensibilité des courants d’upwelling aux variations spatiales et temporelles des vents côtiers. La majorité des zones côtières à températures froides représentant l’upwelling ont pu être reproduites. L’utilisation d’ALADIN semble améliorer les corrélations avec les observations pour l’upwelling de la côte nord, avec des valeurs de 60% à 70%. Le modèle ROMS forcé par des données ALADIN ou QuikSCAT reproduit bien la dynamique de cette région d’upwelling. Cette étude montre aussi que la présence des îles Canaries perturbe le Courant des Canaries et génère de l’activité méso-échelle. Cette activité est également associée aux principaux caps de la côte marocaine et résulte généralement de l’influence de la topographie côtière, et des conditions atmosphériques synoptiques. Enfin, entre les zones côtières et l’océan ouvert, le contraste de température de la surface marine répond aux fluctuations du vent et à l’impact de la dynamique atmosphérique.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:2osOgNQ5qMEC",
+        "titre": "A parabolic equation based on a rational quadratic approximation for surface gravity wave propagation",
+        "auteurs": [
+          "Soumia Mordane",
+          "Ghita Mangoub",
+          "Kamal L Maroihi",
+          "Mohamed Chagdali"
+        ],
+        "date_publication": "2004",
+        "journal": "Coastal engineering",
+        "citations": 20,
+        "abstract": "In this work, we are interested in the parabolic formulation of the propagation equation of surface gravity waves in terms of angular capability with respect to the privileged propagation direction. This parabolic formulation is obtained by splitting the Berkhoff equation operator into two parabolic operators representing progressive and reflected wave propagation. The use of the quadratic rational approximation permits to derive simultaneously parabolic equations for transmitted and reflected waves. Two well-known reference examples, which represent the propagation of surface gravity waves when a caustic occurs, will be studied numerically and results will be compared with those of the literature.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:vV6vV6tmYwMC",
+        "titre": "Optical and thermo-plasmonic properties of spherical and hollow gold nanoparticles injected in cell organelles",
+        "auteurs": [
+          "A Akouibaa",
+          "R Masrour",
+          "S Mordane",
+          "M Benhamou",
+          "A El Assyry",
+          "A Derouiche"
+        ],
+        "date_publication": "2024",
+        "journal": "Journal of Drug Delivery Science and Technology",
+        "citations": 19,
+        "abstract": "The advent of nanotechnology has profoundly altered many traditional treatment approaches, due to the beneficial physicochemical and functional characteristics of gold nanoparticles (AuNPs). These gold nanostructures are attracting particular interest in a wide range of biomedical applications, such as thermotherapy, diagnostics, detection, and drug delivery. Due to their exceptional characteristics, AuNPs have long been considered as a potential means of combating cancer. These features include surface plasmon resonance (SPR), surface chemistry and multi-functionalization. In addition to targeting tissues and cancer cells, AuNPs with the ability to specifically target organelles are attracting growing interest and are seen as the next evolutionary step in nanomedicine, forming the third generation of this technology. Subcellular targeting offers unique advantages over free targeting, as it enables specific delivery …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:ZHo1McVdvXMC",
+        "titre": "Numerical analysis of surface plasmon resonance and photothermal properties of silica/gold/graphene and hollow/gold/graphene core-multi-shell nanoparticles",
+        "auteurs": [
+          "E Farkouch",
+          "A Akouibaa",
+          "R Masrour",
+          "S Mordane",
+          "M Benhamou",
+          "Heryanto Heryanto"
+        ],
+        "date_publication": "2025",
+        "journal": "Materials Chemistry and Physics",
+        "citations": 15,
+        "abstract": "Multilayer nanoparticles (NPs) with gold (Au) and graphene (Gr) shells are increasingly important in nanotechnology due to their unique properties and applications. These NPs enhance surface plasmon resonance (SPR), allowing precise control over their optical properties and absorption intensity. This study investigates the SPR characteristics of two spherical core-shell NPs: (SiO2/Au/Gr) and (Hollow/Au/Gr), using the finite element method (FEM). The optical parameters analyzed include dielectric constant, absorption cross-section, and optical conductivity. Results indicate that the Gr-shell causes a red shift in the SPR peak and reduces absorption amplitude, with effects becoming more pronounced as the number of Gr sheets increases. The intermediate Au-shell thickness is crucial for plasmonic coupling; as it decreases, the resonance frequency shifts towards the near-infrared (NIR) region, increasing SPR …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:isC4tDSrTZIC",
+        "titre": "Wave energy potential analysis in the Casablanca-Mohammedia coastal area (Morocco)",
+        "auteurs": [
+          "Laila Mouakkir",
+          "Mohamed El hou",
+          "Soumia Mordane",
+          "Mohamed Chagdali"
+        ],
+        "date_publication": "2022",
+        "journal": "Journal of Marine Science and Application",
+        "citations": 15,
+        "abstract": "In the last two decades, the exploitation of marine renewable energies (70% of the globe is made up of oceans), especially wave energy, has attracted great interest, not only for their high potential, but also for their high energy density. The development of wave energy is suitable for countries or regions with extensive coastline and high waves approaching the shore. This paper focuses on the study of wave potential and wave energy distribution in the Casablanca-Mohammedia nearshore area (Moroccan Atlantic coast) in order to identify prospective wave energy hotspots. To achieve this purpose, the offshore wave potential was firstly estimated from a 20 years wave data provided by ECMWF (European Center for Medium range Weather Forecasts). In the second step, a numerical modeling of the wave propagation in the study area was performed using the SWAN model jointly with WAVEWATCHIII. The …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:ldfaerwXgEUC",
+        "titre": "Optical and thermoplasmonic properties of core (AuxAg1-x)-shell (Au) nanostructures",
+        "auteurs": [
+          "Abdelilah Akouibaa",
+          "R Masrour",
+          "Ahmed Akouibaa",
+          "S Mordane",
+          "M Benhamou",
+          "Heryanto Heryanto"
+        ],
+        "date_publication": "2024",
+        "journal": "Nano-Structures & Nano-Objects",
+        "citations": 14,
+        "abstract": "The optical and thermoplasmonic properties of bimetallic nanoparticles (NPs) offer a wide range of possibilities for designing functional materials and innovative nanotechnological devices. Their exploration is generating increasing interest in experimental and theoretical scientific research. The combination of noble metals such as gold (Au) and silver (Ag) within the same nanostructure, in the form of an alloy or core/shell arrangement, presents several advantages and potential applications. In this paper, the finite element method (FEM) is used to study the optical response and nanoscale heat generation capability of bimetallic core/shell nanospheres composed of a mixed alloy (Au x Ag 1− x)-core and an Au-shell. First, we studied the surface plasmon resonance (SPR) properties by generating absorption spectra. Our results show that the position and amplitude of the SPR peak of these nanospheres are strongly …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:aqlVkmm33-oC",
+        "titre": "Computation of nonlinear free-surface flows using the method of fundamental solutions",
+        "auteurs": [
+          "Mohamed Loukili",
+          "Laila El Aarabi",
+          "Soumia Mordane"
+        ],
+        "date_publication": "2018",
+        "journal": "Computer Science On-line Conference, 420-430, 2018",
+        "citations": 13,
+        "abstract": "A meshless numerical model for nonlinear free surface water waves is presented in this paper, to demonstrate that the localized method of fundamental solutions (MFS) is a stable, accurate tool for simulating and modeling the nonlinear propagation of gravity waves in the approximation of irrotational, incompressible and the fluid is assumed to be inviscid. Using the fundamental solution of the Laplace equation as the radial basis function, the problem is solved by collocation of boundary points. The present model is a first applied to simulate the generation of monochromatic periodic gravity waves by applying a semi-analytical or semi-numerical method to resolve the nonlinear gravity waves propagation, have verified by different orders of linear problems. As an application we are interested in the mechanisms of the interaction of a rectangular obstacle fixed on the bottom of the numerical wave tank (NWT) in the …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:qUcmZB5y_30C",
+        "titre": "Improving heavy rainfall forecasts by assimilating surface precipitation in the convective scale model AROME: A case study of the Mediterranean event of November 4, 2017",
+        "auteurs": [
+          "Zahra Sahlaoui",
+          "Soumia Mordane",
+          "Eric Wattrelot",
+          "Jean‐François Mahfouf"
+        ],
+        "date_publication": "2020",
+        "journal": "Meteorological Applications",
+        "citations": 12,
+        "abstract": "The ability of precipitation assimilation is assessed in a convective scale model in order to improve the precipitation forecast for a Mediterranean heavy rain event that took place on November 4, 2017. The proposed assimilation method is based on a two‐step approach. First, one‐dimensional variational (1D‐Var) assimilation is applied on hourly accumulated precipitation to retrieve temperature and specific humidity profiles. These retrieved profiles are then combined in relative humidity profiles before being assimilated into the AROME (Application of Research to Operational at MEsoscale) 3D‐Var system. Three experiments are run for this case study. The results show that precipitation assimilation has a positive impact on both moisture analysis and the forecast of dynamic fields. A comparison of 24 hr‐accumulated precipitation forecasts with precipitation analysis from radar and gauge data (ANTILOPE …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:RYcK_YlVTxYC",
+        "titre": "Wave reflection by rectangular breakwaters for coastal protection",
+        "auteurs": [
+          "Hasna Akarni",
+          "Hamza Mabchour",
+          "Laila El Aarabi",
+          "Soumia Mordane"
+        ],
+        "date_publication": "2024",
+        "journal": "Fluid Dynamics and Materials Processing",
+        "citations": 11,
+        "abstract": "In this study, we focus on the numerical modelling of the interaction between waves and submerged structures in the presence of a uniform flow current. Both the same and opposite senses of wave propagation are considered. The main objective is an understanding of the effect of the current and various geometrical parameters on the reflection coefficient. The wave used in the study is based on potential theory, and the submerged structures consist of two rectangular breakwaters positioned at a fixed distance from each other and attached to the bottom of a wave flume. The numerical modeling approach employed in this work relies on the Boundary Element Method (BEM). The results are compared with experimental data to validate the approach. The findings of the study demonstrate that the double rectangular breakwater configuration exhibits superior wave attenuation abilities if compared to a single rectangular …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:M3NEmzRMIkIC",
+        "titre": "Numerical modeling of the wave-plate-current interaction by the boundary element method",
+        "auteurs": [
+          "Hasna Akarni",
+          "Laila El Aarabi",
+          "Laila Mouakkir",
+          "Soumia Mordane"
+        ],
+        "date_publication": "2021",
+        "journal": "Fluids",
+        "citations": 11,
+        "abstract": "The aim of this work is to propose a numerical study of the interaction of a wave-horizontal plate fixed and completely immersed in a flat-bottomed tank with a uniform current flowing in the same direction as the incident wave. We investigate in particular the effect of the plate at minimizing the impact of the wave on the coast of beaches by studying the free surface elevation and the reflection coefficient, as well as the influence of the various geometrical parameters on the latter, taking into account the presence of the current. The numerical method used in this study is the boundary element method (BEM), and the results obtained will be confronted with experimental and analytical data existing in the literature.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:qxL8FJ1GzNcC",
+        "titre": "New numerical investigation using meshless methods applied to the linear free surface water waves",
+        "auteurs": [
+          "Mohamed Loukili",
+          "Soumia Mordane"
+        ],
+        "date_publication": "2018",
+        "journal": "Computer Science On-line Conference, 337-345, 2018",
+        "citations": 11,
+        "abstract": " A new investigation using meshfree methods to resolve the linear free surface water waves problem. Two methods are used in this current investigation, the method of fundamental solutions (MFS) and multiquadric (MQ) radial basis function. The problem is solved by collocation of boundary points since the governing equations are satisfied automatically in order to provide information on fast and accurate method for an efficient hydrodynamic prediction.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      }
+    ]
+  },
+  {
+    "chercheur_id": "iKIUSQIAAAAJ",
+    "nom_complet": "Abourriche Abdelmjid",
+    "affiliation": "Hassan II university of Casablanca",
+    "metriques": {
+      "citations_totales": 2929,
+      "h_index": 27,
+      "i10_index": 41
+    },
+    "articles": [
+      {
+        "article_id": "iKIUSQIAAAAJ:u-x6o8ySG0sC",
+        "titre": "2, 3-Quinoxalinedione as a novel corrosion inhibitor for mild steel in 1 M HCl",
+        "auteurs": [
+          "Y Abboud",
+          "A Abourriche",
+          "T Saffaj",
+          "M Berrada",
+          "M Charrouf",
+          "Al Bennamara",
+          "N Al Himidi",
+          "H Hannache"
+        ],
+        "date_publication": "2007",
+        "journal": "Materials chemistry and physics",
+        "citations": 314,
+        "abstract": "2,3-Quinoxalinedione (QD) was tested as corrosion inhibitor for mild steel in 1M HCl solution using electrochemical (potentiodynamic polarisation) and non-electrochemical technique (weight loss and UV–vis spectrophotometric measurement). Results of weight loss and Tafel polarisation measurements showed that this compound has fairly good inhibiting properties for steel corrosion in acidic bath, with efficiencies of around 88% at a concentration of 10−3M. The inhibition is of a mixed anodic–cathodic nature. Langmuir isotherm is found to provide an accurate description of the adsorption behaviour of the investigated compound. Negative value was calculated for the energy of adsorption indicating the spontaneity of the adsorption process. The formation of complex between metal cations and 2,3-quinoxalinedione is also proposed as additional inhibition mechanism of mild steel corrosion.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:d1gkVwhDpl0C",
+        "titre": "A novel azo dye, 8-quinolinol-5-azoantipyrine as corrosion inhibitor for mild steel in acidic media",
+        "auteurs": [
+          "Y Abboud",
+          "A Abourriche",
+          "T Saffaj",
+          "M Berrada",
+          "M Charrouf",
+          "A Bennamara",
+          "H Hannache"
+        ],
+        "date_publication": "2009",
+        "journal": "Desalination",
+        "citations": 235,
+        "abstract": "A newly synthesized azo compound, namely 8-quinolinol-5-azoantipyrine (HQAP), was studied as an inhibitor for the corrosion of mild steel in 1M HCl. Results of weight loss and Tafel polarisation measurements show that this compound has fairly good inhibiting properties for steel corrosion in acidic bath, with efficiency around 96% at a concentration of 10−3 M. The inhibition is of a mixed anodic-cathodic nature. Langmuir isotherm is found to provide an accurate description of the adsorption behaviour of the investigated azo compound. Some thermodynamic parameters such as the adsorption heat, adsorption entropy and adsorption free energy have been calculated by employing thermodynamic equations. Kinetic parameters such as the apparent activation energy and pre-exponential factor have been calculated and discussed.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:u5HHmVD_uO8C",
+        "titre": "The inhibition of mild steel corrosion in acidic medium by 2, 2′-bis (benzimidazole)",
+        "auteurs": [
+          "Y Abboud",
+          "A Abourriche",
+          "T Saffaj",
+          "M Berrada",
+          "M Charrouf",
+          "A Bennamara",
+          "A Cherqaoui",
+          "D Takky"
+        ],
+        "date_publication": "2006",
+        "journal": "Applied surface science",
+        "citations": 200,
+        "abstract": "A new corrosion inhibitor, namely 2,2′-bis(benzimidazole) has been synthesised and its inhibiting action on the corrosion of mild steel in acidic bath (1M HCl) has been investigated by various corrosion monitoring techniques, such as corrosion weight loss test and potentiodynamic polarisation. The results of the investigation show that this compounds have fairly good inhibiting properties for steel corrosion in hydrochloric acid, and is a mixed inhibitor in (1M HCl). The adsorption of this inhibitor is also found to obey the Langmuir adsorption isotherm.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:HE397vMXCloC",
+        "titre": "Flat ceramic microfiltration membrane based on natural clay and Moroccan phosphate for desalination and industrial wastewater treatment",
+        "auteurs": [
+          "M Mouiya",
+          "A Abourriche",
+          "A Bouazizi",
+          "A Benhammou",
+          "Y El Hafiane",
+          "Y Abouliatim",
+          "L Nibou",
+          "M Oumam",
+          "M Ouammou",
+          "A Smith",
+          "H Hannache"
+        ],
+        "date_publication": "2018",
+        "journal": "Desalination",
+        "citations": 185,
+        "abstract": "A new microfiltration ceramic membrane has been developed by uniaxially compressing natural Moroccan materials: red clay of Safi and natural phosphate of Youssoufia, which is rich in organic matter. The natural phosphate can be beneficial to porosity formation. The effects of natural phosphate on the morphological and flexural strength of the flat disks sintered at 1100 °C were studied to identify the optimal mass ratio of clay and phosphate via X-ray diffraction, scanning electron microscopy and flexural strength testing. The optimal composition of the flat ceramic membrane contained 40 wt% natural phosphate, which led to a linear thermal expansion coefficient less than 13.42 × 10− 6 °C− 1, flexural strength of 17.5 MPa and Young's modulus of 40.12 GPa. The average pore diameter and water permeability of the obtained ceramic membrane were respectively 2.5 μm and 928 L/(h·m2·bar). The microfiltration …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:V3AGJWp-ZtQC",
+        "titre": "Statistical tools and approaches to validate analytical methods: methodology and practical examples★",
+        "auteurs": [
+          "Soumia Belouafa",
+          "Fatima Habti",
+          "Saïd Benhar",
+          "Bouchaïb Belafkih",
+          "Souad Tayane",
+          "Souad Hamdouch",
+          "Ahmed Bennamara",
+          "Abdelmjid Abourriche"
+        ],
+        "date_publication": "2017",
+        "journal": "International Journal of Metrology and Quality Engineering 8, 9, 2017",
+        "citations": 179,
+        "abstract": "The analyst needs to know whether the result of measurement can be accepted with confidence or, on the contrary, rejected because it is wrong. It is essential, also, to know whether an analysis method is suitable for the intended use. Likewise, it is more important for the researcher to know if he can trust a new developed method and what are the criteria to respect to ensure its validity. The statistical tools allow us to address all these points. The experimental protocol applied in this work is based on a common methodology, inspired by regulatory guidelines regarding statistical data analysis in analytical method validation, to optimize the number of assays and satisfy the study of validation criteria. In order to better understand the statistical analysis of raw data, practical examples are treated for quantify: an active ingredient in pharmaceutical drugs, a heavy metal in fishery products, and a drug in seizures.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:tKAzc9rXhukC",
+        "titre": "Fabrication and characterization of a ceramic membrane from clay and banana peel powder: Application to industrial wastewater treatment",
+        "auteurs": [
+          "Mossaab Mouiya",
+          "Abdelmjid Bouazizi",
+          "Abdelkrim Abourriche",
+          "Abdelaziz Benhammou",
+          "Youssef El Hafiane",
+          "Mohamed Ouammou",
+          "Younes Abouliatim",
+          "Saad Alami Younssi",
+          "Agnès Smith",
+          "Hassan Hannache"
+        ],
+        "date_publication": "2019",
+        "journal": "Materials Chemistry and Physics",
+        "citations": 139,
+        "abstract": "Herein, we report the fabrication of a clay-based ceramic membrane. The corresponding support was prepared by a solid-state method using a clay/banana peels (BP, natural porogen) mixture followed by sintering for 2 h at 1100 °C, and the raw materials were characterized by a range of instrumental characterization techniques. In particular, the influence of BP content on the support properties such as porosity and mechanical strength was examined, and an increase in BP content from 5 to 20 wt% was shown to result in increased support porosity and decreased mechanical strength. The microfiltration membrane was prepared by spin-coating the support with a suspension of clay powder (<2 μm) followed by sintering at 1000 °C and exhibited a homogenous crack-free structure with a mean pore size and water permeability of 0.45 μm and 550 L h−1 m−2 bar−1, respectively. The fabricated membrane …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:9yKSN-GCB0IC",
+        "titre": "Methoxybifurcarenone: an antifungal and antibacterial meroditerpenoid from the brown alga Cystoseira tamariscifolia",
+        "auteurs": [
+          "Ahmed Bennamara",
+          "Abdelmjid Abourriche",
+          "Mohamed Berrada",
+          "M'hamed Charrouf",
+          "Nezha Chaib",
+          "Mohammed Boudouma",
+          "François Xavier Garneau"
+        ],
+        "date_publication": "1999",
+        "journal": "Phytochemistry",
+        "citations": 132,
+        "abstract": "A meroditerpenoid metabolite has been isolated from the brown alga Cystoseira tamariscifolia and characterized as methoxybifurcarenone, by spectral analysis. Methoxybifurcarenone possesses antifungal activity against three tomato pathogenic fungi: Botrytis cinerea, Fusarium oxysporum sp. mycopersici and Verticillium alboatrum and antibacterial activity against Agrobacterium tumefaciens and Escherichia coli.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:Tyk-4Ss8FVUC",
+        "titre": "Corrosion inhibition of carbon steel in acidic media by Bifurcaria bifurcata extract",
+        "auteurs": [
+          "Y Abboud",
+          "A Abourriche",
+          "T Ainane",
+          "M Charrouf",
+          "A Bennamara",
+          "O Tanane",
+          "B Hammouti"
+        ],
+        "date_publication": "2009",
+        "journal": "Chemical Engineering Communications",
+        "citations": 122,
+        "abstract": "The effect of extract of brown alga Bifurcaria bifurcata (Bb) on the corrosion of steel in 1 M HCl solution was studied using weight loss, potentiodynamic, and polarization resistance measurements. Experimental data revealed that Bb extract acted as an inhibitor in the acid environment. The extract was a mixed-type inhibitor, predominating as an anodic inhibitor at higher concentration. It was found that the inhibition efficiency increased with an increase in Bb extract concentration. The corrosion inhibition of Bb extract on carbon steel in 1 M HCl solution was also investigated by infrared and UV-visible spectrophotometry to obtain information on bonding mechanism between the metallic surface and the inhibitor. The process of inhibition is attributed to the adsorption of the extract molecules, the precipitation of Fe-chelates, and/or formation of complex at the electrode surface.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:nrtMV_XWKgEC",
+        "titre": "The use of insoluble mater of Moroccan oil shale for removal of dyes from aqueous solution",
+        "auteurs": [
+          "A Chham",
+          "E Khouya",
+          "M Oumam",
+          "A Abourriche",
+          "S Gmouh",
+          "S Mansouri",
+          "N Elhammoudi",
+          "N Hanafi",
+          "H Hannache"
+        ],
+        "date_publication": "2018",
+        "journal": "Chem. Int",
+        "citations": 109,
+        "abstract": "",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:2osOgNQ5qMEC",
+        "titre": "Antimicrobial activities and cytotoxicity of the brown alga Cystoseira tamariscifolia",
+        "auteurs": [
+          "A Abourriche",
+          "M Charrouf",
+          "M Berrada",
+          "A Bennamara",
+          "N Chaib",
+          "C Francisco"
+        ],
+        "date_publication": "1999",
+        "journal": "Fitoterapia",
+        "citations": 71,
+        "abstract": "The hexane, ethyl ether and dichloromethane fractions of the brown alga Cystoseira tamariscifolia extract showed interesting antimicrobial activities and cytotoxicity. 1999 Elsevier Science BV All rights reserved.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:j8SEvjWlNXcC",
+        "titre": "Effect of sintering temperature on the microstructure and mechanical behavior of porous ceramics made from clay and banana peel powder",
+        "auteurs": [
+          "M Mouiya",
+          "A Bouazizi",
+          "A Abourriche",
+          "Y El Khessaimi",
+          "A Benhammou",
+          "Y Taha",
+          "M Oumam",
+          "Y Abouliatim",
+          "A Smith",
+          "H Hannache"
+        ],
+        "date_publication": "2019",
+        "journal": "Results in Materials",
+        "citations": 66,
+        "abstract": "Porous ceramics were prepared by a solid state process from a mixture of clay and 20 ​wt% banana peels (BPs). BPs were used as an eco-friendly pore-forming agent. Compacted pellets of the dry mixture were calcined at three sintering temperatures, 900, 1000, and 1100 ​°C, for 2 ​h. The effect of sintering temperature on the ceramic properties, such as apparent porosity and mechanical strength, was examined, and an increase in the sintering temperature from 900 to 1100 ​°C yielded porous ceramics with decreased porosity and increased mechanical strength. To obtain porous ceramics (40.2 ​vol% porosity) with sufficient indirect tensile strength (8 ​MPa), the optimum sintering temperature was determined to be 1100 ​°C.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:WF5omc3nYNoC",
+        "titre": "5-Naphthylazo-8-hydroxyquinoline (5NA8HQ) as a novel corrosion inhibitor for mild steel in hydrochloric acid solution",
+        "auteurs": [
+          "Y Abboud",
+          "B Hammouti",
+          "A Abourriche",
+          "A Bennamara",
+          "H Hannache"
+        ],
+        "date_publication": "2012",
+        "journal": "Research on Chemical Intermediates",
+        "citations": 59,
+        "abstract": "In this study, 5-naphthylazo-8-hydroxyquinoline (5NA8HQ) was synthesized, characterized, and tested as a corrosion inhibitor for mild steel in 1 M HCl solution in the temperature range 20 to 50 °C. Weight-loss and potentiodynamic polarization measurements were used to analyse the corrosion behaviour of the metal in the absence and presence of different concentrations of the inhibitor. Analyses of surface film and inhibited solutions by FT-IR and UV–visible spectroscopy enabled us to clarify aspects of the inhibition mechanism. Further examination using X-ray diffraction confirmed the action of 5NA8HQ as an effective inhibitor of corrosion of mild steel in acidic media. The results obtained showed that this compound was a good inhibitor of corrosion. The inhibition is of mixed anodic–cathodic nature with predominance of anodic character. The Langmuir isotherm was found to accurately describe the adsorption …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:qjMakFHDy7sC",
+        "titre": "Spectrophotometric determination of Metronidazole and Secnidazole in pharmaceutical preparations based on the formation of dyes",
+        "auteurs": [
+          "T Saffaj",
+          "M Charrouf",
+          "A Abourriche",
+          "Y Aboud",
+          "A Bennamara",
+          "M Berrada"
+        ],
+        "date_publication": "2006",
+        "journal": "Dyes and pigments",
+        "citations": 59,
+        "abstract": "A rapid and sensitive spectrophotometric method is proposed for determination of Metronidazole and Secnidazole. The method depends on the reduction of Metronidazole and Secnidazole molecule with zinc dust and hydrochloric acid flowed by diazotization and coupling with β-naphtol to give red colored chromogens easily measured spectrophotometrically which has λmax=510nm. The experimental conditions were optimized and Berr's law was obeyed over the applicable concentration ranges. Both techniques were applied successfully to a wide variety of pharmaceutical preparations.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:UeHWp8X0CEIC",
+        "titre": "Spectrophotometric determination of metronidazole and secnidazole in pharmaceutical preparations",
+        "auteurs": [
+          "T Saffaj",
+          "M Charrouf",
+          "A Abourriche",
+          "Y Abboud",
+          "A Bennamara",
+          "M Berrada"
+        ],
+        "date_publication": "2004",
+        "journal": "Il Farmaco",
+        "citations": 56,
+        "abstract": "A rapid and sensitive spectrophotometric method is proposed for determination of metronidazole and secnidazole. The method depends on the reduction of metronidazole and secnidazole molecule with zinc dust and hydrochloric acid flowed by diazotization and coupling with 8-quinolinol to give red colored chromogens easily measured spectrophotometrically which has λmax = 500 nm. The experimental conditions were optimized and Berr's law was obeyed over the applicable concentration ranges both techniques were applied successfully to a wide variety of pharmaceutical preparations.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:LhH-TYMQEocC",
+        "titre": "Unlocking sustainable extraction of natural antioxidants: Green solvents, smart technologies, scalability and future directions",
+        "auteurs": [
+          "Keltoum Bouizgma",
+          "Nabila Rabbah",
+          "Zakari Abbas",
+          "Abdelmjid Abourriche"
+        ],
+        "date_publication": "2025",
+        "journal": "Separation Science and Technology 60 (6), 657-683, 2025",
+        "citations": 51,
+        "abstract": "The sustainable extraction of natural antioxidants from plants has gained significant attention as a viable alternative to synthetic options in the food industry. However, traditional extraction processes often rely on hazardous solvents, raising concerns about toxicity and environmental impact. This review highlights the transformative potential of green solvents and innovative extraction technologies in advancing sustainable practices aligned with the Sustainable Development Goals. Key findings include the effectiveness of intensification techniques, such as ultrasound-assisted and microwave-assisted extractions, in enhancing efficiency and reducing resource use. The review also explores solutions to critical challenges like solvent recovery and recycling, with promising approaches such as biphasic systems and in situ extraction methods demonstrating industrial feasibility. Notably, this work bridges the gap between …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      }
+    ]
+  },
+  {
+    "chercheur_id": "ENJeQHAAAAAJ",
+    "nom_complet": "Driss Radallah",
+    "affiliation": "Professeur de Biologie, Université HASSAN II de Casablanca",
+    "metriques": {
+      "citations_totales": 432,
+      "h_index": 12,
+      "i10_index": 15
+    },
+    "articles": [
+      {
+        "article_id": "ENJeQHAAAAAJ:QIV2ME_5wuYC",
+        "titre": "Human mitochondrial DNA: particularities and diseases",
+        "auteurs": [
+          "Mouna Habbane",
+          "Julio Montoya",
+          "Taha Rhouda",
+          "Yousra Sbaoui",
+          "Driss Radallah",
+          "Sonia Emperador"
+        ],
+        "date_publication": "2021",
+        "journal": "Biomedicines 9 (10), 1364, 2021",
+        "citations": 113,
+        "abstract": "Mitochondria are the cell’s power site, transforming energy into a form that the cell can employ for necessary metabolic reactions. These organelles present their own DNA. Although it codes for a small number of genes, mutations in mtDNA are common. Molecular genetics diagnosis allows the analysis of DNA in several areas such as infectiology, oncology, human genetics and personalized medicine. Knowing that the mitochondrial DNA is subject to several mutations which have a direct impact on the metabolism of the mitochondrion leading to many diseases, it is therefore necessary to detect these mutations in the patients involved. To date numerous mitochondrial mutations have been described in humans, permitting confirmation of clinical diagnosis, in addition to a better management of the patients. Therefore, different techniques are employed to study the presence or absence of mitochondrial mutations. However, new mutations are discovered, and to determine if they are the cause of disease, different functional mitochondrial studies are undertaken using transmitochondrial cybrid cells that are constructed by fusion of platelets of the patient that presents the mutation, with rho osteosarcoma cell line. Moreover, the contribution of next generation sequencing allows sequencing of the entire human genome within a single day and should be considered in the diagnosis of mitochondrial mutations.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:roLk4NBRz8UC",
+        "titre": "Profils épidémiologique et anatomoclinique d’une population marocaine atteinte de cancer colorectal",
+        "auteurs": [
+          "H El Housse",
+          "W Ajbara",
+          "S Amsaguine",
+          "N El Amrani",
+          "H Drissi",
+          "M Ahallat",
+          "D Radallah"
+        ],
+        "date_publication": "2015",
+        "journal": "Journal Africain du Cancer/African Journal of Cancer",
+        "citations": 33,
+        "abstract": "Au Maroc, le cancer colorectal représente, avec celui de l’estomac, les cancers digestifs les plus fréquents.L’objectif de ce travail est d’établir le profil épidémiologique et anatomoclinique des cancers colorectaux de la région de Rabat, avec une attention particulière portée aux désordres électrolytiques, particulièrement évocateurs de troubles fonctionnels intestinaux.Notre étude rétrospective a porté sur 132 cas de cancers colorectaux colligés au service de chirurgie générale du CHU Avicenne de Rabat durant la période janvier 2010-mai 2011. Les données ont été tirées des dossiers pathologiques et cliniques de chaque patient. L’analyse statistique a été réalisée à l’aide du logiciel SPSS version 19.Il ressort de cette étude que l’âge moyen de nos patients est de 54,48±14,75 avec une légère prédominance féminine. 88% des cancers colorectaux sont des …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:u-x6o8ySG0sC",
+        "titre": "Aspects épidémiologiques, nutritionnels et anatomopathologiques des cancers colorectaux dans la région du grand Casablanca",
+        "auteurs": [
+          "Fatima Ezzahra Imad",
+          "Houda Drissi",
+          "Nezha Tawfiq",
+          "Karima Bendahhou",
+          "Nadia Tahiri Jouti",
+          "Abdellatif Benider",
+          "Driss Radallah"
+        ],
+        "date_publication": "2019",
+        "journal": "PAMJ Clinical Medicine",
+        "citations": 21,
+        "abstract": "Introduction: le cancer colorectal constitue un problème majeur de santé publique. L’objectif de notre étude est d’analyser le profil épidémiologique, nutritionnel, clinique et anatomo-pathologique des cancers colorectaux recrutés au CHU de Casablanca.Méthodes: notre étude cas-témoins a porté sur les patients pris en charge pour un cancer colorectal durant l’année 2015, comparés à des témoins non suivi pour un cancer.Résultats: l’âge moyen des patients était de 56, 65 ans avec un écart type de 14, 64. Le type histologique le plus fréquent chez nos patients était représenté par l’adénocarcinome Lieberkhünien avec une proportion de 82%. L’analyse de l’indice de masse corporelle a permis de retrouver une obésité chez 50% des patients contre 20% des témoins et un diabète chez 19% des patients versus 8% des témoins (p< 0,019). Par ailleurs, l’étude du régime alimentaire des patients comparé à celui des témoins semble montrer que la moyenne de la fréquence de consommation hebdomadaire de viandes rouges est plus élevée chez les patients que chez les témoins (4, 24 vs 3, 26; p= 0,009) et inversement pour la consommation du poissons (0, 97 contre 1, 76; p= 0, 0001). En revanche, la moyenne de consommation des légumes et des fruits est plus faible chez les patients que chez les témoins (5, 00 vs 9, 50; p= 0, 0001). Concernant les habitudes toxiques de nos patients, 32% des patients étaient fumeurs vs 13% des témoins.Conclusion: nos résultats montrent que la prise de conscience à propos du régime alimentaire et des changements dans nos habitudes de vie pourrait réduire l’incidence du cancer colorectal et par …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:TQgYirikUcIC",
+        "titre": "Traditional medicinal plants used for rheumatoid arthritis and immune system disorders treatment in the Casablanca-Settat region, Morocco: an ethnopharmacological study",
+        "auteurs": [
+          "Zineb Sekkout",
+          "Amal EL Hamsas EL Youbi",
+          "Omaima Boudaia",
+          "Saadia Janani",
+          "Driss Radallah",
+          "Najat EL Amrani"
+        ],
+        "date_publication": "2024",
+        "journal": "European Journal of Medicinal Chemistry Reports",
+        "citations": 17,
+        "abstract": "Rheumatoid arthritis, classified as an immune system disorder, stands as a prevalent condition that presents considerable challenges to healthcare systems worldwide. This study was delving into the realm of traditional medicine to explore the use of medicinal plants for the treatment of rheumatoid arthritis and immune system disorders in the Casablanca-Settat region of Morocco. With a focus on ethnopharmacological insights, a comprehensive survey was conducted involving 372 participants, including herbalists and patients, to document the local knowledge and practices associated with these conditions. The findings revealed a noteworthy reliance on traditional medicinal knowledge, with a prominent role played by females across different age groups. A diverse spectrum of 88 plant species hailing from 45 distinct families was identified, where in the Myrtaceae, Oleaceae, and Zingibneraceae families garnered …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:4TOpqqG69KYC",
+        "titre": "Ecdysteroids in Carausius eggs during embryonic development",
+        "auteurs": [
+          "Bernard Fournier",
+          "Driss Radallah"
+        ],
+        "date_publication": "1988",
+        "journal": "Archives of insect biochemistry and physiology",
+        "citations": 17,
+        "abstract": "Peaks of ecdysteroids were observed during the different phases of embryonic development of intact Carausius eggs or eggs precociously deprived of their exochorion and cultivated under paraffin oil. Several groups of ecdysteroids were separated and analyzed by thin‐layer chromatography (TLC) and high performance liquid chromatography (HPLC) combined with radioimmunoassay. Ecdysteroids were similar in the two categories of eggs, including high‐polarity products (essentially conjugates hydrolyzable by Helix pomatia digestive juice, or alkaline phosphatase), possible ecdysonoic acids (unhydrolyzable polar substances), free hormones, and nonpolar ecdysteroids. Four ecdysteroids were identified by co‐elution during HPLC with reference compounds of 20,26‐dihydroxyecdysone, 20‐hydroxyecdysone, ecdysone, and 2‐deoxy‐20‐hydroxyecdysone. Concentrations of these substances (free and …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:Se3iqnhoufwC",
+        "titre": "Epidemiological, nutritional and anatomopathological features of patients with colorectal cancer in the greater Casablanca region",
+        "auteurs": [
+          "Fatima Ezzahra Imad",
+          "Houda Drissi",
+          "Nezha Tawfiq",
+          "Karima Bendahhou",
+          "Nadia Tahiri Jouti",
+          "Abdellatif Benider",
+          "Driss Radallah"
+        ],
+        "date_publication": "2019",
+        "journal": "The Pan African Medical Journal",
+        "citations": 16,
+        "abstract": "Introduction le cancer colorectal constitue un problème majeur de santé publique. L’objectif de notre étude est d’analyser le profil épidémiologique, nutritionnel, clinique et anatomo-pathologique des cancers colorectaux recrutés au CHU de Casablanca. Méthodes notre étude cas-témoins a porté sur les patients pris en charge pour un cancer colorectal durant l’année 2015, comparés à des témoins non suivi pour un cancer. Résultats l’âge moyen des patients était de 56,65 ans avec un écart type de 14,64. Le type histologique le plus fréquent chez nos patients était représenté par l’adénocarcinome Lieberkühnien avec une proportion de 82 %. L’analyse de l’indice de masse corporelle a permis de retrouver une obésité chez 50% des patients contre 20% des témoins et un diabète chez 19% des patients versus 8% des témoins (p < 0,019). Par ailleurs, l’étude du régime alimentaire des patients comparé à celui des …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:d1gkVwhDpl0C",
+        "titre": "Effets de l’extrait aqueux des graines du fenugrec (Trigonella foenum graecum) sur l’amélioration du profil lipidique et la prise de poids chez le rat",
+        "auteurs": [
+          "H Harchane",
+          "H El Addas",
+          "S Amsaguine",
+          "N El Amrani",
+          "D Radallah"
+        ],
+        "date_publication": "2012",
+        "journal": "Phytothérapie",
+        "citations": 15,
+        "abstract": "Le fenugrec, Trigonella foenum graecum, du nom arabe l’helba, compte parmi les plus anciennes plantes médicinales et culinaires. Ses graines, grâce à leurs composés chimiques, se révèlent être d’une grande valeur alimentaire et présentent de multiples vertus phytothérapeutiques. Nos résultats montrent que le traitement prolongé de rats à l’extrait aqueux des graines du fenugrec, utilisé dans la pharmacopée traditionnelle marocaine, améliore le profil lipidique avec une baisse du cholestérol total (34 %), des triglycérides (32 %), du LDL-cholestérol (38 %) associée à une augmentation de HDL-cholestérol (36 %). Il facilite également la prise de poids chez les rats en permettant une augmentation de la masse musculaire, tout en limitant (voire en diminuant) l’excès de graisse. Le fenugrec stimule l’appétit et agit comme un anabolisant naturel en permettant une meilleure utilisation des apports nutritifs. Par …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:aqlVkmm33-oC",
+        "titre": "Arachidonic acid and prostaglandin E2 stimulate phospholipase C activity in the rectum of the African locust, Locusta migratoria migratorioides",
+        "auteurs": [
+          "Driss Radallah",
+          "Michel Nogaro",
+          "Bernard Fournier"
+        ],
+        "date_publication": "1995",
+        "journal": "Journal of insect physiology",
+        "citations": 15,
+        "abstract": "Arachidonic acid (20:4n-6) and its metabolite PGE2 stimulated fluid reabsorption in the African locust rectum and enhanced phospholipase C (PLC) activity, resulting in an increase in inositol phosphate production (primarily that of inositol 1,4,5-trisphosphate). This effect resulted in an elevation in cytosolic free Ca2+ concentrations in epithelial cells via the opening of L-type channels, a mechanism showed by neuroparsin, an antidiuretic neuronal hormone. The effects of 20:4n-6 and PGE2 were abolished after treatment with polymyxin B, a protein kinase C (PKC) inhibitor. Thus, these data are consistent with a stimulation of PKC by 20:4n-6 and PGE2 inducing, in turn, a regulation of the neuroparsin-induced PLC activity. The presence of 20:4n-6 (which separated in preliminary experiments from locust rectal phospholipids) as free fatty acid, should result from phospholipase A2 activity was demonstrated in the …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:UeHWp8X0CEIC",
+        "titre": "Fenugreek seeds estrogenic activity in ovariectomized female rats",
+        "auteurs": [
+          "Hind Brogi",
+          "Hajji Elbachir",
+          "Najat El Amrani",
+          "Siham Amsaguine",
+          "Driss Radallah"
+        ],
+        "date_publication": "2019",
+        "journal": "Current Issues in Pharmacy and Medical Sciences",
+        "citations": 14,
+        "abstract": "The estrogenic activities of fenugreek seeds (Trigonella foenum-graecum L.), widely used in traditional pharmacopoeia, are reflected in the uterus of ovariectomized female rats, with a slight increase in dry and wet weight, a thickening of the stroma and the uterine epithelium and the development of the endometrial glands. In the vagina, the estrogenic action is shown through an increase in the epidermal cell number and a tendency to keratinization, leading to vaginal opening.Furthermore, this estrogenic potential of fenugreek seeds is confirmed by the over-expression of progesterone receptors in the uterine tissues supporting possible interactions between phytoestrogens and estrogen receptors.Therefore, Fenugreek seeds may be capable of promoting the development of reproductive tissues of immature ovariectomized rats, and its estrogenic activity may take its action by holding phystoestrogens that interact with estrogen binding sites and activate the same estradiol-mediated cell signaling pathways.Thus, our results give added scientific support to the popular use of Fenugreek seeds as an alternative for several health problems such as fertility and menopause related disorders.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:2osOgNQ5qMEC",
+        "titre": "HPLC analysis of inositol phosphate isomers induced by neuroparsin in rectal epithelial cells of the African locust: role of external calcium",
+        "auteurs": [
+          "Michel Nogaro",
+          "Driss Radallah",
+          "Gilles Guillon",
+          "Bernard Fournier"
+        ],
+        "date_publication": "1995",
+        "journal": "Insect biochemistry and molecular biology",
+        "citations": 13,
+        "abstract": "Inositol 1-monophosphate (Ins(1))P1), and together inositol 1,4-bisphosphate (Ins1,4)P2) and inositol 4-monophosphate (Ins(4)P1) were rapidly (5s) generated in the presence of low concentrations of neuroparsin (NP), likely by hydrolysis of phosphatidylinositol monophosphate (PIP) and phosphatidylinositol (PI) substrates with a phospholipase C (PLC). High concentrations of NP activated another membrane effector which hydrolyzed phosphatidylinositol 4,5-bisphosphate (PIP2) and produced inositol 1,4,5-trisphosphate which is either dephosphorylated in Ins(4)P1 or phosphorylated in inositol 1,3,4,5-tetrakisphosphate, then rapidly dephosphorylated in inositol 1,3,4-trisphosphate and finally in Ins(1)P1. Both PLC are Ca2+-dependent. Their existence possibly reflects the involvement of two distinct transduction mechanisms for the antidiuretic signal of NP according to its concentration. Beyond a previous action of …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:YOwf2qJgpHMC",
+        "titre": "A case-control study on dietary risk factors for colorectal cancer in Morocco",
+        "auteurs": [
+          "Fatima Ezzahra Imad",
+          "Houda Drissi",
+          "Nezha Tawfiq",
+          "Karima Bendahhou",
+          "Abdellatif Benider",
+          "Driss Radallah"
+        ],
+        "date_publication": "2020",
+        "journal": "The Pan African Medical Journal",
+        "citations": 12,
+        "abstract": "Introduction le cancer colorectal par sa fréquence et par sa gravité, est un problème majeur de santé publique. L’alimentation occupe une place primordiale dans la prévention de ce type de cancer. Le but de notre étude est de déterminer, dans notre contexte marocain, les facteurs de risque nutritionnels du cancer colorectal. Méthodes il s’agit d’une étude cas témoin incluant les cas du cancer colorectal comparés à des témoins. L’analyse statistique des résultats a été réalisée par le logiciel R. Résultats notre étude a inclus 225 patients pris en charge au centre Mohammed VI pour le traitement des cancers et 225 témoins. L’âge moyen de notre population au moment du diagnostic était de 55,49±14,06 ans, dont 119 hommes (52,9%) et 106 femmes (47,1%) avec un sex-ratio de 1,12. Des associations ont été trouvées entre les apports les plus élevés de viandes rouges, de charcuteries, de saucisses et le risque de …",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:Zph67rFs4hoC",
+        "titre": "Fatty acid composition of phospholipids and metabolism in rectal tissues of the African locust",
+        "auteurs": [
+          "Bernard R Fournier",
+          "Robert L Wolff",
+          "Michel Nogaro",
+          "Driss Radallah",
+          "Daniele Darret",
+          "Jacky Larrue",
+          "Adrien Girardie"
+        ],
+        "date_publication": "1995",
+        "journal": "Comparative Biochemistry and Physiology Part B: Biochemistry and Molecular Biology",
+        "citations": 10,
+        "abstract": "Six groups of phospholipids were separated from the rectal tissues of the African locust: phosphatidylcholine, phosphatidylethanolamine, phosphatidylinositols, phosphatidylserine, sphingomyelin and cardiolipins. Saturated and unsaturated C18 components were abundant, as is generally observed in insects. Odd-chain (15:0,17:0, 17:1) and long-chain fatty acids were also detected. Both [14c]18:2n-6 and [14c]20:4n-6 were metabolized into prostaglandins (primarily PGE2) and HODEs, respectively, by the intervention of PGH-synthases. Incorporation of [14c]18:2n-6 into phospholipids and neutral lipids or active exchanges of the fatty acid between both categories of lipids reflected different phospholipase, lipase and transferase activities. Triglycerides appeared as a major source of fatty acids for locust rectum phospholipids. These data emphasize a major role of polyunsaturated fatty acids in insect renal physiology.",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      }
+    ]
+  },
+  {
+    "chercheur_id": "y3H-SrEAAAAJ",
+    "nom_complet": "Halima LEBRAZI",
+    "affiliation": "Université Hassan II de Casablanca",
+    "metriques": {
+      "citations_totales": 550,
+      "h_index": 12,
+      "i10_index": 13
+    },
+    "articles": [
+      {
+        "article_id": "y3H-SrEAAAAJ:9yKSN-GCB0IC",
+        "titre": "Predictors of mortality in hemodialysis patients",
+        "auteurs": [
+          "Rajaa Msaad",
+          "Rajaa Essadik",
+          "Karima Mohtad",
+          "Hasnaa Meftah",
+          "Halima Lebrazi",
+          "Hassan Taki",
+          "Anass Kettani",
+          "Ghizlane Madkouri",
+          "Benyounes Ramdani",
+          "Rachid Saïle"
+        ],
+        "date_publication": "2019",
+        "journal": "Pan African Medical Journal",
+        "citations": 113,
+        "abstract": "Introduction: mortality in patients with chronic renal failure is high compared to the general population. The objective of our study is to evaluate",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "y3H-SrEAAAAJ:RHpTSmoSYBkC",
+        "titre": "Association between nutritional status, body composition, and fitness level of adolescents in physical education in Casablanca, Morocco",
+        "auteurs": [],
+        "date_publication": "2023",
+        "journal": "Frontiers in nutrition 10, 1268369, 2023",
+        "citations": 49,
+        "abstract": "",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "y3H-SrEAAAAJ:Wp0gIr-vW9MC",
+        "titre": "Sociodemographic and Lifestyle Factors Associated with Adherence to Mediterranean Diet in Representative Adult Population in Casablanca City, Morocco: A Cross‐Sectional Study",
+        "auteurs": [],
+        "date_publication": "2020",
+        "journal": "Journal of nutrition and metabolism 2020 (1), 3105271, 2020",
+        "citations": 30,
+        "abstract": "",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      },
+      {
+        "article_id": "y3H-SrEAAAAJ:qxL8FJ1GzNcC",
+        "titre": "Associations of the-238 (G/A) and-308 (G/A) TNF-α promoter polymorphisms and TNF-α serum levels with the susceptibility to gastric precancerous lesions and gastric cancer related to Helicobacter pylori infection in a Moroccan population",
+        "auteurs": [
+          "Ghizlane Bounder",
+          "Mohamed Reda Jouimyi",
+          "Hasna Boura",
+          "Eliette Touati",
+          "Valerie Michel",
+          "Wafaa Badre",
+          "Hassan Jouhadi",
+          "Maria Kadi",
+          "Meriem Eljihad",
+          "Hakima Benomar",
+          "Anass Kettani",
+          "Halima Lebrazi",
+          "Fatima Maachi"
+        ],
+        "date_publication": "2020",
+        "journal": "Asian Pacific journal of cancer prevention: APJCP",
+        "citations": 24,
+        "abstract": "",
+        "abstract_clean": "",
+        "embedding_zembed1": [],
+        "eprint_url": null
+      }
+    ]
   }
 ]

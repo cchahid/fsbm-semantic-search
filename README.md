@@ -12,7 +12,8 @@ that consumes its outputs:
 researcher list
     -> Google Scholar scraper
     -> raw researcher JSON
-    -> cleaner + department/OpenAlex enrichment
+    -> OpenAlex enrichment & PDF download
+    -> cleaner + department mapping
     -> clean Parquet
     -> embeddings Parquet
     -> ChromaDB collection
@@ -42,9 +43,9 @@ researcher list
 │       ├── scholar_scraper.py     Scrapes one Scholar profile
 │       ├── orchestrator.py        Runs/resumes profile collection
 │       ├── id_resolver.py         Resolves Scholar IDs from names
-│       ├── cleaner.py             Builds the clean article dataset
 │       ├── openalex_enricher.py   Adds open-access URLs and references
 │       ├── pdf_downloader.py      Downloads available PDFs
+│       ├── cleaner.py             Builds the clean article dataset
 │       └── export_frontend_data.py Creates frontend faculty metrics JSON
 ├── frontend/
 │   ├── app/
@@ -128,9 +129,9 @@ dependencies. From the repository root:
 cd data_pipeline
 .\.venv\Scripts\Activate.ps1
 python src\orchestrator.py
-python src\cleaner.py
 python src\openalex_enricher.py
 python src\pdf_downloader.py
+python src\cleaner.py
 python src\export_frontend_data.py
 ```
 
