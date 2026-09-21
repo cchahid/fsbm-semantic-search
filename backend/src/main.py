@@ -19,11 +19,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-if os.path.isdir(PDF_DIRECTORY):
-    app.mount("/pdfs", StaticFiles(directory=PDF_DIRECTORY), name="pdfs")
-else:
-    print(f"[!] Local PDF directory not found: {PDF_DIRECTORY}")
-
 # --- Configuration & Paths ---
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CHROMA_DB_DIR = os.path.join(BASE_DIR, "nlp_engine", "chroma_data")
@@ -32,6 +27,11 @@ ENRICHMENT_FILE = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "openal
 PDF_DIRECTORY = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "pdf's")
 if not os.path.isdir(PDF_DIRECTORY):
     PDF_DIRECTORY = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "pdfs")
+
+if os.path.isdir(PDF_DIRECTORY):
+    app.mount("/pdfs", StaticFiles(directory=PDF_DIRECTORY), name="pdfs")
+else:
+    print(f"[!] Local PDF directory not found: {PDF_DIRECTORY}")
 
 # --- Global Variables ---
 client = None
