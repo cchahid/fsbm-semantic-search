@@ -81,7 +81,7 @@ collect. `orchestrator.py` calls `scholar_scraper.py` and incrementally writes
 researcher metrics (`citations_totales`, `h_index`, `i10_index`) and publication
 records such as title, authors, year, journal, citations, and abstract.
 
-`openalex_enricher.py` reads the clean Parquet file and caches per-article
+`openalex_enricher.py` reads the clean fsbm_researchers_ram.json file and caches per-article
 OpenAlex results in `data_pipeline/data/raw/openalex_enrichment.json`. The
 enrichment may include an open-access `pdf_url` and referenced work IDs.
 
