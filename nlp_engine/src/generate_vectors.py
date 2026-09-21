@@ -9,7 +9,7 @@ DATA_PIPELINE_DIR = os.path.join(os.path.dirname(BASE_DIR), "data_pipeline")
 # Input from the cleaner
 SILVER_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_clean.parquet")
 # Output to be used by ChromaDB
-GOLD_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_vector.parquet")
+GOLD_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_vectors.parquet")
 
 
 def generate_embeddings():
