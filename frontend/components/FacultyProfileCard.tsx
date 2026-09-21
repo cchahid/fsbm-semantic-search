@@ -7,6 +7,7 @@ export type FacultyProfile = {
   name: string
   department: string
   affiliation: string
+  laboratoire: string
   citations_total: number
   h_index: number
   i10_index: number
@@ -42,6 +43,7 @@ export function FacultyProfileCard({ profile, index = 0 }: { profile: FacultyPro
           <div className="min-w-0">
             <h3 className="text-lg font-semibold text-slate-900">{profile.name}</h3>
             <p className="mt-1 text-sm font-medium text-blue-700">{profile.department}</p>
+            <p className="mt-1 text-xs font-medium text-slate-500">{profile.laboratoire}</p>
             <p className="mt-1 line-clamp-2 text-xs leading-5 text-slate-500">{profile.affiliation}</p>
           </div>
         </div>

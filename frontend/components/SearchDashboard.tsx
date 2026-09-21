@@ -18,6 +18,11 @@ type SearchResult = {
   abstract: string
   match_score: number
   faculty_id: string
+  article_id: string
+  laboratoire: string
+  equipe: string
+  journal: string
+  pdf_url: string
 }
 
 type BackendSearchResult = {
@@ -35,6 +40,36 @@ type BackendSearchResult = {
 }
 
 function PaperCard({ result, index }: { result: SearchResult; index: number }) {
+  const [isExpanded, setIsExpanded] = useState(false)
+  const [pdfHref, setPdfHref] = useState<string | null>(result.pdf_url || null)
+
+  useEffect(() => {
+    const publicationId = result.article_id.startsWith(`${result.faculty_id}:`)
+      ? result.article_id.slice(result.faculty_id.length + 1)
+      : result.article_id
+    const filename = `${result.faculty_id}_${publicationId.replaceAll(':', '_')}.pdf`
+    const localPdfUrl = `http://localhost:8000/pdfs/${encodeURIComponent(filename)}`
+    let cancelled = false
+
+    async function resolvePdf() {
+      try {
+        const response = await fetch(localPdfUrl, { method: 'HEAD' })
+        if (!cancelled && response.ok) {
+          setPdfHref(localPdfUrl)
+          return
+        }
+      } catch {
+        // The external URL remains the fallback when the local API is unavailable.
+      }
+      if (!cancelled) setPdfHref(result.pdf_url || null)
+    }
+
+    void resolvePdf()
+    return () => {
+      cancelled = true
+    }
+  }, [result.article_id, result.faculty_id, result.pdf_url])
+
   return (
     <Card
       className="group motion-fade-up border border-slate-200 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:border-blue-600 hover:shadow-xl"
@@ -48,6 +83,10 @@ function PaperCard({ result, index }: { result: SearchResult; index: number }) {
               <UserRound className="size-4 text-blue-600" />
               {result.author}
             </p>
+            <p className="mt-1 text-xs text-slate-500">
+              {result.journal || 'Journal unavailable'}
+              {result.laboratoire && result.laboratoire !== 'Unknown' ? ` · ${result.laboratoire}` : ''}
+            </p>
           </div>
         </div>
         <div className="mt-3 flex flex-wrap gap-2">
@@ -55,12 +94,28 @@ function PaperCard({ result, index }: { result: SearchResult; index: number }) {
           <span className="rounded-full bg-blue-50 px-2 py-1 text-xs text-blue-700">{result.citations} citations</span>
           <span className="rounded-full bg-blue-50 px-2 py-1 text-xs text-blue-700">{result.match_score}% semantic match</span>
         </div>
-        <p className="mt-4 line-clamp-3 text-sm leading-6 text-slate-600">{result.abstract}</p>
+        <p className={`mt-4 text-sm leading-6 text-slate-600 ${isExpanded ? '' : 'line-clamp-3'}`}>
+          {result.abstract}
+        </p>
+        <button
+          type="button"
+          onClick={() => setIsExpanded((expanded) => !expanded)}
+          className="mt-1 text-sm text-blue-600 hover:underline"
+          aria-expanded={isExpanded}
+        >
+          {isExpanded ? 'Show less' : 'Read more'}
+        </button>
         <Separator className="my-4 bg-slate-200" />
         <div className="flex flex-wrap gap-2">
-          <Button variant="outline" size="sm" className="border-slate-300 text-slate-700 hover:bg-blue-50">
-            <Download data-icon="inline-start" /> View PDF
-          </Button>
+          {pdfHref ? (
+            <a href={pdfHref} target="_blank" rel="noopener noreferrer" className="inline-flex h-9 items-center justify-center gap-2 rounded-md bg-blue-700 px-3 text-sm font-medium text-white transition-colors hover:bg-blue-900">
+              <Download className="size-4" /> View PDF
+            </a>
+          ) : (
+            <Button variant="outline" size="sm" disabled className="border-slate-300 text-slate-400">
+              <Download data-icon="inline-start" /> PDF unavailable
+            </Button>
+          )}
           <Link href={`/faculty-profiles/${result.faculty_id}`} className="inline-flex h-9 items-center justify-center rounded-md bg-blue-700 px-3 text-sm font-medium text-white transition-colors hover:bg-blue-900">
             View Faculty Profile
           </Link>
@@ -96,11 +151,17 @@ const yearRanges = [
 
 type FiltersProps = {
   selectedYearRanges: string[]
+  selectedLaboratories: string[]
+  selectedTeams: string[]
+  laboratories: string[]
+  teams: string[]
   onYearRangeChange: (range: string) => void
+  onLaboratoryChange: (value: string) => void
+  onTeamChange: (value: string) => void
   onClear: () => void
 }
 
-function Filters({ selectedYearRanges, onYearRangeChange, onClear }: FiltersProps) {
+function Filters({ selectedYearRanges, selectedLaboratories, selectedTeams, laboratories, teams, onYearRangeChange, onLaboratoryChange, onTeamChange, onClear }: FiltersProps) {
   return (
     <Card className="border-slate-200 bg-white shadow-md">
       <CardHeader className="pb-3">
@@ -124,11 +185,30 @@ function Filters({ selectedYearRanges, onYearRangeChange, onClear }: FiltersProp
           ))}
         </div>
         <Separator />
+        <FilterCheckboxes title="Laboratoire" values={laboratories} selected={selectedLaboratories} onChange={onLaboratoryChange} />
+        <Separator />
+        <FilterCheckboxes title="Equipe" values={teams} selected={selectedTeams} onChange={onTeamChange} />
+        <Separator />
         <Button type="button" variant="outline" onClick={onClear} className="w-full border-slate-300 text-slate-600">
           Clear all filters
         </Button>
       </CardContent>
     </Card>
+  )
+}
+
+function FilterCheckboxes({ title, values, selected, onChange }: { title: string; values: string[]; selected: string[]; onChange: (value: string) => void }) {
+  if (values.length === 0) return null
+  return (
+    <div>
+      <p className="mb-3 text-sm font-semibold text-slate-900">{title}</p>
+      {values.map((value) => (
+        <label key={value} className="mb-3 flex items-start gap-3 text-sm text-slate-600">
+          <input type="checkbox" checked={selected.includes(value)} onChange={() => onChange(value)} className="mt-0.5 size-4 accent-blue-600" />
+          <span>{value}</span>
+        </label>
+      ))}
+    </div>
   )
 }
 
@@ -138,6 +218,11 @@ export function SearchDashboard() {
   const [results, setResults] = useState<SearchResult[]>([])
   const [isLoading, setIsLoading] = useState(false)
   const [selectedYearRanges, setSelectedYearRanges] = useState<string[]>([])
+  const [selectedLaboratories, setSelectedLaboratories] = useState<string[]>([])
+  const [selectedTeams, setSelectedTeams] = useState<string[]>([])
+
+  const laboratories = [...new Set(results.map((result) => result.laboratoire).filter((value) => value && value !== 'Unknown'))].sort()
+  const teams = [...new Set(results.map((result) => result.equipe).filter((value) => value && value !== 'Unknown'))].sort()
 
   function toggleYearRange(range: string) {
     setSelectedYearRanges((current) =>
@@ -148,18 +233,17 @@ export function SearchDashboard() {
   }
 
   const filteredResults = results.filter((result) => {
-    if (selectedYearRanges.length === 0) return true
-
     const yearMatch = result.year.match(/\b\d{4}\b/)
     const year = yearMatch ? Number(yearMatch[0]) : Number.NaN
-    if (!Number.isFinite(year)) return false
-
-    return selectedYearRanges.some((range) => {
+    const matchesYear = selectedYearRanges.length === 0 || (Number.isFinite(year) && selectedYearRanges.some((range) => {
       if (range === '2020-2024') return year >= 2020 && year <= 2024
       if (range === '2015-2019') return year >= 2015 && year <= 2019
       if (range === 'Before 2015') return year < 2015
       return false
-    })
+    }))
+    const matchesLaboratory = selectedLaboratories.length === 0 || selectedLaboratories.includes(result.laboratoire)
+    const matchesTeam = selectedTeams.length === 0 || selectedTeams.includes(result.equipe)
+    return matchesYear && matchesLaboratory && matchesTeam
   })
 
   const runSearch = useCallback(async (searchQuery: string) => {
@@ -193,6 +277,11 @@ export function SearchDashboard() {
           abstract: item.abstract || 'No abstract available.',
           match_score: score,
           faculty_id: String(metadata.chercheur_id ?? metadata.researcher_id ?? matchedResearcher?.chercheur_id ?? 'upOdTrEAAAAJ'),
+          article_id: String(item.article_id ?? item.id ?? ''),
+          laboratoire: String(metadata.Laboratoire ?? metadata.laboratoire ?? 'Unknown'),
+          equipe: String(metadata.Equipe ?? metadata.equipe ?? 'Unknown'),
+          journal: String(metadata.journal ?? ''),
+          pdf_url: String(metadata.pdf_url ?? ''),
         }
       })
       setResults(normalizedResults)
@@ -217,8 +306,18 @@ export function SearchDashboard() {
       <aside className="md:col-span-1 md:sticky md:top-24 md:h-fit">
         <Filters
           selectedYearRanges={selectedYearRanges}
+          selectedLaboratories={selectedLaboratories}
+          selectedTeams={selectedTeams}
+          laboratories={laboratories}
+          teams={teams}
           onYearRangeChange={toggleYearRange}
-          onClear={() => setSelectedYearRanges([])}
+          onLaboratoryChange={(value) => setSelectedLaboratories((current) => current.includes(value) ? current.filter((item) => item !== value) : [...current, value])}
+          onTeamChange={(value) => setSelectedTeams((current) => current.includes(value) ? current.filter((item) => item !== value) : [...current, value])}
+          onClear={() => {
+            setSelectedYearRanges([])
+            setSelectedLaboratories([])
+            setSelectedTeams([])
+          }}
         />
       </aside>
       <section className="md:col-span-3">

@@ -11,6 +11,7 @@ const profiles: FacultyProfile[] = facultyMetrics.map((researcher) => ({
   name: researcher.nom_complet,
   department: 'Faculty of Sciences Ben M’Sik',
   affiliation: researcher.affiliation,
+  laboratoire: researcher.laboratoire,
   citations_total: researcher.citations_total,
   h_index: researcher.h_index,
   i10_index: researcher.i10_index,
@@ -18,10 +19,16 @@ const profiles: FacultyProfile[] = facultyMetrics.map((researcher) => ({
 }))
 
 export default function FacultyProfilesPage() {
-  const [query, setQuery] = useState('')
+  const [selectedLaboratory, setSelectedLaboratory] = useState('all')
+  const laboratories = useMemo(
+    () => [...new Set(profiles.map((profile) => profile.laboratoire).filter((laboratory) => laboratory && laboratory !== 'Unknown'))].sort(),
+    [],
+  )
   const filteredProfiles = useMemo(
-    () => profiles.filter((profile) => profile.name.toLowerCase().includes(query.toLowerCase())),
-    [query],
+    () => selectedLaboratory === 'all'
+      ? profiles
+      : profiles.filter((profile) => profile.laboratoire === selectedLaboratory),
+    [selectedLaboratory],
   )
 
   return (
@@ -33,12 +40,15 @@ export default function FacultyProfilesPage() {
           <p className="text-xs font-semibold uppercase tracking-[0.18em] text-blue-600">Faculty profiles</p>
           <h1 className="mt-1 text-3xl font-semibold text-slate-900">Researcher directory</h1>
           </div>
-          <input
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder="Filter researchers..."
+          <select
+            value={selectedLaboratory}
+            onChange={(event) => setSelectedLaboratory(event.target.value)}
+            aria-label="Filter faculty by laboratory"
             className="h-10 w-full rounded-lg border border-slate-300 bg-white px-3 text-sm outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-600/20 sm:max-w-xs"
-          />
+          >
+            <option value="all">All laboratories</option>
+            {laboratories.map((laboratory) => <option key={laboratory} value={laboratory}>{laboratory}</option>)}
+          </select>
         </div>
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
           {filteredProfiles.map((profile, index) => <FacultyProfileCard key={profile.chercheur_id} profile={profile} index={index} />)}

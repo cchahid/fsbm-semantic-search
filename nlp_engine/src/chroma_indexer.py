@@ -8,7 +8,7 @@ from tqdm import tqdm
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA_PIPELINE_DIR = os.path.join(os.path.dirname(BASE_DIR), "data_pipeline")
 
-GOLD_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_vector.parquet")
+GOLD_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "processed", "fsbm_researchers_vectors.parquet")
 CHROMA_DB_DIR = os.path.join(BASE_DIR, "chroma_data")  # Where the DB files will live
 RAW_DATA_FILE = os.path.join(DATA_PIPELINE_DIR, "data", "raw", "fsbm_researchers_raw.json")
 
@@ -145,6 +145,10 @@ def build_vector_database():
             "year": year,
             "citations": citations,
             "chercheur_id": researcher_id,
+            "Laboratoire": _first_non_empty(row.get("Laboratoire"), default="Unknown"),
+            "Equipe": _first_non_empty(row.get("Equipe"), default="Unknown"),
+            "journal": _first_non_empty(row.get("journal"), default=""),
+            "pdf_url": _first_non_empty(row.get("pdf_url"), default=""),
 
             # Legacy keys (kept for compatibility)
             "titre": title,

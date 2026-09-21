@@ -5,7 +5,6 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'FSBM Semantic Scholar | Université Hassan II',
   description: 'Discover research from FSBM with NLP-powered semantic search.',
-  generator: 'v0.app',
   icons: {
     icon: [
       {

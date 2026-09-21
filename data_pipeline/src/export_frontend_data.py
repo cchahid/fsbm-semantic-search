@@ -21,7 +21,7 @@ def number_or_zero(value: object) -> int:
 
 def main() -> None:
     dataframe = pd.read_parquet(PARQUET_PATH)
-    required_columns = {"chercheur_id", "nom_complet"}
+    required_columns = {"chercheur_id", "nom_complet", "Laboratoire"}
     missing_columns = required_columns - set(dataframe.columns)
     if missing_columns:
         raise ValueError(f"Missing required Parquet columns: {sorted(missing_columns)}")
@@ -55,6 +55,7 @@ def main() -> None:
                 "chercheur_id": str(researcher_id),
                 "nom_complet": str(first_row["nom_complet"]),
                 "affiliation": raw_profile.get("affiliation", "Universite Hassan II de Casablanca"),
+                "laboratoire": str(first_row.get("Laboratoire", "Unknown") or "Unknown"),
                 "h_index": number_or_zero(scraped_metrics.get("h_index")),
                 "i10_index": number_or_zero(scraped_metrics.get("i10_index")),
                 "citations_total": number_or_zero(scraped_metrics.get("citations_totales")),

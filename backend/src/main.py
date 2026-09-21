@@ -5,6 +5,7 @@ from typing import Any
 
 import chromadb
 from fastapi import FastAPI, HTTPException
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from sentence_transformers import SentenceTransformer
 
@@ -18,10 +19,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+if os.path.isdir(PDF_DIRECTORY):
+    app.mount("/pdfs", StaticFiles(directory=PDF_DIRECTORY), name="pdfs")
+else:
+    print(f"[!] Local PDF directory not found: {PDF_DIRECTORY}")
+
 # --- Configuration & Paths ---
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CHROMA_DB_DIR = os.path.join(BASE_DIR, "nlp_engine", "chroma_data")
 RAW_DATA_FILE = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "fsbm_researchers_raw.json")
+ENRICHMENT_FILE = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "openalex_enrichment.json")
+PDF_DIRECTORY = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "pdf's")
+if not os.path.isdir(PDF_DIRECTORY):
+    PDF_DIRECTORY = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "pdfs")
 
 # --- Global Variables ---
 client = None
@@ -116,6 +126,24 @@ def _load_raw_researchers() -> list[dict[str, Any]]:
     return rows
 
 
+def _load_pdf_urls() -> dict[str, str]:
+    if not os.path.exists(ENRICHMENT_FILE):
+        return {}
+    try:
+        with open(ENRICHMENT_FILE, "r", encoding="utf-8") as handle:
+            enrichment = json.load(handle)
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"[!] Failed to load PDF enrichment data: {exc}")
+        return {}
+
+    rows = enrichment.values() if isinstance(enrichment, dict) else enrichment
+    return {
+        str(row.get("article_id")): str(row.get("pdf_url")).strip()
+        for row in rows
+        if isinstance(row, dict) and row.get("article_id") and str(row.get("pdf_url", "")).strip()
+    }
+
+
 def _build_article_lookup(researchers: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     lookup: dict[str, dict[str, Any]] = {}
 
@@ -195,6 +223,8 @@ async def startup_event():
 
     researchers = _load_raw_researchers()
     article_lookup = _build_article_lookup(researchers)
+    for article_id, pdf_url in _load_pdf_urls().items():
+        article_lookup.setdefault(article_id, {})["pdf_url"] = pdf_url
     faculty_profiles = _build_faculty_profiles(researchers)
     print(f"[*] Loaded {len(article_lookup)} article records from raw data lookup.")
     print(f"[*] Loaded {len(faculty_profiles)} faculty profiles.")
@@ -232,8 +262,11 @@ def search_articles(query: str, top_k: int = 5):
         for i in range(len(results["ids"][0])):
             article_id = str(results["ids"][0][i])
             metadata = results["metadatas"][0][i] if results.get("metadatas") else {}
-            metadata = metadata or {}
             lookup_data = article_lookup.get(article_id, {})
+            metadata = dict(metadata or {})
+            for key in ("chercheur_id", "Laboratoire", "Equipe", "journal", "pdf_url"):
+                if not metadata.get(key) and lookup_data.get(key):
+                    metadata[key] = lookup_data[key]
 
             title = _first_non_empty(
                 metadata.get("title"),

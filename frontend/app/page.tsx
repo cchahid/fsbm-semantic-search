@@ -9,10 +9,10 @@ export default function HomePage() {
       <Suspense fallback={<div className="flex-1 px-5 py-6 text-sm text-slate-500 lg:px-8">Loading discovery workspace...</div>}>
         <SearchDashboard />
       </Suspense>
-      <footer className="border-t border-slate-200 bg-white">
-        <div className="mx-auto flex max-w-7xl flex-col gap-2 px-5 py-6 text-xs text-slate-500 sm:flex-row sm:items-center sm:justify-between lg:px-8">
-          <p>FSBM Semantic Scholar · Faculty of Sciences Ben M&apos;Sik</p>
-          <p>Universite Hassan II de Casablanca</p>
+      <footer className="w-full bg-white border-t border-gray-200 mt-auto">
+        <div className="max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 py-6 flex items-center justify-between">
+          <p className="text-sm text-gray-500">FSBM Semantic Scholar · Faculty of Sciences Ben M&apos;Sik</p>
+          <p className="text-sm text-gray-500">Universite Hassan II de Casablanca</p>
         </div>
       </footer>
     </div>

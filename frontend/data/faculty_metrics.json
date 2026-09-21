@@ -3,6 +3,7 @@
     "chercheur_id": "upOdTrEAAAAJ",
     "nom_complet": "Habib BEN LAHMAR",
     "affiliation": "Professor in computer science at  HASSAN 2 University, Casablanca Faculty  of science Ben M'Sik",
+    "laboratoire": "Technologie de l'Information et Modélisation",
     "h_index": 25,
     "i10_index": 63,
     "citations_total": 2823,
@@ -39,6 +40,7 @@
     "chercheur_id": "hfAJHyYAAAAJ",
     "nom_complet": "sael nawal",
     "affiliation": "university hassan II casablanca",
+    "laboratoire": "Laboratoire d'Intelligence Artificielle et Systèmes",
     "h_index": 22,
     "i10_index": 51,
     "citations_total": 1889,
@@ -75,6 +77,7 @@
     "chercheur_id": "2aKw_8kAAAAJ",
     "nom_complet": "Said Nouh",
     "affiliation": "Faculté sciences ben m'sik",
+    "laboratoire": "Technologie de l'Information et Modélisation",
     "h_index": 7,
     "i10_index": 5,
     "citations_total": 122,
@@ -111,6 +114,7 @@
     "chercheur_id": "C_Gt_7IAAAAJ",
     "nom_complet": "KHALID KANDALI",
     "affiliation": "Professeur d'Informatique, Faculté des Sciences Ben M'sick, Université Hassan II de Casablanca",
+    "laboratoire": "Technologie de l'Information et Modélisation",
     "h_index": 8,
     "i10_index": 8,
     "citations_total": 315,
@@ -144,45 +148,10 @@
     ]
   },
   {
-    "chercheur_id": "vGoUWM8AAAAJ",
-    "nom_complet": "Yassine Elhaouari",
-    "affiliation": "باحث في المسرح ودراسات الفرجة",
-    "h_index": 2,
-    "i10_index": 2,
-    "citations_total": 99,
-    "publications_count": 9,
-    "top_papers": [
-      {
-        "article_id": "vGoUWM8AAAAJ:hqOjcs7Dif8C",
-        "title": "التَّعبيـــرُ الجَّســـديُّ في مســــرَح الألفيَّـــة الثَّالـثـــة العرضُ الفرجـــــويُّ\" بــوبـرص\" نموذجـاً",
-        "year": "2026"
-      },
-      {
-        "article_id": "vGoUWM8AAAAJ:eQOLeE2rZwMC",
-        "title": "Metaheuristic Optimization of Artificial Neural Networks: A Comprehensive Survey of Techniques, Taxonomies, and Trends (2015–2025).",
-        "year": "2025"
-      },
-      {
-        "article_id": "vGoUWM8AAAAJ:ufrVoPGSRksC",
-        "title": "A Focused Review on AI-Powered Intrusion Detection in IoT",
-        "year": "2025"
-      },
-      {
-        "article_id": "vGoUWM8AAAAJ:WF5omc3nYNoC",
-        "title": "Fuzzy C-Means Segmentation Enhanced by the Improved Sine Cosine Algorithm: Experiments on Medical Images",
-        "year": "2025"
-      },
-      {
-        "article_id": "vGoUWM8AAAAJ:IjCSPb-OGe4C",
-        "title": "In vitro anti-onychomycosis and radical-scavenging activities of Pistacia lentiscus L.",
-        "year": "2025"
-      }
-    ]
-  },
-  {
     "chercheur_id": "QOxPeEoAAAAJ",
     "nom_complet": "faouzia Benabbou",
     "affiliation": "University  Hassan  II  of  Casablanca",
+    "laboratoire": "Laboratoire d'Intelligence Artificielle et Systèmes",
     "h_index": 21,
     "i10_index": 46,
     "citations_total": 1737,
@@ -219,6 +188,7 @@
     "chercheur_id": "3ztbunUAAAAJ",
     "nom_complet": "Talea Mohamed",
     "affiliation": "Université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 40,
     "i10_index": 125,
     "citations_total": 6932,
@@ -252,45 +222,10 @@
     ]
   },
   {
-    "chercheur_id": "xztEVFoAAAAJ",
-    "nom_complet": "Abderrahim Sekkaki",
-    "affiliation": "Université Hassan II",
-    "h_index": 18,
-    "i10_index": 32,
-    "citations_total": 1068,
-    "publications_count": 10,
-    "top_papers": [
-      {
-        "article_id": "xztEVFoAAAAJ:u9iWguZQMMsC",
-        "title": "A novel modeling approach for vertical handover based on dynamic k-partite graph in heterogeneous networks",
-        "year": "2019"
-      },
-      {
-        "article_id": "xztEVFoAAAAJ:SP6oXDckpogC",
-        "title": "Blockchain and IoT for security and privacy: a platform for diabetes self-management",
-        "year": "2018"
-      },
-      {
-        "article_id": "xztEVFoAAAAJ:fPk4N6BV_jEC",
-        "title": "Optimal vertical handover based on TOPSIS algorithm and utility function in heterogeneous wireless networks",
-        "year": "2017"
-      },
-      {
-        "article_id": "xztEVFoAAAAJ:35N4QoGY0k4C",
-        "title": "Survey and comparison of MADM methods for network selection access in heterogeneous networks",
-        "year": "2015"
-      },
-      {
-        "article_id": "xztEVFoAAAAJ:JV2RwH3_ST0C",
-        "title": "Automatically density based breast segmentation for mammograms by using dynamic K-means algorithm and seed based region growing",
-        "year": "2015"
-      }
-    ]
-  },
-  {
     "chercheur_id": "OcbnqJIAAAAJ",
     "nom_complet": "Abdelhakim Alali",
     "affiliation": "enseignant-chercheur en génie électrique",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 5,
     "i10_index": 2,
     "citations_total": 103,
@@ -327,6 +262,7 @@
     "chercheur_id": "PA70UmkAAAAJ",
     "nom_complet": "Abdellatif Slimani",
     "affiliation": "PhD at Sidi Mohamed Ben Abdellah University",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 8,
     "i10_index": 7,
     "citations_total": 140,
@@ -363,6 +299,7 @@
     "chercheur_id": "5S8wkxEAAAAJ",
     "nom_complet": "GUENNOUN Asmae",
     "affiliation": "LTI lab, Faculty of Sciences Ben M'sick, University Hassan II of Casablanca",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 3,
     "i10_index": 0,
     "citations_total": 16,
@@ -394,6 +331,7 @@
     "chercheur_id": "ADagKpAAAAAJ",
     "nom_complet": "Aziza Elbakali Kassimi",
     "affiliation": "Maitre de Conférence. Université Hassan II Casa Maroc",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 2,
     "i10_index": 0,
     "citations_total": 7,
@@ -420,6 +358,7 @@
     "chercheur_id": "4Rdvq2YAAAAJ",
     "nom_complet": "issam Atouf",
     "affiliation": "université Hassan II Casablanca",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 12,
     "i10_index": 15,
     "citations_total": 726,
@@ -456,6 +395,7 @@
     "chercheur_id": "WyhosLcAAAAJ",
     "nom_complet": "Abdelmoghit ZAARANE",
     "affiliation": "Faculty of Sciences Ben M'sick, University Hassan II of Casablanca",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 8,
     "i10_index": 8,
     "citations_total": 412,
@@ -492,6 +432,7 @@
     "chercheur_id": "22H8d4UAAAAJ",
     "nom_complet": "Youssef NAIMI",
     "affiliation": "Hassan II University of Casablanca, Faculty of Science BenM’Sick",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 13,
     "i10_index": 17,
     "citations_total": 710,
@@ -528,6 +469,7 @@
     "chercheur_id": "J1rNqKQAAAAJ",
     "nom_complet": "Tarik CHAFIQ",
     "affiliation": "Hassan II University",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 10,
     "i10_index": 10,
     "citations_total": 385,
@@ -564,6 +506,7 @@
     "chercheur_id": "aHie7pgAAAAJ",
     "nom_complet": "Sefri Youssef",
     "affiliation": "Unknown affiliation",
+    "laboratoire": "Laboratoire de Traitement de l'Information",
     "h_index": 6,
     "i10_index": 1,
     "citations_total": 59,
@@ -600,6 +543,7 @@
     "chercheur_id": "GcpkTJYAAAAJ",
     "nom_complet": "Abdellah Hamdaoui",
     "affiliation": "Professeur de mécanique, Université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
     "h_index": 8,
     "i10_index": 7,
     "citations_total": 155,
@@ -636,6 +580,7 @@
     "chercheur_id": "4GVCnygAAAAJ",
     "nom_complet": "abdenbi khouaja",
     "affiliation": "professeur de physique nucléaire, université hassan2 de Casablanca",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
     "h_index": 11,
     "i10_index": 11,
     "citations_total": 637,
@@ -672,6 +617,7 @@
     "chercheur_id": "M9BcVSUAAAAJ",
     "nom_complet": "Bouazza Braikat",
     "affiliation": "Professeur de Mécanique;Université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
     "h_index": 23,
     "i10_index": 50,
     "citations_total": 1541,
@@ -708,6 +654,7 @@
     "chercheur_id": "oDDe4n4AAAAJ",
     "nom_complet": "Mohamed IDIRI",
     "affiliation": "Professeur de physique, Université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
     "h_index": 15,
     "i10_index": 22,
     "citations_total": 895,
@@ -744,6 +691,7 @@
     "chercheur_id": "xpxjPL4AAAAJ",
     "nom_complet": "Benlattar mourad",
     "affiliation": "Hassan II University, Faculty of Sciences Ben M'sik",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
     "h_index": 10,
     "i10_index": 12,
     "citations_total": 274,
@@ -780,6 +728,7 @@
     "chercheur_id": "1W-uvFYAAAAJ",
     "nom_complet": "Othmane DAOUDI",
     "affiliation": "Hassan II University of Casablanca",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
     "h_index": 8,
     "i10_index": 8,
     "citations_total": 225,
@@ -816,6 +765,7 @@
     "chercheur_id": "S26uLeQAAAAJ",
     "nom_complet": "Rachida Moultif",
     "affiliation": "Faculté des sciences Ben M'sik universités Hassan II",
+    "laboratoire": "Laboratoire de Physique de la Matière Condensée",
     "h_index": 4,
     "i10_index": 2,
     "citations_total": 82,
@@ -852,6 +802,7 @@
     "chercheur_id": "iVcGR4wAAAAJ",
     "nom_complet": "Ahmed Fekri",
     "affiliation": "professeur, hydrogéologie , université Hassan II de Casablanca",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
     "h_index": 19,
     "i10_index": 23,
     "citations_total": 1112,
@@ -888,6 +839,7 @@
     "chercheur_id": "5nrRDxAAAAAJ",
     "nom_complet": "Allal Labriki",
     "affiliation": "Enseignant chercheur, Université Hassan II de Casablanca,  Faculté Des sciences Ben M’sick",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
     "h_index": 6,
     "i10_index": 3,
     "citations_total": 123,
@@ -924,6 +876,7 @@
     "chercheur_id": "AKNLvIEAAAAJ",
     "nom_complet": "mostafa oukassou",
     "affiliation": "Université Hassan II de Casablanca",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
     "h_index": 17,
     "i10_index": 21,
     "citations_total": 631,
@@ -960,6 +913,7 @@
     "chercheur_id": "DCymGMEAAAAJ",
     "nom_complet": "Mustapha MOUFLIH",
     "affiliation": "Professeur Hassan II University of Casablanca",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
     "h_index": 15,
     "i10_index": 19,
     "citations_total": 1277,
@@ -976,6 +930,7 @@
     "chercheur_id": "IOR7TaoAAAAJ",
     "nom_complet": "Faouziya Haissen",
     "affiliation": "Hassan II University of Casablanca",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
     "h_index": 17,
     "i10_index": 24,
     "citations_total": 925,
@@ -1012,6 +967,7 @@
     "chercheur_id": "AvtWIt8AAAAJ",
     "nom_complet": "NADIA BARHOUN",
     "affiliation": "Professor",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
     "h_index": 12,
     "i10_index": 14,
     "citations_total": 820,
@@ -1048,6 +1004,7 @@
     "chercheur_id": "TvMcd8oAAAAJ",
     "nom_complet": "Soufiane Maimouni",
     "affiliation": "Université Hassan II de Casablanca",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
     "h_index": 11,
     "i10_index": 11,
     "citations_total": 388,
@@ -1076,6 +1033,1574 @@
       {
         "article_id": "TvMcd8oAAAAJ:LkGwnXOMwfcC",
         "title": "Evaluate the effect of topographic factors and lithology on forest cover distribution: a case study of the Moroccan high atlas",
+        "year": "2021"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "pupxlJ0AAAAJ",
+    "nom_complet": "Rachid Essamoud",
+    "affiliation": "University Hassan II of Casablanca",
+    "laboratoire": "Géosciences, Géomatique et Environnement",
+    "h_index": 9,
+    "i10_index": 6,
+    "citations_total": 209,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "pupxlJ0AAAAJ:HDshCWvjkbEC",
+        "title": "Late Miocene biostratigraphy and paleoenvironment of the Sais Basin (southern Rifian Corridor, Morocco): New insights from the Moulay Yakoub area",
+        "year": "2023"
+      },
+      {
+        "article_id": "pupxlJ0AAAAJ:8k81kl-MbHgC",
+        "title": "Sedimentological and sequence stratigraphy analyses of the syn-rift triassic series of the Mohammedia–Benslimane–ElGara–Berrechid basin (Moroccan Meseta)",
+        "year": "2020"
+      },
+      {
+        "article_id": "pupxlJ0AAAAJ:5nxA0vEk-isC",
+        "title": "Late Aptian to early Cenomanian dinoflagellate cysts from Agadir Basin, southwestern Morocco: Biostratigraphy and palaeoenvironment",
+        "year": "2020"
+      },
+      {
+        "article_id": "pupxlJ0AAAAJ:u-x6o8ySG0sC",
+        "title": "Répartition stratigraphique et biozones des kystes de dinoflagellés au passage Jurassique moyen–Jurassique supérieur (Bathonien supérieur–Oxfordien inférieur) dans le Bassin de Guercif, Maroc nord-oriental",
+        "year": "2017"
+      },
+      {
+        "article_id": "pupxlJ0AAAAJ:IjCSPb-OGe4C",
+        "title": "9.2-Le bassin houiller de Jerada (Chaîne des Horsts, Maroc oriental)",
+        "year": "2011"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "0rekc_YAAAAJ",
+    "nom_complet": "Mohamed MOUMOU",
+    "affiliation": "Laboratory of Analytical and Molecular Chemistry, Faculty of Sciences Ben M’Sik, Hassan II Universit",
+    "laboratoire": "Laboratoire de Chimie Analytique et Moléculaire",
+    "h_index": 8,
+    "i10_index": 7,
+    "citations_total": 209,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "0rekc_YAAAAJ:u-x6o8ySG0sC",
+        "title": "Mechanism and stereoselectivity of epoxidation reaction of a β-himachalene derivative: insights from DFT, molecular docking, ADMET, and molecular dynamics investigations",
+        "year": "2025"
+      },
+      {
+        "article_id": "0rekc_YAAAAJ:dhFuZR0502QC",
+        "title": "Stereoselective Synthesis and Characterization of Eudesmane Derivatives From α‐Costic Acid: DFT Approach and In Silico Evaluation Through Molecular Docking, MD Simulations, and ADMET Analysis",
+        "year": "2025"
+      },
+      {
+        "article_id": "0rekc_YAAAAJ:3fE2CSJIrl8C",
+        "title": "X-ray and DFT calculations of novel spiroisoxazolines derivatives",
+        "year": "2022"
+      },
+      {
+        "article_id": "0rekc_YAAAAJ:9yKSN-GCB0IC",
+        "title": "Synthesis of novel spiro-pyrazole and spiro-isoxazoline derivatives of 9α-and 9β-hydroxyparthenolide",
+        "year": "2020"
+      },
+      {
+        "article_id": "0rekc_YAAAAJ:ULOm3_A8WrAC",
+        "title": "A regio-and stereoselectivity and molecular mechanism study on the addition reactions of morpholine and m-CPBA to 9α-hydroxyparthenolide using DFT calculations",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "ZITQAJoAAAAJ",
+    "nom_complet": "Mohamed Radid",
+    "affiliation": "université Hassan II Casablanca",
+    "laboratoire": "Laboratoire de Chimie Analytique et Moléculaire",
+    "h_index": 18,
+    "i10_index": 40,
+    "citations_total": 1503,
+    "publications_count": 10,
+    "top_papers": [
+      {
+        "article_id": "ZITQAJoAAAAJ:uc_IGeMz5qoC",
+        "title": "Immersive simulation in nursing and midwifery education: a systematic review",
+        "year": "2024"
+      },
+      {
+        "article_id": "ZITQAJoAAAAJ:mvPsJ3kp5DgC",
+        "title": "The impact of serious game on the nursing students' learning, behavioral engagement, and motivation",
+        "year": "2022"
+      },
+      {
+        "article_id": "ZITQAJoAAAAJ:bnK-pcrLprsC",
+        "title": "Exploring Student Motivation and Performance in the Flipped Classroom: A Case Study of Nursing Students.",
+        "year": "2022"
+      },
+      {
+        "article_id": "ZITQAJoAAAAJ:eJXPG6dFmWUC",
+        "title": "E-learning in health professions education during the COVID-19 pandemic: a systematic review",
+        "year": "2021"
+      },
+      {
+        "article_id": "ZITQAJoAAAAJ:uWQEDVKXjbEC",
+        "title": "Effects of academic results on the perception of competence and self-esteem in students’ training",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "BQ-SjWEAAAAJ",
+    "nom_complet": "Samia YOUSFI",
+    "affiliation": "Enseignante a l'université de m'sila",
+    "laboratoire": "Laboratoire de Chimie Analytique et Moléculaire",
+    "h_index": 0,
+    "i10_index": 0,
+    "citations_total": 0,
+    "publications_count": 1,
+    "top_papers": [
+      {
+        "article_id": "BQ-SjWEAAAAJ:9yKSN-GCB0IC",
+        "title": "ETUDE DE LA NATURE DE LA LIAISON CHIMIQUE PAR L'INTERMEDIAIRE DE LA STRUCTURE DE BANDE DANS LES SEMICONDUCTEURS",
+        "year": "2004"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "vdPyLoMAAAAJ",
+    "nom_complet": "Samir CHTITA",
+    "affiliation": "Faculty of sciences Ben M'Sick, Hassan II University of Casablanca",
+    "laboratoire": "Laboratoire de Chimie Analytique et Moléculaire",
+    "h_index": 43,
+    "i10_index": 161,
+    "citations_total": 5867,
+    "publications_count": 7,
+    "top_papers": [
+      {
+        "article_id": "vdPyLoMAAAAJ:txeM2kYbVNMC",
+        "title": "Design of a new potent Alzheimer’s disease inhibitor based on QSAR, molecular docking and molecular dynamics investigations",
+        "year": "2023"
+      },
+      {
+        "article_id": "vdPyLoMAAAAJ:qmtmRrLr0tkC",
+        "title": "Identification of potent inhibitors of NEK7 protein using a comprehensive computational approach",
+        "year": "2022"
+      },
+      {
+        "article_id": "vdPyLoMAAAAJ:sfnaS5RM6jYC",
+        "title": "Design of novel benzimidazole derivatives as potential α-amylase inhibitors using QSAR, pharmacokinetics, molecular docking, and molecular dynamics simulation studies",
+        "year": "2022"
+      },
+      {
+        "article_id": "vdPyLoMAAAAJ:wUn16MOA3RoC",
+        "title": "In silico detection of potential inhibitors from vitamins and their derivatives compounds against SARS-CoV-2 main protease by using molecular docking, molecular dynamic simulation and ADMET profiling",
+        "year": "2022"
+      },
+      {
+        "article_id": "vdPyLoMAAAAJ:ijdKiLOsEJMC",
+        "title": "Combined molecular docking and dynamics simulations studies of natural compounds as potent inhibitors against SARS-CoV-2 main protease",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "tIzgYIoAAAAJ",
+    "nom_complet": "Asmaa BENBIYI",
+    "affiliation": "Professeur de Chimie, FSBM, Université Hassan II - Casablanca",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "h_index": 13,
+    "i10_index": 18,
+    "citations_total": 430,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "tIzgYIoAAAAJ:UebtZRa9Y70C",
+        "title": "Avocado seed as a natural coagulant for removing dyes and turbidity from wastewater: Behnken Box design, sustainable reuse, and economic evaluation",
+        "year": "2024"
+      },
+      {
+        "article_id": "tIzgYIoAAAAJ:qjMakFHDy7sC",
+        "title": "Valorization of walnut husks as a natural coagulant for optimized water decolorization",
+        "year": "2024"
+      },
+      {
+        "article_id": "tIzgYIoAAAAJ:Se3iqnhoufwC",
+        "title": "Optimization use of watermelon rind in the coagulation-flocculation process by Box Behnken design for copper, zinc, and turbidity removal",
+        "year": "2024"
+      },
+      {
+        "article_id": "tIzgYIoAAAAJ:5nxA0vEk-isC",
+        "title": "Insights of the adsorption mechanism of Bemacid Red using coagulation-flocculation sludge: optimisation using BBD-RSM and DFT calculations",
+        "year": "2024"
+      },
+      {
+        "article_id": "tIzgYIoAAAAJ:LkGwnXOMwfcC",
+        "title": "High extraction and excellent anti-UV and anti-oxidant proprieties of lignin from Reseda Luteola L. waste by organosolv process",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "8X0-WxsAAAAJ",
+    "nom_complet": "aziz boutouil",
+    "affiliation": "PHD, Electrochimie-corrosion,université de Cadi Ayyad",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "h_index": 11,
+    "i10_index": 11,
+    "citations_total": 446,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "8X0-WxsAAAAJ:ufrVoPGSRksC",
+        "title": "Correlation of the inhibitory effects of benzimidazole derivatives on mild steel corrosion with DFT and MD simulations",
+        "year": "2026"
+      },
+      {
+        "article_id": "8X0-WxsAAAAJ:eQOLeE2rZwMC",
+        "title": "Enhanced electrochemical performance and stability of biomass-derived activated carbon for supercapacitor applications",
+        "year": "2025"
+      },
+      {
+        "article_id": "8X0-WxsAAAAJ:YsMSGLbcyi4C",
+        "title": "Efficient removal of organic pollutants from aqueous environments using activated carbon derived from biomass waste of Calotropis procera fruit: Characterization, kinetics, isotherm, and thermodynamic investigation",
+        "year": "2024"
+      },
+      {
+        "article_id": "8X0-WxsAAAAJ:W7OEmFMy1HYC",
+        "title": "New bis-isoxazole with monoterpenic skeleton: regioselective synthesis, spectroscopicinvestigation, electrochemical, and density functional theory (DFT) studies",
+        "year": "2022"
+      },
+      {
+        "article_id": "8X0-WxsAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Corrosion inhibition performance of a structurally well-defined 1, 2, 3-triazole derivative on mild steel-hydrochloric acid interface",
+        "year": "2021"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "SAAqKKsAAAAJ",
+    "nom_complet": "Boubker MEHDAOUI",
+    "affiliation": "Professeur assistant à l'université Hassan II, Casablanca",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "h_index": 13,
+    "i10_index": 18,
+    "citations_total": 3197,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "SAAqKKsAAAAJ:mvPsJ3kp5DgC",
+        "title": "Structural, vibrational, and optical studies of newly synthesized Yavapaiite-type phases BaSb2/3X1/3 (PO4) 2 (X= Mn, Co, Cu, Zn)",
+        "year": "2024"
+      },
+      {
+        "article_id": "SAAqKKsAAAAJ:J-pR_7NvFogC",
+        "title": "Structural, dielectric and ac ionic conductivity of Li4FeSbO6 oxide",
+        "year": "2024"
+      },
+      {
+        "article_id": "SAAqKKsAAAAJ:BrmTIyaxlBUC",
+        "title": "Structural and dielectric properties of PrFeTiO5 oxide",
+        "year": "2022"
+      },
+      {
+        "article_id": "SAAqKKsAAAAJ:4fKUyHm3Qg0C",
+        "title": "Structural and magnetic properties of frustrated GaxMn (3-x) O4 (1.2≤ x≤ 1.6) spinels",
+        "year": "2018"
+      },
+      {
+        "article_id": "SAAqKKsAAAAJ:l7t_Zn2s7bgC",
+        "title": "Complex nano-objects displaying both magnetic and catalytic properties: A proof of concept for magnetically induced heterogeneous catalysis",
+        "year": "2015"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "0KSJLhAAAAAJ",
+    "nom_complet": "TANANE Omar",
+    "affiliation": "Professeur Faculté des Sciences Ben Msik ​Physical Chemistry, Materials and Catalysis Laboratory",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "h_index": 19,
+    "i10_index": 26,
+    "citations_total": 2827,
+    "publications_count": 10,
+    "top_papers": [
+      {
+        "article_id": "0KSJLhAAAAAJ:738O_yMBCRsC",
+        "title": "Design of automatic watering system based on Arduino",
+        "year": "2020"
+      },
+      {
+        "article_id": "0KSJLhAAAAAJ:e5wmG9Sq2KIC",
+        "title": "Alfa fiber-polyurethane composite as a thermal and acoustic insulation material for building applications: S. Sair et al.",
+        "year": "2019"
+      },
+      {
+        "article_id": "0KSJLhAAAAAJ:7PzlFSSx8tAC",
+        "title": "Mechanical and thermal conductivity properties of hemp fiber reinforced polyurethane composites",
+        "year": "2018"
+      },
+      {
+        "article_id": "0KSJLhAAAAAJ:hFOr9nPyWt4C",
+        "title": "Improvement of the interface bonding between date palm fibers and polymeric matrices using alkali-silane treatments",
+        "year": "2018"
+      },
+      {
+        "article_id": "0KSJLhAAAAAJ:qxL8FJ1GzNcC",
+        "title": "The effect of alkali treatment on mechanical, morphological and thermal properties of date palm fibers (DPFs): Study of the interface of DPF–Polyurethane composite",
+        "year": "2017"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "XytSkkwAAAAJ",
+    "nom_complet": "Chaouki Sadik",
+    "affiliation": "Équipe de Géomatériaux et Matériaux pour l'Énergie",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "h_index": 20,
+    "i10_index": 29,
+    "citations_total": 1400,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "XytSkkwAAAAJ:ZeXyd9-uunAC",
+        "title": "Mineralogical and physico-chemical characterization of bentonite materials from the Oued Zemmour area (Oriental Rif, Nador-Morocco): valorization in ceramic field",
+        "year": "2023"
+      },
+      {
+        "article_id": "XytSkkwAAAAJ:hFOr9nPyWt4C",
+        "title": "Effects of slag addition and sintering temperature on the technological properties of dolomite based porous ceramics",
+        "year": "2023"
+      },
+      {
+        "article_id": "XytSkkwAAAAJ:4TOpqqG69KYC",
+        "title": "Potentiality of new dark clay-rich materials for porous ceramic applications in Ouled Sidi Ali Ben Youssef Area (Coastal Meseta, Morocco)",
+        "year": "2022"
+      },
+      {
+        "article_id": "XytSkkwAAAAJ:Wp0gIr-vW9MC",
+        "title": "A phosphogypsum‐based road material with enhanced mechanical properties for sustainable environmental remediation.",
+        "year": "2021"
+      },
+      {
+        "article_id": "XytSkkwAAAAJ:Zph67rFs4hoC",
+        "title": "New low-cost ceramic microfiltration membrane made from natural magnesite for industrial wastewater treatment",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "zrGeAWgAAAAJ",
+    "nom_complet": "Fouad ALLOUN",
+    "affiliation": "Professor, Faculty of Science Ben M'sik, Hassan II University in Casablanca",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "h_index": 4,
+    "i10_index": 3,
+    "citations_total": 57,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "zrGeAWgAAAAJ:YsMSGLbcyi4C",
+        "title": "Potential of Clay-Based Geomaterials for Passive Treatment of Brackish and Saline Waters",
+        "year": "2026"
+      },
+      {
+        "article_id": "zrGeAWgAAAAJ:WF5omc3nYNoC",
+        "title": "A Systematic Guide to Experimental Designs in Magnetic Electrocatalysis",
+        "year": "2026"
+      },
+      {
+        "article_id": "zrGeAWgAAAAJ:Y0pCki6q_DkC",
+        "title": "Optical, magnetic and dielectric properties of CaO-B2O3-V2O5 glasses",
+        "year": "2025"
+      },
+      {
+        "article_id": "zrGeAWgAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Effect of Mn2O3/V2O5 substitution on the chemical durability, dielectric and electrical properties of calcium-manganese borovanadate glasses",
+        "year": "2025"
+      },
+      {
+        "article_id": "zrGeAWgAAAAJ:W7OEmFMy1HYC",
+        "title": "Synthesis, structural and magnetic investigation of the mixed-metal Langbeinite phosphate Ba2FeCo(PO4)3",
+        "year": "2025"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "idesK9gAAAAJ",
+    "nom_complet": "Said BAKKALI",
+    "affiliation": "Professeur de chimie université Hassan II",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "h_index": 9,
+    "i10_index": 9,
+    "citations_total": 222,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "idesK9gAAAAJ:UebtZRa9Y70C",
+        "title": "Corrosion inhibition influence of the synthetized chromen-6-one derivatives on mild steel in 1.0 M HCl electrolyte: Electrochemical, spectroscopic and theoretical investigations",
+        "year": "2024"
+      },
+      {
+        "article_id": "idesK9gAAAAJ:YsMSGLbcyi4C",
+        "title": "Effect of polymer additive on structural and morphological properties of Cu-electrodeposition from an acid sulfate electrolyte: Experimental and theoretical studies",
+        "year": "2023"
+      },
+      {
+        "article_id": "idesK9gAAAAJ:eQOLeE2rZwMC",
+        "title": "Structure–properties study of sodium bismuth borate glasses",
+        "year": "2023"
+      },
+      {
+        "article_id": "idesK9gAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Performance of Thiosemicarbazone to Protect Copper Against Corrosion in A 3% NaCl Solution, Experimental and Theoretical Studies",
+        "year": "2023"
+      },
+      {
+        "article_id": "idesK9gAAAAJ:9yKSN-GCB0IC",
+        "title": "Effect of additives on nickel-phosphorus deposition obtained by electroless plating: Characterization and corrosion resistance in 3%(mass) sodium chloride medium",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "R7b0F7cAAAAJ",
+    "nom_complet": "soufiane zerraf",
+    "affiliation": "Hassan II university of Casablanca",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "h_index": 7,
+    "i10_index": 6,
+    "citations_total": 119,
+    "publications_count": 12,
+    "top_papers": [
+      {
+        "article_id": "R7b0F7cAAAAJ:7PzlFSSx8tAC",
+        "title": "Spatiotemporal assessment of groundwater quality in the Oum Rbia Watershed using GIS-Pro and water quality indices",
+        "year": "2024"
+      },
+      {
+        "article_id": "R7b0F7cAAAAJ:L8Ckcad2t8MC",
+        "title": "Spatiotemporal evolution of the physicochemical parameters of the waters of the Oum Errabiaa watershed dams (Morocco)",
+        "year": "2024"
+      },
+      {
+        "article_id": "R7b0F7cAAAAJ:ZeXyd9-uunAC",
+        "title": "The Oum Er-Rbia Watershed Web Mapping System–A Model for Open-Source Water Quality Dissemination",
+        "year": "2024"
+      },
+      {
+        "article_id": "R7b0F7cAAAAJ:KlAtU1dfN6UC",
+        "title": "Vibrational Study, Reinvestigation of the Crystal Structure of MgHPO4. 3H2O and Calculated IR Frequencies for the PO43-by Isotopic Substitutions",
+        "year": "2021"
+      },
+      {
+        "article_id": "R7b0F7cAAAAJ:ufrVoPGSRksC",
+        "title": "Structural and vibrational study of titanium Monophosphates Na0. 5M0. 25Ti2 (PO4) 3 (M= Mn, Ni)",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "G0zEVVUAAAAJ",
+    "nom_complet": "Younes Abboud",
+    "affiliation": "Professeur de Chimie Faculté des Science Ben M'Sik Casablanca Maroc",
+    "laboratoire": "Laboratoire de Chimie Physique des Matériaux Appliqués",
+    "h_index": 26,
+    "i10_index": 37,
+    "citations_total": 3676,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "G0zEVVUAAAAJ:qUcmZB5y_30C",
+        "title": "New hybrid graphene/inorganic salt composites for thermochemical energy storage: Synthesis, cyclability investigation and heat exchanger metal corrosion protection performance",
+        "year": "2020"
+      },
+      {
+        "article_id": "G0zEVVUAAAAJ:L8Ckcad2t8MC",
+        "title": "Alfa fiber-polyurethane composite as a thermal and acoustic insulation material for building applications: S. Sair et al.",
+        "year": "2019"
+      },
+      {
+        "article_id": "G0zEVVUAAAAJ:2osOgNQ5qMEC",
+        "title": "Mechanical and thermal conductivity properties of hemp fiber reinforced polyurethane composites",
+        "year": "2018"
+      },
+      {
+        "article_id": "G0zEVVUAAAAJ:9yKSN-GCB0IC",
+        "title": "Improvement of the interface bonding between date palm fibers and polymeric matrices using alkali-silane treatments",
+        "year": "2018"
+      },
+      {
+        "article_id": "G0zEVVUAAAAJ:ZeXyd9-uunAC",
+        "title": "The effect of alkali treatment on mechanical, morphological and thermal properties of date palm fibers (DPFs): Study of the interface of DPF–Polyurethane composite",
+        "year": "2017"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "FJUvtg8AAAAJ",
+    "nom_complet": "Nahli abdelmottalib",
+    "affiliation": "Hassan II University of Casablanca",
+    "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+    "h_index": 6,
+    "i10_index": 1,
+    "citations_total": 90,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "FJUvtg8AAAAJ:8k81kl-MbHgC",
+        "title": "Analysis of the drought effects on the physicochemical and bacteriological quality of the Inaouene River water (Taza, Morocco)",
+        "year": "2024"
+      },
+      {
+        "article_id": "FJUvtg8AAAAJ:kNdYIx-mwKoC",
+        "title": "Assessment of the bacteriological and physicochemical water quality of the Inaouene and Larbaa Rivers (Taza, Morocco)",
+        "year": "2024"
+      },
+      {
+        "article_id": "FJUvtg8AAAAJ:3fE2CSJIrl8C",
+        "title": "Diet of a Maghreb Owl Strix mauritanica individual at Kahf Lakhal cave on Jbel Moussa, northern Morocco",
+        "year": "2024"
+      },
+      {
+        "article_id": "FJUvtg8AAAAJ:_FxGoFyzp5QC",
+        "title": "Monitoring structural and functional responses of the macroinvertebrate community in a resilient stream after its depollution (Casablanca, Morocco)",
+        "year": "2023"
+      },
+      {
+        "article_id": "FJUvtg8AAAAJ:LkGwnXOMwfcC",
+        "title": "Evaluation of the effects of riparian population activities on the physicochemical quality of water in a Mediterranean river: the Inaouene River (Taza, North East Morocco)",
+        "year": "2023"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "BhRwnEcAAAAJ",
+    "nom_complet": "Loubna BENIDIRE",
+    "affiliation": "Microbiologie",
+    "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+    "h_index": 15,
+    "i10_index": 17,
+    "citations_total": 740,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "BhRwnEcAAAAJ:MXK_kJrjxJIC",
+        "title": "Toxic heavy metals removal using a hydroxyapatite and hydroxyethyl cellulose modified with a new Gum Arabi",
+        "year": "2021"
+      },
+      {
+        "article_id": "BhRwnEcAAAAJ:2osOgNQ5qMEC",
+        "title": "Impacts of mining activities on soil properties: case studies from Morocco mine sites",
+        "year": "2021"
+      },
+      {
+        "article_id": "BhRwnEcAAAAJ:LkGwnXOMwfcC",
+        "title": "Protective role of native rhizospheric soil microbiota against the exposure to microcystins introduced into soil-plant system via contaminated irrigation water and health risk assessment",
+        "year": "2021"
+      },
+      {
+        "article_id": "BhRwnEcAAAAJ:Y0pCki6q_DkC",
+        "title": "Phytobeneficial bacteria improve saline stress tolerance in Vicia faba and modulate microbial interaction network",
+        "year": "2020"
+      },
+      {
+        "article_id": "BhRwnEcAAAAJ:zYLM7Y9cAGgC",
+        "title": "Effects of PGPR co-inoculation on growth, phosphorus nutrition and phosphatase/phytase activities of faba bean under different phosphorus availability conditions",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "cWLIf40AAAAJ",
+    "nom_complet": "NADIA IOUNES",
+    "affiliation": "laboratoire d'Ecologie et Environnement",
+    "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+    "h_index": 8,
+    "i10_index": 3,
+    "citations_total": 157,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "cWLIf40AAAAJ:Se3iqnhoufwC",
+        "title": "Comprehensive evaluation of lignin extracted from Reseda luteola L. waste: corrosion inhibition performance for XC48 carbon steel and ecotoxicological effect",
+        "year": "2025"
+      },
+      {
+        "article_id": "cWLIf40AAAAJ:u5HHmVD_uO8C",
+        "title": "Physicochemical Characterization and Metallic Contamination of the Waters of Oued Nfifikh (Morocco)",
+        "year": "2023"
+      },
+      {
+        "article_id": "cWLIf40AAAAJ:W7OEmFMy1HYC",
+        "title": "Physico-chemical characterization of an urban wastewater effluent and its impact on the receiving environment: Oued Nfifikh (Morocco)",
+        "year": "2022"
+      },
+      {
+        "article_id": "cWLIf40AAAAJ:_FxGoFyzp5QC",
+        "title": "Treatment of surface treatment effluents by electrocoagulation process using aluminium electrodes",
+        "year": "2022"
+      },
+      {
+        "article_id": "cWLIf40AAAAJ:WF5omc3nYNoC",
+        "title": "Effect of identified non-synonymous mutations in DPP4 receptor binding residues among highly exposed human population in Morocco to MERS-CoV through computational approach",
+        "year": "2021"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "i8X0MgkAAAAJ",
+    "nom_complet": "ABDESSAMAD BELANGOUR",
+    "affiliation": "BenMsik Faculty of Science, University Hassan II Casablanca, Morocco.",
+    "laboratoire": "Laboratoire d'Intelligence Artificielle et Systèmes",
+    "h_index": 23,
+    "i10_index": 61,
+    "citations_total": 1800,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "i8X0MgkAAAAJ:uWQEDVKXjbEC",
+        "title": "A comparative analysis of activation functions in neural networks: unveiling categories",
+        "year": "2024"
+      },
+      {
+        "article_id": "i8X0MgkAAAAJ:UebtZRa9Y70C",
+        "title": "Machine learning algorithms for satellite image classification using Google Earth Engine and Landsat satellite data: Morocco case study",
+        "year": "2023"
+      },
+      {
+        "article_id": "i8X0MgkAAAAJ:rO6llkc54NcC",
+        "title": "A comparative study on pixel-based classification and object-oriented classification of satellite image",
+        "year": "2022"
+      },
+      {
+        "article_id": "i8X0MgkAAAAJ:aqlVkmm33-oC",
+        "title": "An overview of automatic speech recognition preprocessing techniques",
+        "year": "2022"
+      },
+      {
+        "article_id": "i8X0MgkAAAAJ:2P1L_qKh6hAC",
+        "title": "Machine learning for satellite image classification: A comprehensive review",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "-_RLt1UAAAAJ",
+    "nom_complet": "Zaouch Amal",
+    "affiliation": "Professeure d'informatique",
+    "laboratoire": "Laboratoire d'Intelligence Artificielle et Systèmes",
+    "h_index": 2,
+    "i10_index": 1,
+    "citations_total": 27,
+    "publications_count": 3,
+    "top_papers": [
+      {
+        "article_id": "-_RLt1UAAAAJ:eQOLeE2rZwMC",
+        "title": "Model-Oriented Orchestration for Federated Learning: Personalization Through Intelligent Client Matching",
+        "year": "2025"
+      },
+      {
+        "article_id": "-_RLt1UAAAAJ:WF5omc3nYNoC",
+        "title": "Advanced Approaches for Vulnerability Detection in Solidity-Based Smart Contracts: A Comparative Review",
+        "year": "2025"
+      },
+      {
+        "article_id": "-_RLt1UAAAAJ:zYLM7Y9cAGgC",
+        "title": "Load balancing for improved quality of service in the cloud",
+        "year": "2015"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "ntBEnvsAAAAJ",
+    "nom_complet": "Wadi Badri",
+    "affiliation": "université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire d'Ecologie et d'Environnement",
+    "h_index": 18,
+    "i10_index": 26,
+    "citations_total": 1458,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "ntBEnvsAAAAJ:PVgj2kMGcgYC",
+        "title": "Assessment of future changes in downscaled temperature and precipitation over the Casablanca-Settat region (Morocco)",
+        "year": "2022"
+      },
+      {
+        "article_id": "ntBEnvsAAAAJ:2tRrZ1ZAMYUC",
+        "title": "Antioxidant and Antibacterial Activities of the Essential Oil of Moroccan Tetraclinis articulata (Vahl) Masters",
+        "year": "2020"
+      },
+      {
+        "article_id": "ntBEnvsAAAAJ:AHdEip9mkN0C",
+        "title": "Chemical composition, antioxidant and antibacterial activities of the essential oils of Juniperus phoenicea, Juniperus thurifera and Juniperus oxycedrus",
+        "year": "2019"
+      },
+      {
+        "article_id": "ntBEnvsAAAAJ:8xutWZnSdmoC",
+        "title": "Mediterranean forests, land use and climate change: a social-ecological perspective",
+        "year": "2018"
+      },
+      {
+        "article_id": "ntBEnvsAAAAJ:IjCSPb-OGe4C",
+        "title": "Évaluation des activités antioxydante et anti-inflammatoire de Erica arborea L. du Maroc",
+        "year": "2013"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "6TfW2X0AAAAJ",
+    "nom_complet": "Driss Bouggar",
+    "affiliation": "Unknown affiliation",
+    "laboratoire": "Laboratoire d'Intelligence Artificielle et Systèmes",
+    "h_index": 4,
+    "i10_index": 1,
+    "citations_total": 57,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "6TfW2X0AAAAJ:Y0pCki6q_DkC",
+        "title": "-Maximum principle for stochastic delayed control problems with jump-diffusion processes and application to social network-based advertising model",
+        "year": "2026"
+      },
+      {
+        "article_id": "6TfW2X0AAAAJ:YsMSGLbcyi4C",
+        "title": "STOCHASTIC MODELING AND OPTIMAL DECISION-MAKING FOR AN IMPRECISE HCV SYSTEM UNDER TREATMENT",
+        "year": "2026"
+      },
+      {
+        "article_id": "6TfW2X0AAAAJ:W7OEmFMy1HYC",
+        "title": "Small jump approximation and Malliavin integration by parts for infinite activity Lévy processes for Monte Carlo estimate of the Delta option price sensitivity",
+        "year": "2026"
+      },
+      {
+        "article_id": "6TfW2X0AAAAJ:Tyk-4Ss8FVUC",
+        "title": "Stochastic Decision-Making in a White Noise HCV Model",
+        "year": "2025"
+      },
+      {
+        "article_id": "6TfW2X0AAAAJ:zYLM7Y9cAGgC",
+        "title": "Pontryagin’s Principle in Optimal Control for a Stochastic Epidemic System",
+        "year": "2025"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "EhsD_L4AAAAJ",
+    "nom_complet": "KHADIJA ACHTAICH",
+    "affiliation": "Faculté des Sciences Ben M'Sick",
+    "laboratoire": "Laboratoire d'Intelligence Artificielle et Systèmes",
+    "h_index": 5,
+    "i10_index": 2,
+    "citations_total": 94,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "EhsD_L4AAAAJ:kNdYIx-mwKoC",
+        "title": "Enhancing algorithmic thinking in primary education through Scratch programming using a practical framework and classroom case study",
+        "year": "2026"
+      },
+      {
+        "article_id": "EhsD_L4AAAAJ:KlAtU1dfN6UC",
+        "title": "A Systematic Literature Review: Improving University Guidance with an AI-Powered Automatic Recommendation System",
+        "year": "2026"
+      },
+      {
+        "article_id": "EhsD_L4AAAAJ:hqOjcs7Dif8C",
+        "title": "Improving Predictive Maintenance Performance Using Machine Learning and Vibration Analysis Algorithms",
+        "year": "2025"
+      },
+      {
+        "article_id": "EhsD_L4AAAAJ:LkGwnXOMwfcC",
+        "title": "Tinkercad and mBlock: Tools for Educational Robotics and Coding Learning A Case of Ghandi Primary school Morocco",
+        "year": "2025"
+      },
+      {
+        "article_id": "EhsD_L4AAAAJ:roLk4NBRz8UC",
+        "title": "Gender, age, and emotion-aware strategies in AI-enhanced education: insights from future educators and algorithmic thinking in primary schools",
+        "year": "2025"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "xjxxn0cAAAAJ",
+    "nom_complet": "mohammed aitdaoud",
+    "affiliation": "Laboratory of Artificial Intelligence and Systems/ORDIPU, Faculty of Sciences Ben M'Sik, Hassan II",
+    "laboratoire": "Laboratoire d'Intelligence Artificielle et Systèmes",
+    "h_index": 8,
+    "i10_index": 7,
+    "citations_total": 189,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "xjxxn0cAAAAJ:hFOr9nPyWt4C",
+        "title": "FSLSM-based analysis of student performance information in a blended learning course using Moodle LMS",
+        "year": "2024"
+      },
+      {
+        "article_id": "xjxxn0cAAAAJ:4DMP91E08xMC",
+        "title": "Adaptive help system based on learners ‘digital traces’ and learning styles",
+        "year": "2021"
+      },
+      {
+        "article_id": "xjxxn0cAAAAJ:9ZlFYXVOiuMC",
+        "title": "Casablanca smart city project: Urbanization, urban growth, and sprawl challenges using remote sensing and spatial analysis",
+        "year": "2021"
+      },
+      {
+        "article_id": "xjxxn0cAAAAJ:mVmsd5A6BfQC",
+        "title": "J48 algorithms of machine learning for predicting user's the acceptance of an E-orientation systems",
+        "year": "2019"
+      },
+      {
+        "article_id": "xjxxn0cAAAAJ:_kc_bZDykSQC",
+        "title": "Using machine learning algorithms to predict the e-orientation systems acceptancy",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "w3Uyl9kAAAAJ",
+    "nom_complet": "RACHIDA AIT ABDELOUAHID",
+    "affiliation": "University Hassan II",
+    "laboratoire": "Unknown",
+    "h_index": 14,
+    "i10_index": 18,
+    "citations_total": 1356,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "w3Uyl9kAAAAJ:_kc_bZDykSQC",
+        "title": "Literature review: clinical data interoperability models",
+        "year": "2023"
+      },
+      {
+        "article_id": "w3Uyl9kAAAAJ:YOwf2qJgpHMC",
+        "title": "Software Testing from an Agile and Traditional view",
+        "year": "2022"
+      },
+      {
+        "article_id": "w3Uyl9kAAAAJ:KlAtU1dfN6UC",
+        "title": "The internet of things for smart ports",
+        "year": "2022"
+      },
+      {
+        "article_id": "w3Uyl9kAAAAJ:3fE2CSJIrl8C",
+        "title": "Smart farming architectures based on IoT review: comparative study",
+        "year": "2022"
+      },
+      {
+        "article_id": "w3Uyl9kAAAAJ:kNdYIx-mwKoC",
+        "title": "Moroccan's Arabic Speech Training And Deploying Machine Learning Models with Teachable Machine",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "peesMqoAAAAJ",
+    "nom_complet": "Sanaa EL FILALI",
+    "affiliation": "Full Professor of Computer Science, FSBM, University Hassan2 Casablanca",
+    "laboratoire": "Laboratoire d'Intelligence Artificielle et Systèmes",
+    "h_index": 12,
+    "i10_index": 16,
+    "citations_total": 1263,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "peesMqoAAAAJ:M3NEmzRMIkIC",
+        "title": "A systematic review of figurative language detection: Methods, challenges, and multilingual perspectives",
+        "year": "2025"
+      },
+      {
+        "article_id": "peesMqoAAAAJ:qUcmZB5y_30C",
+        "title": "Weather forecasting using artificial neural network (ANN): A review",
+        "year": "2024"
+      },
+      {
+        "article_id": "peesMqoAAAAJ:4JMBOYKVnBMC",
+        "title": "Implementation of smart irrigation using IoT and artificial intelligence",
+        "year": "2023"
+      },
+      {
+        "article_id": "peesMqoAAAAJ:qxL8FJ1GzNcC",
+        "title": "Dynamic security of IoT network traffic using SDN",
+        "year": "2023"
+      },
+      {
+        "article_id": "peesMqoAAAAJ:ULOm3_A8WrAC",
+        "title": "Smart irrigation system based on IoT and machine learning",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "RlUhpMYAAAAJ",
+    "nom_complet": "adnane boukhouima",
+    "affiliation": "Laboratory of Analysis, Modeling and Simulation (LAMS), Faculty of Sciences Ben M'sik, Hassan II",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "h_index": 9,
+    "i10_index": 9,
+    "citations_total": 552,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "RlUhpMYAAAAJ:kNdYIx-mwKoC",
+        "title": "Lyapunov-based stability analysis of fractional partial differential equations",
+        "year": "2026"
+      },
+      {
+        "article_id": "RlUhpMYAAAAJ:3fE2CSJIrl8C",
+        "title": "Physics-Informed Neural Networks for Fractional SEIR Models with Power Mittag-Leffler Kernels",
+        "year": "2026"
+      },
+      {
+        "article_id": "RlUhpMYAAAAJ:MXK_kJrjxJIC",
+        "title": "Extended Lyapunov stability analysis to the power fractional differential equations",
+        "year": "2025"
+      },
+      {
+        "article_id": "RlUhpMYAAAAJ:hqOjcs7Dif8C",
+        "title": "A general fractional-order viral infection model with cell-to-cell transmission and adaptive immunity",
+        "year": "2023"
+      },
+      {
+        "article_id": "RlUhpMYAAAAJ:roLk4NBRz8UC",
+        "title": "Lyapunov functions and stability analysis of fractional-order systems",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "fEERQmoAAAAJ",
+    "nom_complet": "Bouchra Aharmim",
+    "affiliation": "Professeur de Mathématiques,  Faculté des sciences Ben Msik,  Université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "h_index": 2,
+    "i10_index": 1,
+    "citations_total": 26,
+    "publications_count": 12,
+    "top_papers": [
+      {
+        "article_id": "fEERQmoAAAAJ:W7OEmFMy1HYC",
+        "title": "Maps commuting with the (f, g)-Aluthge transform on triple and generalized triple Lie-star Jordan products",
+        "year": "2026"
+      },
+      {
+        "article_id": "fEERQmoAAAAJ:Y0pCki6q_DkC",
+        "title": "Maps commuting with the λ-Aluthge transform for the Lie Star Jordan product",
+        "year": "2025"
+      },
+      {
+        "article_id": "fEERQmoAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Slodkowski’s Spectra Of Some New Generalized Spherical Aluthge Transform: Y. Labbane, B. Aharmim",
+        "year": "2025"
+      },
+      {
+        "article_id": "fEERQmoAAAAJ:d1gkVwhDpl0C",
+        "title": "Maps commuting with the λ-Aluthge transform for the semistar Jordan product",
+        "year": "2024"
+      },
+      {
+        "article_id": "fEERQmoAAAAJ:u5HHmVD_uO8C",
+        "title": "Extended Joint Numerical Radius of the Spherical Aluthge Transform",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "MneM6ocAAAAJ",
+    "nom_complet": "Imane Agmour",
+    "affiliation": "Docteur en Mathématiques Appliquées",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "h_index": 21,
+    "i10_index": 37,
+    "citations_total": 985,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "MneM6ocAAAAJ:M3ejUd6NZC8C",
+        "title": "Optimal control of a phytoplankton-zooplankton spatiotemporal discrete bioeconomic model",
+        "year": "2022"
+      },
+      {
+        "article_id": "MneM6ocAAAAJ:YOwf2qJgpHMC",
+        "title": "Mathematical study and optimal control of bioeconomic model concerning harmful dinoflagellate phytoplankton",
+        "year": "2021"
+      },
+      {
+        "article_id": "MneM6ocAAAAJ:KlAtU1dfN6UC",
+        "title": "Bioeconomic‐Epidemiological Model of Scomber colias Population in the Moroccan Coasts",
+        "year": "2021"
+      },
+      {
+        "article_id": "MneM6ocAAAAJ:_FxGoFyzp5QC",
+        "title": "The mathematical study for mortality coefficients of small pelagic species",
+        "year": "2019"
+      },
+      {
+        "article_id": "MneM6ocAAAAJ:8k81kl-MbHgC",
+        "title": "The Impact of Price on the Profits of Fishermen Exploiting Tritrophic Prey‐Predator Fish Populations",
+        "year": "2018"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "AF7HTzkAAAAJ",
+    "nom_complet": "Malika IZID",
+    "affiliation": "Maitre de conférence",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "h_index": 3,
+    "i10_index": 2,
+    "citations_total": 51,
+    "publications_count": 3,
+    "top_papers": [
+      {
+        "article_id": "AF7HTzkAAAAJ:2osOgNQ5qMEC",
+        "title": "Position vectors of curves generalizing general helices and slant helices in Euclidean 3-space",
+        "year": "2021"
+      },
+      {
+        "article_id": "AF7HTzkAAAAJ:eQOLeE2rZwMC",
+        "title": "Ruled surface generated by a curve lying on a regular surface and its characterizations",
+        "year": "2020"
+      },
+      {
+        "article_id": "AF7HTzkAAAAJ:d1gkVwhDpl0C",
+        "title": "Ruled surfaces with alternative moving frame in Euclidean 3-space",
+        "year": "2018"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "ixCm7WYAAAAJ",
+    "nom_complet": "Youssef Sekhara",
+    "affiliation": "Professeur d'informatique , Facuté Benmsick, Université Hassan II",
+    "laboratoire": "Laboratoire d'Intelligence Artificielle et Systèmes",
+    "h_index": 3,
+    "i10_index": 0,
+    "citations_total": 18,
+    "publications_count": 5,
+    "top_papers": [
+      {
+        "article_id": "ixCm7WYAAAAJ:9yKSN-GCB0IC",
+        "title": "Empirical Study on the Status of Moroccan Information Systems and Proposition of Approach for Choice of Best Practices for Good IT Governance",
+        "year": "Unknown"
+      },
+      {
+        "article_id": "ixCm7WYAAAAJ:d1gkVwhDpl0C",
+        "title": "Analysis of interactions between Information system, Communication and Marketing in Organizations",
+        "year": "Unknown"
+      },
+      {
+        "article_id": "ixCm7WYAAAAJ:u-x6o8ySG0sC",
+        "title": "Advanced expansion joints monitoring system based on IoT and intelligent development",
+        "year": "2022"
+      },
+      {
+        "article_id": "ixCm7WYAAAAJ:qjMakFHDy7sC",
+        "title": "IT Governance: Integration of Multi Agents Systems in the framework ITIL’s Processes",
+        "year": "2015"
+      },
+      {
+        "article_id": "ixCm7WYAAAAJ:UeHWp8X0CEIC",
+        "title": "Multi-agent architecture for implementation of ITIL processes: Case of incident management process",
+        "year": "2014"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "FPo3tVoAAAAJ",
+    "nom_complet": "abdelhafid bassou",
+    "affiliation": "professeur de mathématiques, Université Hassan II",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "h_index": 4,
+    "i10_index": 2,
+    "citations_total": 78,
+    "publications_count": 9,
+    "top_papers": [
+      {
+        "article_id": "FPo3tVoAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Fixed points and their geometric properties for interpolative contravariant mappings",
+        "year": "2025"
+      },
+      {
+        "article_id": "FPo3tVoAAAAJ:9yKSN-GCB0IC",
+        "title": "A NOTE ON BEST PROXIMITY POINT FOR S-CYCLIC MAPPINGS.",
+        "year": "2021"
+      },
+      {
+        "article_id": "FPo3tVoAAAAJ:IjCSPb-OGe4C",
+        "title": "Fixed Points Results for Various Types of Tricyclic Contractions",
+        "year": "2021"
+      },
+      {
+        "article_id": "FPo3tVoAAAAJ:0EnyYjriUFMC",
+        "title": "A new result on tricyclic mappings",
+        "year": "2020"
+      },
+      {
+        "article_id": "FPo3tVoAAAAJ:W7OEmFMy1HYC",
+        "title": "A New Best Approximation Result in (S) Convex Metric Spaces",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "QTr_ct4AAAAJ",
+    "nom_complet": "ABDERRAHIM EL ADRAOUI",
+    "affiliation": "Laboratoire Analyse, Modélisation et Simulation, Université Hassan II de Casablanca, Maroc",
+    "laboratoire": "Unknown",
+    "h_index": 5,
+    "i10_index": 2,
+    "citations_total": 68,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "QTr_ct4AAAAJ:9ZlFYXVOiuMC",
+        "title": "An improved hybrid metaheuristic for active job-shop scheduling problems",
+        "year": "2024"
+      },
+      {
+        "article_id": "QTr_ct4AAAAJ:9yKSN-GCB0IC",
+        "title": "Common fixed point theorems satisfying rational contraction in partially ordered metric space",
+        "year": "2024"
+      },
+      {
+        "article_id": "QTr_ct4AAAAJ:hqOjcs7Dif8C",
+        "title": "Mathematical analysis, forecasting and optimal control of HIV/AIDS spatiotemporal transmission with a reaction diffusion SICA model",
+        "year": "2022"
+      },
+      {
+        "article_id": "QTr_ct4AAAAJ:UebtZRa9Y70C",
+        "title": "Solving non-delay job-shop scheduling problems by a new matrix heuristic",
+        "year": "2022"
+      },
+      {
+        "article_id": "QTr_ct4AAAAJ:Se3iqnhoufwC",
+        "title": "GENERALIZED METRIC SPACES AND SOME RELATED FIXED POINT THEOREMS.",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "co3r6zAAAAAJ",
+    "nom_complet": "El Mehdi Lotfi",
+    "affiliation": "Researcher, Faculty of Sciences Ben M'sik, Hassan II University, Casablanca, Morocco.",
+    "laboratoire": "Unknown",
+    "h_index": 12,
+    "i10_index": 13,
+    "citations_total": 576,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "co3r6zAAAAAJ:Se3iqnhoufwC",
+        "title": "Non-pharmaceutical interventions and vaccination controls in a stochastic SIVR epidemic model",
+        "year": "2023"
+      },
+      {
+        "article_id": "co3r6zAAAAAJ:4DMP91E08xMC",
+        "title": "A general fractional-order viral infection model with cell-to-cell transmission and adaptive immunity",
+        "year": "2023"
+      },
+      {
+        "article_id": "co3r6zAAAAAJ:_kc_bZDykSQC",
+        "title": "The power fractional calculus: First definitions and properties with applications to power fractional differential equations",
+        "year": "2022"
+      },
+      {
+        "article_id": "co3r6zAAAAAJ:Zph67rFs4hoC",
+        "title": "Lyapunov functions and stability analysis of fractional-order systems",
+        "year": "2022"
+      },
+      {
+        "article_id": "co3r6zAAAAAJ:MXK_kJrjxJIC",
+        "title": "Modeling and forecasting of COVID-19 spreading by delayed stochastic differential equations",
+        "year": "2021"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "51svnvMAAAAJ",
+    "nom_complet": "Hassan LAARABI",
+    "affiliation": "LAMS, Facultés des Sciences Ben M'Sik, Université Hassan 2",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "h_index": 11,
+    "i10_index": 12,
+    "citations_total": 511,
+    "publications_count": 4,
+    "top_papers": [
+      {
+        "article_id": "51svnvMAAAAJ:UeHWp8X0CEIC",
+        "title": "Stability analysis of a delayed rumor propagation model",
+        "year": "2016"
+      },
+      {
+        "article_id": "51svnvMAAAAJ:u5HHmVD_uO8C",
+        "title": "Optimal control of a delayed SIRS epidemic model with vaccination and treatment",
+        "year": "2015"
+      },
+      {
+        "article_id": "51svnvMAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Optimal vaccination strategies of an SIR epidemic model with a saturated treatment",
+        "year": "2013"
+      },
+      {
+        "article_id": "51svnvMAAAAJ:eQOLeE2rZwMC",
+        "title": "Optimal control of an epidemic model with a saturated incidence rate",
+        "year": "2012"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "5ap2WIIAAAAJ",
+    "nom_complet": "Adnaoui khalid",
+    "affiliation": "Laboratory of Analysis Modeling and Simulation, Department of Mathematics and Computer Science",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "h_index": 4,
+    "i10_index": 2,
+    "citations_total": 59,
+    "publications_count": 12,
+    "top_papers": [
+      {
+        "article_id": "5ap2WIIAAAAJ:aqlVkmm33-oC",
+        "title": "Modeling and analysis of the flexural response of porous functionally graded plates through an advanced refined theory",
+        "year": "2026"
+      },
+      {
+        "article_id": "5ap2WIIAAAAJ:_kc_bZDykSQC",
+        "title": "MEK Inhibition May Prevent the Recruitment of NK Cells in the Tumor Microenvironment: A Mathematical Model of Glioma Treatment",
+        "year": "2026"
+      },
+      {
+        "article_id": "5ap2WIIAAAAJ:4DMP91E08xMC",
+        "title": "Analysis of the mechanical behavior of functional gradient porous plates on an elastic foundation",
+        "year": "2025"
+      },
+      {
+        "article_id": "5ap2WIIAAAAJ:UebtZRa9Y70C",
+        "title": "Optimal control problem for mathematical modeling of Zika virus transmission using fractional order derivatives",
+        "year": "2024"
+      },
+      {
+        "article_id": "5ap2WIIAAAAJ:3fE2CSJIrl8C",
+        "title": "A General Stochastic Model for Tumor Growth: Simulating Cardiac Tumor (Myxoma) Development.",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "J8JyWLYAAAAJ",
+    "nom_complet": "Zakary Omar",
+    "affiliation": "Faculty of Sciences Ben M’Sik, Hassan II University of Casablanca",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "h_index": 14,
+    "i10_index": 15,
+    "citations_total": 647,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "J8JyWLYAAAAJ:hFOr9nPyWt4C",
+        "title": "Optimal control strategy of COVID-19 spread in morocco using SEIRD model",
+        "year": "2021"
+      },
+      {
+        "article_id": "J8JyWLYAAAAJ:ZeXyd9-uunAC",
+        "title": "Mathematical Model to Estimate and Predict the COVID‐19 Infections in Morocco: Optimal Control Strategy",
+        "year": "2020"
+      },
+      {
+        "article_id": "J8JyWLYAAAAJ:aqlVkmm33-oC",
+        "title": "Stability and Global Sensitivity Analysis for an Agree‐Disagree Model: Partial Rank Correlation Coefficient and Latin Hypercube Sampling Methods",
+        "year": "2020"
+      },
+      {
+        "article_id": "J8JyWLYAAAAJ:qxL8FJ1GzNcC",
+        "title": "A New Simple Epidemic Discrete‐Time Model Describing the Dissemination of Information with Optimal Control Strategy",
+        "year": "2020"
+      },
+      {
+        "article_id": "J8JyWLYAAAAJ:qjMakFHDy7sC",
+        "title": "On the analysis of a multi-regions discrete SIR epidemic model: an optimal control approach",
+        "year": "2017"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "rjrWg60AAAAJ",
+    "nom_complet": "said benkaddour",
+    "affiliation": "professeur de mathématiques, université Hassan II Casablanca",
+    "laboratoire": "Laboratoire d'Analyse, Modélisation et Simulation",
+    "h_index": 1,
+    "i10_index": 0,
+    "citations_total": 5,
+    "publications_count": 2,
+    "top_papers": [
+      {
+        "article_id": "rjrWg60AAAAJ:u-x6o8ySG0sC",
+        "title": "Some common fixed point theorems in partially ordered sets",
+        "year": "2020"
+      },
+      {
+        "article_id": "rjrWg60AAAAJ:u5HHmVD_uO8C",
+        "title": "Relation entre ensembles totalement flous et ensembles ordonnés",
+        "year": "1986"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "0Q-T8x4AAAAJ",
+    "nom_complet": "Abdelilah AKOUIBAA",
+    "affiliation": "professor of physics, Faculty of sciences Ben M'sick, Hassan 2 University Casablanca",
+    "laboratoire": "Laboratoire d'Ingénierie et de Matériaux",
+    "h_index": 14,
+    "i10_index": 17,
+    "citations_total": 362,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "0Q-T8x4AAAAJ:3fE2CSJIrl8C",
+        "title": "Numerical analysis of surface plasmon resonance and photothermal properties of silica/gold/graphene and hollow/gold/graphene core-multi-shell nanoparticles",
+        "year": "2025"
+      },
+      {
+        "article_id": "0Q-T8x4AAAAJ:d1gkVwhDpl0C",
+        "title": "Numerical study of a D-shaped optical fiber SPR biosensor for monitoring refractive index variations in biological tissue via a thin layer of gold coated with titanium dioxide",
+        "year": "2024"
+      },
+      {
+        "article_id": "0Q-T8x4AAAAJ:zYLM7Y9cAGgC",
+        "title": "Photocatalysis and microwave absorption performance of cobalt particles dispersed on activated carbon surface under the role of surface, optical, and magnetic properties",
+        "year": "2024"
+      },
+      {
+        "article_id": "0Q-T8x4AAAAJ:9yKSN-GCB0IC",
+        "title": "Optical and thermo-plasmonic properties of spherical and hollow gold nanoparticles injected in cell organelles",
+        "year": "2024"
+      },
+      {
+        "article_id": "0Q-T8x4AAAAJ:0EnyYjriUFMC",
+        "title": "Optical and thermoplasmonic properties of core (AuxAg1-x)-shell (Au) nanostructures",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "FJVaLHwAAAAJ",
+    "nom_complet": "Mouakkir Laila",
+    "affiliation": "Université hassan II",
+    "laboratoire": "Laboratoire d'Ingénierie et de Matériaux",
+    "h_index": 6,
+    "i10_index": 3,
+    "citations_total": 72,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "FJVaLHwAAAAJ:4TOpqqG69KYC",
+        "title": "Enhancing CZTS solar cell performance: optimizing CuO/Cu2O Bilayer absorbers with ZrS2 buffer layers",
+        "year": "2026"
+      },
+      {
+        "article_id": "FJVaLHwAAAAJ:KlAtU1dfN6UC",
+        "title": "Numerical study of a quayside wave energy recovery system in the presence of a dike",
+        "year": "2025"
+      },
+      {
+        "article_id": "FJVaLHwAAAAJ:YOwf2qJgpHMC",
+        "title": "Optimizing CZTS solar cells efficiency using eco-friendly layers by SCAPS simulation",
+        "year": "2024"
+      },
+      {
+        "article_id": "FJVaLHwAAAAJ:UebtZRa9Y70C",
+        "title": "Modeling of the fate and behaviors of an oil spill in the Azemmour River estuary in Morocco",
+        "year": "2023"
+      },
+      {
+        "article_id": "FJVaLHwAAAAJ:Se3iqnhoufwC",
+        "title": "Analyzing wave energy potential near Essaouira coast in Morocco",
+        "year": "2023"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "COxcISUAAAAJ",
+    "nom_complet": "Mbarka Mourabit",
+    "affiliation": "LIMAT, Department of Physics, Faculty of Sciences of Ben M'Sik, Hassan 2nd University, Po Box.7955 C",
+    "laboratoire": "Laboratoire d'Ingénierie et de Matériaux",
+    "h_index": 4,
+    "i10_index": 0,
+    "citations_total": 28,
+    "publications_count": 6,
+    "top_papers": [
+      {
+        "article_id": "COxcISUAAAAJ:u-x6o8ySG0sC",
+        "title": "Application de la méthode de Boltzmann sur réseau en écoulement de fluide autour d’un obstacle de différente géométrie",
+        "year": "Unknown"
+      },
+      {
+        "article_id": "COxcISUAAAAJ:d1gkVwhDpl0C",
+        "title": "Influence of the inclination angle on mixed convection and heat transfer in a “T” shaped double enclosure",
+        "year": "2023"
+      },
+      {
+        "article_id": "COxcISUAAAAJ:qjMakFHDy7sC",
+        "title": "Revue des Composites et des Matériaux Avancés-Journal of Composite and Advanced Materials",
+        "year": "2022"
+      },
+      {
+        "article_id": "COxcISUAAAAJ:UeHWp8X0CEIC",
+        "title": "Characterization and Corrosion resistance study of aeronautical aluminum 2024-T4 and 7075-T6 alloys",
+        "year": "2021"
+      },
+      {
+        "article_id": "COxcISUAAAAJ:2osOgNQ5qMEC",
+        "title": "A mixed convection and heat transfer in a “T” form cavity: effect of inclination angle",
+        "year": "2014"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "moH1YMsAAAAJ",
+    "nom_complet": "mina oumam",
+    "affiliation": "UH2C",
+    "laboratoire": "Laboratoire d'Ingénierie et de Matériaux",
+    "h_index": 25,
+    "i10_index": 38,
+    "citations_total": 1961,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "moH1YMsAAAAJ:M05iB0D1s5AC",
+        "title": "Eco-friendly geopolymer concrete based on metakaolin and ceramics sanitaryware wastes",
+        "year": "2022"
+      },
+      {
+        "article_id": "moH1YMsAAAAJ:e5wmG9Sq2KIC",
+        "title": "Micro-and nano-structures of cellulose from eggplant plant (Solanum melongena L) agricultural residue",
+        "year": "2021"
+      },
+      {
+        "article_id": "moH1YMsAAAAJ:TFP_iSt0sucC",
+        "title": "Thermal, mechanical and microstructural properties of acidic geopolymer based on moroccan kaolinitic clay",
+        "year": "2021"
+      },
+      {
+        "article_id": "moH1YMsAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Characteristics of cellulose microfibers and nanocrystals isolated from doum tree (Chamaerops humilis var. argentea)",
+        "year": "2021"
+      },
+      {
+        "article_id": "moH1YMsAAAAJ:UeHWp8X0CEIC",
+        "title": "Effect of alkali-mixed content and thermally untreated phosphate sludge dosages on some properties of metakaolin based geopolymer material",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "8OVvchAAAAAJ",
+    "nom_complet": "RHMA ADHIRI",
+    "affiliation": "Université Hassan II De Casablanca, Faculté des Sciences Ben M'Sick, LIMAT",
+    "laboratoire": "Laboratoire d'Ingénierie et de Matériaux",
+    "h_index": 9,
+    "i10_index": 9,
+    "citations_total": 299,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "8OVvchAAAAAJ:7PzlFSSx8tAC",
+        "title": "Innovative approaches to olive mill wastewater management: prospects and opportunities in Morocco and the Mediterranean region",
+        "year": "2025"
+      },
+      {
+        "article_id": "8OVvchAAAAAJ:dhFuZR0502QC",
+        "title": "Enhanced efficiency of CZTS solar cells with reduced graphene oxide and titanium dioxide layers: A SCAPS simulation study",
+        "year": "2025"
+      },
+      {
+        "article_id": "8OVvchAAAAAJ:aqlVkmm33-oC",
+        "title": "Coupled electrical–thermal modeling of photovoltaic modules: An overview",
+        "year": "2024"
+      },
+      {
+        "article_id": "8OVvchAAAAAJ:qxL8FJ1GzNcC",
+        "title": "A simulation and modeling approach of coupled thermal and electrical behavior of PV panels using the artificial hummingbird algorithm and two-dimensional finite difference-based model",
+        "year": "2024"
+      },
+      {
+        "article_id": "8OVvchAAAAAJ:_kc_bZDykSQC",
+        "title": "Emerging parameters extraction method of PV modules based on the survival strategies of flying foxes optimization (FFO)",
+        "year": "2023"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "DesMDlAAAAAJ",
+    "nom_complet": "Said Gmouh",
+    "affiliation": "laboratoire LIMAT, Departement de chimie, FSBM, Université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire d'Ingénierie et de Matériaux",
+    "h_index": 36,
+    "i10_index": 88,
+    "citations_total": 4925,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "DesMDlAAAAAJ:b0M2c_1WBrUC",
+        "title": "Fungal biosorption as an alternative for the treatment of dyes in waste waters: a review",
+        "year": "2021"
+      },
+      {
+        "article_id": "DesMDlAAAAAJ:maZDTaKrznsC",
+        "title": "Production of cellulose nanocrystals from vine shoots and their use for the development of nanocomposite materials",
+        "year": "2018"
+      },
+      {
+        "article_id": "DesMDlAAAAAJ:O3NaXMp0MMsC",
+        "title": "Evolution in the surface modification of textiles: a review",
+        "year": "2018"
+      },
+      {
+        "article_id": "DesMDlAAAAAJ:2osOgNQ5qMEC",
+        "title": "Ionic liquids for clean biocatalytic processes",
+        "year": "2017"
+      },
+      {
+        "article_id": "DesMDlAAAAAJ:4DMP91E08xMC",
+        "title": "Chemical composition and antibacterial activity of essential oils from six Moroccan plants",
+        "year": "2012"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "-1DLu7sAAAAJ",
+    "nom_complet": "Siham Slassi",
+    "affiliation": "Laboratoire Ingénierie et Matériaux ( LIMAT), FSBM, Université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire d'Ingénierie et de Matériaux",
+    "h_index": 15,
+    "i10_index": 17,
+    "citations_total": 669,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "-1DLu7sAAAAJ:5nxA0vEk-isC",
+        "title": "Novel triazole derivatives possessing imidazole: Synthesis, spectroscopic characterization (FT-IR, NMR, UV–Vis), DFT studies and antibacterial in vitro evaluation",
+        "year": "2023"
+      },
+      {
+        "article_id": "-1DLu7sAAAAJ:Se3iqnhoufwC",
+        "title": "Synthesis, spectroscopic characterization (FT-IR, NMR, UV-Vis), DFT study, antibacterial and antioxidant in vitro investigations of 4, 6-bis ((E)-1-((3-(1H-imidazol-1-yl) propyl) imino) ethyl) benzene-1, 3-diol",
+        "year": "2022"
+      },
+      {
+        "article_id": "-1DLu7sAAAAJ:LkGwnXOMwfcC",
+        "title": "Synthesis, spectroscopic characterization (FT-IR, NMR) and DFT computational studies of new isoxazoline derived from acridone",
+        "year": "2021"
+      },
+      {
+        "article_id": "-1DLu7sAAAAJ:u-x6o8ySG0sC",
+        "title": "Synthesis, biological evaluation, molecular docking and in silico ADMET screening studies of novel isoxazoline derivatives from acridone",
+        "year": "2021"
+      },
+      {
+        "article_id": "-1DLu7sAAAAJ:WF5omc3nYNoC",
+        "title": "A novel imidazole‐derived Schiff base as selective and sensitive colorimetric chemosensor for fluorescent detection of Cu2+ in methanol with mixed aqueous medium",
         "year": "2021"
       }
     ]
