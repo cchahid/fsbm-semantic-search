@@ -105,7 +105,8 @@ OpenAlex fields. It writes:
 `export_frontend_data.py` reads the clean Parquet, groups publications by
 researcher, merges global metrics from the raw JSON, selects top papers, and
 writes `frontend/data/faculty_metrics.json`. This file is imported by the
-Next.js faculty routes, so rerun the export after changing the source data.
+legacy/static consumers. The running frontend reads the same cleaned Parquet
+through the backend `/faculty-profiles` endpoint.
 
 ### Dataset and results
 
@@ -257,4 +258,3 @@ blindly committing them to normal Git history. Never commit API keys or local
   PDF or an external open-access URL.
 - The Chroma database is a local generated index and must be rebuilt when
   embeddings or metadata change.
-- The frontend uses generated JSON rather than parsing Parquet at runtime.

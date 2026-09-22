@@ -4,6 +4,7 @@ import re
 from typing import Any
 
 import chromadb
+import pandas as pd
 from fastapi import FastAPI, HTTPException
 from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
@@ -23,6 +24,7 @@ app.add_middleware(
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 CHROMA_DB_DIR = os.path.join(BASE_DIR, "nlp_engine", "chroma_data")
 RAW_DATA_FILE = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "fsbm_researchers_raw.json")
+CLEAN_DATA_FILE = os.path.join(BASE_DIR, "data_pipeline", "data", "processed", "fsbm_researchers_clean.parquet")
 ENRICHMENT_FILE = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "openalex_enrichment.json")
 PDF_DIRECTORY = os.path.join(BASE_DIR, "data_pipeline", "data", "raw", "pdf's")
 if not os.path.isdir(PDF_DIRECTORY):
@@ -170,32 +172,59 @@ def _build_article_lookup(researchers: list[dict[str, Any]]) -> dict[str, dict[s
 
 
 def _build_faculty_profiles(researchers: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    if not os.path.exists(CLEAN_DATA_FILE):
+        print(f"[!] Clean Parquet file not found: {CLEAN_DATA_FILE}")
+        return []
+
+    try:
+        clean_data = pd.read_parquet(CLEAN_DATA_FILE)
+    except Exception as exc:
+        print(f"[!] Failed to load clean Parquet file: {exc}")
+        return []
+
+    metrics_by_id = {
+        str(researcher.get("chercheur_id")): researcher.get("metriques", {}) or {}
+        for researcher in researchers
+    }
     profiles: list[dict[str, Any]] = []
 
-    for researcher in researchers:
-        metrics = researcher.get("metriques", {}) or {}
-        name = _first_non_empty(researcher.get("nom_complet"), default="Unknown researcher")
-        affiliation = _first_non_empty(researcher.get("affiliation"), default="FSBM")
-        publications = researcher.get("articles", []) if isinstance(researcher.get("articles"), list) else []
+    for researcher_id, group in clean_data.groupby("chercheur_id", sort=False):
+        first_row = group.iloc[0]
+        researcher_key = str(researcher_id)
+        metrics = metrics_by_id.get(researcher_key, {})
+        name = _first_non_empty(first_row.get("nom_complet"), default="Unknown researcher")
+        affiliation = "Universite Hassan II de Casablanca"
+        publications = group.sort_values("date_publication", ascending=False, na_position="last")
 
         top_publication = ""
         top_citations = 0
-        if publications:
-            best_article = max(publications, key=lambda row: _to_int(row.get("citations"), default=0))
+        if not publications.empty:
+            best_article = publications.iloc[0]
             top_publication = _first_non_empty(best_article.get("titre"))
             top_citations = _to_int(best_article.get("citations"), default=0)
 
         profiles.append({
-            "id": _first_non_empty(researcher.get("chercheur_id"), default=name.lower().replace(" ", "-")),
+            "id": _first_non_empty(researcher_key, default=name.lower().replace(" ", "-")),
+            "chercheur_id": researcher_key,
             "name": name,
+            "nom_complet": name,
             "department": _derive_department(affiliation),
             "affiliation": affiliation,
             "citations_total": _to_int(metrics.get("citations_totales"), default=0),
             "h_index": _to_int(metrics.get("h_index"), default=0),
             "i10_index": _to_int(metrics.get("i10_index"), default=0),
-            "publications_count": len(publications),
+            "publications_count": len(group),
+            "laboratoire": _first_non_empty(first_row.get("Laboratoire"), default="Unknown"),
             "top_publication": top_publication,
             "top_publication_citations": top_citations,
+            "top_papers": [
+                {
+                    "article_id": str(row.get("article_id", "")),
+                    "title": _first_non_empty(row.get("titre"), default="Untitled"),
+                    "year": _first_non_empty(row.get("date_publication"), default="N/A"),
+                }
+                for _, row in publications.head(5).iterrows()
+            ],
         })
 
     profiles.sort(

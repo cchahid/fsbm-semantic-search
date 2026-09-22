@@ -1,34 +1,35 @@
 'use client'
 
-import { useMemo, useState } from 'react'
-import facultyMetrics from '@/data/faculty_metrics.json'
+import { useEffect, useMemo, useState } from 'react'
 import { FacultyProfileCard, type FacultyProfile } from '@/components/FacultyProfileCard'
 import { Navbar } from '@/components/Navbar'
-
-const profiles: FacultyProfile[] = facultyMetrics.map((researcher) => ({
-  id: researcher.chercheur_id,
-  chercheur_id: researcher.chercheur_id,
-  name: researcher.nom_complet,
-  department: 'Faculty of Sciences Ben M’Sik',
-  affiliation: researcher.affiliation,
-  laboratoire: researcher.laboratoire,
-  citations_total: researcher.citations_total,
-  h_index: researcher.h_index,
-  i10_index: researcher.i10_index,
-  publications_count: researcher.publications_count,
-}))
+import { fetchFacultyProfiles } from '@/lib/api'
 
 export default function FacultyProfilesPage() {
+  const [profiles, setProfiles] = useState<FacultyProfile[]>([])
   const [selectedLaboratory, setSelectedLaboratory] = useState('all')
+  const [isLoading, setIsLoading] = useState(true)
+  const [loadError, setLoadError] = useState<string | null>(null)
+
+  useEffect(() => {
+    fetchFacultyProfiles()
+      .then((data) => setProfiles(data.profiles))
+      .catch((error) => {
+        console.error('Faculty profile request failed:', error)
+        setLoadError('Unable to load faculty profiles. Check that the backend is running.')
+      })
+      .finally(() => setIsLoading(false))
+  }, [])
+
   const laboratories = useMemo(
     () => [...new Set(profiles.map((profile) => profile.laboratoire).filter((laboratory) => laboratory && laboratory !== 'Unknown'))].sort(),
-    [],
+    [profiles],
   )
   const filteredProfiles = useMemo(
     () => selectedLaboratory === 'all'
       ? profiles
       : profiles.filter((profile) => profile.laboratoire === selectedLaboratory),
-    [selectedLaboratory],
+    [profiles, selectedLaboratory],
   )
 
   return (
@@ -51,7 +52,13 @@ export default function FacultyProfilesPage() {
           </select>
         </div>
         <div className="grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
-          {filteredProfiles.map((profile, index) => <FacultyProfileCard key={profile.chercheur_id} profile={profile} index={index} />)}
+          {isLoading ? (
+            <p className="text-sm text-slate-500">Loading faculty profiles...</p>
+          ) : loadError ? (
+            <p className="text-sm text-red-600">{loadError}</p>
+          ) : filteredProfiles.length === 0 ? (
+            <p className="text-sm text-slate-500">No faculty profiles found.</p>
+          ) : filteredProfiles.map((profile, index) => <FacultyProfileCard key={profile.chercheur_id} profile={profile} index={index} />)}
         </div>
       </main>
     </div>

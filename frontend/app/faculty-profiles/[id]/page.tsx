@@ -1,20 +1,19 @@
 import Link from 'next/link'
 import { ArrowLeft, BookOpen, GraduationCap, Quote, TrendingUp } from 'lucide-react'
-import facultyMetrics from '@/data/faculty_metrics.json'
 import { Card, CardContent } from '@/components/ui/card'
 import { Navbar } from '@/components/Navbar'
+import { fetchFacultyProfiles } from '@/lib/api'
 
 type ProfilePageProps = {
   params: Promise<{ id: string }>
 }
 
-export function generateStaticParams() {
-  return facultyMetrics.map((researcher) => ({ id: researcher.chercheur_id }))
-}
+export const dynamic = 'force-dynamic'
 
 export default async function FacultyProfilePage({ params }: ProfilePageProps) {
   const { id } = await params
-  const researcher = facultyMetrics.find((candidate) => candidate.chercheur_id === id)
+  const { profiles } = await fetchFacultyProfiles()
+  const researcher = profiles.find((candidate) => candidate.chercheur_id === id)
 
   if (!researcher) {
     return (

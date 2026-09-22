@@ -4,7 +4,6 @@ import { useCallback, useEffect, useState } from 'react'
 import { BookOpen, Download, SlidersHorizontal, UserRound } from 'lucide-react'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
-import researchers from '@/data/faculty_metrics.json'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
@@ -261,11 +260,6 @@ export function SearchDashboard() {
           : Math.max(0, Math.min(100, Math.round((1 - distance) * 100)))
         const rawAuthor = item.author_display ?? item.authors ?? metadata.author ?? metadata.authors ?? metadata.auteurs ?? metadata.nom_complet
         const author = Array.isArray(rawAuthor) ? rawAuthor.join(', ') : typeof rawAuthor === 'string' ? rawAuthor : 'Unknown author'
-        const matchedResearcher = researchers.find((researcher) => {
-          const researcherName = researcher.nom_complet.toLowerCase()
-          const authorName = author.toLowerCase()
-          return authorName.includes(researcherName) || researcherName.includes(authorName)
-        })
         const rawCitations = item.citations ?? metadata.citations ?? metadata.citation_count ?? 0
         const citations = Number(rawCitations)
         return {
@@ -276,7 +270,7 @@ export function SearchDashboard() {
           citations: Number.isFinite(citations) ? citations : 0,
           abstract: item.abstract || 'No abstract available.',
           match_score: score,
-          faculty_id: String(metadata.chercheur_id ?? metadata.researcher_id ?? matchedResearcher?.chercheur_id ?? 'upOdTrEAAAAJ'),
+          faculty_id: String(metadata.chercheur_id ?? metadata.researcher_id ?? 'upOdTrEAAAAJ'),
           article_id: String(item.article_id ?? item.id ?? ''),
           laboratoire: String(metadata.Laboratoire ?? metadata.laboratoire ?? 'Unknown'),
           equipe: String(metadata.Equipe ?? metadata.equipe ?? 'Unknown'),
