@@ -50,7 +50,7 @@ def run_openalex_enrichment():
             continue
 
         safe_title = urllib.parse.quote(title)
-        api_url = f"https://api.openalex.org/works?search={safe_title}&api_key=u0ze90oxjDOFOnxstk34yP"
+        api_url = f"https://api.openalex.org/works?search={safe_title}&api_key={os.getenv('OPENALEX_API_KEY')}"
 
         try:
             print(f"[{i}/{total_articles}] Searching: {title[:75]}...")

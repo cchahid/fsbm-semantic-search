@@ -2604,5 +2604,515 @@
         "year": "2021"
       }
     ]
+  },
+  {
+    "chercheur_id": "hIN0ScAAAAAJ",
+    "nom_complet": "Soumia Mordane",
+    "affiliation": "université hassan II",
+    "laboratoire": "Laboratoire d'Ingénierie et de Matériaux",
+    "h_index": 12,
+    "i10_index": 17,
+    "citations_total": 688,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "hIN0ScAAAAAJ:ZHo1McVdvXMC",
+        "title": "Numerical analysis of surface plasmon resonance and photothermal properties of silica/gold/graphene and hollow/gold/graphene core-multi-shell nanoparticles",
+        "year": "2025"
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:vV6vV6tmYwMC",
+        "title": "Optical and thermo-plasmonic properties of spherical and hollow gold nanoparticles injected in cell organelles",
+        "year": "2024"
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:ldfaerwXgEUC",
+        "title": "Optical and thermoplasmonic properties of core (AuxAg1-x)-shell (Au) nanostructures",
+        "year": "2024"
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:RYcK_YlVTxYC",
+        "title": "Wave reflection by rectangular breakwaters for coastal protection",
+        "year": "2024"
+      },
+      {
+        "article_id": "hIN0ScAAAAAJ:isC4tDSrTZIC",
+        "title": "Wave energy potential analysis in the Casablanca-Mohammedia coastal area (Morocco)",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "iKIUSQIAAAAJ",
+    "nom_complet": "Abourriche Abdelmjid",
+    "affiliation": "Hassan II university of Casablanca",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "h_index": 27,
+    "i10_index": 41,
+    "citations_total": 2929,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "iKIUSQIAAAAJ:LhH-TYMQEocC",
+        "title": "Unlocking sustainable extraction of natural antioxidants: Green solvents, smart technologies, scalability and future directions",
+        "year": "2025"
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:tKAzc9rXhukC",
+        "title": "Fabrication and characterization of a ceramic membrane from clay and banana peel powder: Application to industrial wastewater treatment",
+        "year": "2019"
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:j8SEvjWlNXcC",
+        "title": "Effect of sintering temperature on the microstructure and mechanical behavior of porous ceramics made from clay and banana peel powder",
+        "year": "2019"
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:HE397vMXCloC",
+        "title": "Flat ceramic microfiltration membrane based on natural clay and Moroccan phosphate for desalination and industrial wastewater treatment",
+        "year": "2018"
+      },
+      {
+        "article_id": "iKIUSQIAAAAJ:V3AGJWp-ZtQC",
+        "title": "Statistical tools and approaches to validate analytical methods: methodology and practical examples★",
+        "year": "2017"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "ENJeQHAAAAAJ",
+    "nom_complet": "Driss Radallah",
+    "affiliation": "Professeur de Biologie, Université HASSAN II de Casablanca",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "h_index": 12,
+    "i10_index": 15,
+    "citations_total": 432,
+    "publications_count": 12,
+    "top_papers": [
+      {
+        "article_id": "ENJeQHAAAAAJ:TQgYirikUcIC",
+        "title": "Traditional medicinal plants used for rheumatoid arthritis and immune system disorders treatment in the Casablanca-Settat region, Morocco: an ethnopharmacological study",
+        "year": "2024"
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:QIV2ME_5wuYC",
+        "title": "Human mitochondrial DNA: particularities and diseases",
+        "year": "2021"
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:YOwf2qJgpHMC",
+        "title": "A case-control study on dietary risk factors for colorectal cancer in Morocco",
+        "year": "2020"
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:u-x6o8ySG0sC",
+        "title": "Aspects épidémiologiques, nutritionnels et anatomopathologiques des cancers colorectaux dans la région du grand Casablanca",
+        "year": "2019"
+      },
+      {
+        "article_id": "ENJeQHAAAAAJ:Se3iqnhoufwC",
+        "title": "Epidemiological, nutritional and anatomopathological features of patients with colorectal cancer in the greater Casablanca region",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "y3H-SrEAAAAJ",
+    "nom_complet": "Halima LEBRAZI",
+    "affiliation": "Université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "h_index": 12,
+    "i10_index": 13,
+    "citations_total": 550,
+    "publications_count": 1,
+    "top_papers": [
+      {
+        "article_id": "y3H-SrEAAAAJ:9yKSN-GCB0IC",
+        "title": "Predictors of mortality in hemodialysis patients",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "6EGcmiAAAAAJ",
+    "nom_complet": "Amal EL HAMSAS EL YOUBI",
+    "affiliation": "Prof de l'enseignement supérieur",
+    "laboratoire": "Unknown",
+    "h_index": 16,
+    "i10_index": 20,
+    "citations_total": 613,
+    "publications_count": 14,
+    "top_papers": [
+      {
+        "article_id": "6EGcmiAAAAAJ:-f6ydRqryjwC",
+        "title": "Genotoxic effects and mitosis aberrations of chromium (VI) on root cells of Vicia faba and its molecular docking analysis",
+        "year": "2024"
+      },
+      {
+        "article_id": "6EGcmiAAAAAJ:9ZlFYXVOiuMC",
+        "title": "Pharmacological effects of Lavandula officinalis Chaix and its polyphenols: Focus on their in vivo estrogenic and anti-inflammatory properties",
+        "year": "2022"
+      },
+      {
+        "article_id": "6EGcmiAAAAAJ:aqlVkmm33-oC",
+        "title": "Antioxidant, anti-inflammatory and antidiabetic proprieties of LC-MS/MS identified polyphenols from coriander seeds",
+        "year": "2021"
+      },
+      {
+        "article_id": "6EGcmiAAAAAJ:3fE2CSJIrl8C",
+        "title": "Ethnopharmacological survey of medicinal plants used in the traditional treatment of female infertility in Fez region, Morocco",
+        "year": "2020"
+      },
+      {
+        "article_id": "6EGcmiAAAAAJ:Wp0gIr-vW9MC",
+        "title": "Ethnobotanical survey of medicinal plants used in the traditional treatment of depression and anxiety in Fez-Meknes Region",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "aKcwH1kAAAAJ",
+    "nom_complet": "Anass Kettani",
+    "affiliation": "Laboratory of Biology and Health, Faculty of Sciences Ben M'Sik Hassan II University of Casablanca",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "h_index": 17,
+    "i10_index": 30,
+    "citations_total": 1072,
+    "publications_count": 10,
+    "top_papers": [
+      {
+        "article_id": "aKcwH1kAAAAJ:kNdYIx-mwKoC",
+        "title": "Machine Learning Triage of LDLR Variants of Uncertain Significance Using Predictor Concordance and ACMG-Aligned Evidence Mapping",
+        "year": "2026"
+      },
+      {
+        "article_id": "aKcwH1kAAAAJ:vV6vV6tmYwMC",
+        "title": "Association between nutritional status, body composition, and fitness level of adolescents in physical education in Casablanca, Morocco",
+        "year": "2023"
+      },
+      {
+        "article_id": "aKcwH1kAAAAJ:blknAaTinKkC",
+        "title": "In Silico Analysis of High‐Risk Missense Variants in Human ACE2 Gene and Susceptibility to SARS‐CoV‐2 Infection",
+        "year": "2021"
+      },
+      {
+        "article_id": "aKcwH1kAAAAJ:k_IJM867U9cC",
+        "title": "Sociodemographic and Lifestyle Factors Associated with Adherence to Mediterranean Diet in Representative Adult Population in Casablanca City, Morocco: A Cross‐Sectional Study",
+        "year": "2020"
+      },
+      {
+        "article_id": "aKcwH1kAAAAJ:2osOgNQ5qMEC",
+        "title": "Predictors of mortality in hemodialysis patients",
+        "year": "2019"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "ExZwFJoAAAAJ",
+    "nom_complet": "MOHTADI Karima",
+    "affiliation": "Laboratoire Biologie et Santé, Département de Biologie, Faculté des Sciences Ben M'sick, Université",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "h_index": 7,
+    "i10_index": 6,
+    "citations_total": 282,
+    "publications_count": 6,
+    "top_papers": [
+      {
+        "article_id": "ExZwFJoAAAAJ:4TOpqqG69KYC",
+        "title": "The Cardiorespiratory Endurance (VO 2 max), Body Composition and Macronutrient's Intake in the Pre-competitive Period: A Correlation Study among Moroccan Professional Soccer Players",
+        "year": "2024"
+      },
+      {
+        "article_id": "ExZwFJoAAAAJ:UebtZRa9Y70C",
+        "title": "Association between nutritional status, body composition, and fitness level of adolescents in physical education in Casablanca, Morocco",
+        "year": "2023"
+      },
+      {
+        "article_id": "ExZwFJoAAAAJ:roLk4NBRz8UC",
+        "title": "HPLC-UV-MS/MS profiling of phenolics from Euphorbia nicaeensis (All.) leaf and stem and its antioxidant and anti-protein denaturation activities",
+        "year": "2023"
+      },
+      {
+        "article_id": "ExZwFJoAAAAJ:MXK_kJrjxJIC",
+        "title": "P32-016-23 Evaluation of Antioxidant Vitamins Intake of a Professional Soccer Team in Morocco During a Week of Competition and Training",
+        "year": "2023"
+      },
+      {
+        "article_id": "ExZwFJoAAAAJ:_FxGoFyzp5QC",
+        "title": "The association between nutritional knowledge and eating habits among a representative adult population in Casablanca City, Morocco",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "1nFMkMcAAAAJ",
+    "nom_complet": "Fouad DAMIRI, PhD",
+    "affiliation": "Professor of Organic Chemistry and Polymer Science",
+    "laboratoire": "Unknown",
+    "h_index": 27,
+    "i10_index": 40,
+    "citations_total": 2342,
+    "publications_count": 15,
+    "top_papers": [
+      {
+        "article_id": "1nFMkMcAAAAJ:M05iB0D1s5AC",
+        "title": "Recent advances in 3D bioprinted polysaccharide hydrogels for biomedical applications: A comprehensive review",
+        "year": "2025"
+      },
+      {
+        "article_id": "1nFMkMcAAAAJ:vV6vV6tmYwMC",
+        "title": "Nano-hydroxyapatite (nHAp) scaffolds for bone regeneration: Preparation, characterization and biological applications",
+        "year": "2024"
+      },
+      {
+        "article_id": "1nFMkMcAAAAJ:BqipwSGYUEgC",
+        "title": "Smart stimuli-responsive polysaccharide nanohydrogels for drug delivery: a review",
+        "year": "2023"
+      },
+      {
+        "article_id": "1nFMkMcAAAAJ:ns9cj8rnVeAC",
+        "title": "Topical delivery of nanoemulsions for skin cancer treatment",
+        "year": "2023"
+      },
+      {
+        "article_id": "1nFMkMcAAAAJ:hFOr9nPyWt4C",
+        "title": "A comprehensive review on green perspectives of electrocoagulation integrated with advanced processes for effective pollutants removal from water environment",
+        "year": "2022"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "IcuHRngAAAAJ",
+    "nom_complet": "MOHAMMED BERRADA",
+    "affiliation": "Professeur de Chimie organique, Universite Hassan II de Casablanca",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "h_index": 39,
+    "i10_index": 72,
+    "citations_total": 5760,
+    "publications_count": 12,
+    "top_papers": [
+      {
+        "article_id": "IcuHRngAAAAJ:8AbLer7MMksC",
+        "title": "Nano-hydroxyapatite (nHAp) scaffolds for bone regeneration: Preparation, characterization and biological applications",
+        "year": "2024"
+      },
+      {
+        "article_id": "IcuHRngAAAAJ:u_35RYKgDlwC",
+        "title": "Microneedle-based natural polysaccharide for drug delivery systems (DDS): progress and challenges",
+        "year": "2022"
+      },
+      {
+        "article_id": "IcuHRngAAAAJ:D03iK_w7-QYC",
+        "title": "RETRACTED: An Overview of Antimicrobial Stewardship Optimization: The Use of Antibiotics in Humans and Animals to Prevent Resistance",
+        "year": "2022"
+      },
+      {
+        "article_id": "IcuHRngAAAAJ:abG-DnoFyZgC",
+        "title": "Functional thermoresponsive hydrogel molecule to material design for biomedical applications",
+        "year": "2022"
+      },
+      {
+        "article_id": "IcuHRngAAAAJ:qUcmZB5y_30C",
+        "title": "Synthesis and characterization of Lyophilized chitosan‐based hydrogels cross‐linked with benzaldehyde for controlled drug release",
+        "year": "2020"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "fCLesqQAAAAJ",
+    "nom_complet": "Abderrahman daif",
+    "affiliation": "Census-labs",
+    "laboratoire": "Unknown",
+    "h_index": 3,
+    "i10_index": 3,
+    "citations_total": 57,
+    "publications_count": 2,
+    "top_papers": [
+      {
+        "article_id": "fCLesqQAAAAJ:2osOgNQ5qMEC",
+        "title": "A masking method based on orthonormal spaces, protecting several bytes against both SCA and FIA with a reduced cost",
+        "year": "2024"
+      },
+      {
+        "article_id": "fCLesqQAAAAJ:u-x6o8ySG0sC",
+        "title": "Optimized linear complementary codes implementation for hardware trojan prevention",
+        "year": "2015"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "QebcqNkAAAAJ",
+    "nom_complet": "Rachid SAILE",
+    "affiliation": "Vice-Président Université Hassan II de Casablanca",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "h_index": 27,
+    "i10_index": 56,
+    "citations_total": 2873,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "QebcqNkAAAAJ:LI9QrySNdTsC",
+        "title": "Association between nutritional status, body composition, and fitness level of adolescents in physical education in Casablanca, Morocco",
+        "year": "2023"
+      },
+      {
+        "article_id": "QebcqNkAAAAJ:eq2jaN3J8jMC",
+        "title": "Predictors of mortality in hemodialysis patients",
+        "year": "2019"
+      },
+      {
+        "article_id": "QebcqNkAAAAJ:fQNAKQ3IYiAC",
+        "title": "Assessing the prevalence of protein-energy wasting in haemodialysis patients: a cross-sectional monocentric study",
+        "year": "2017"
+      },
+      {
+        "article_id": "QebcqNkAAAAJ:ufrVoPGSRksC",
+        "title": "Proteomic analysis of Moroccan cobra Naja haje legionis venom using tandem mass spectrometry",
+        "year": "2014"
+      },
+      {
+        "article_id": "QebcqNkAAAAJ:aqlVkmm33-oC",
+        "title": "Usefulness of lipid ratios and atherogenic index of plasma in obese Moroccan women with or without metabolic syndrome",
+        "year": "2014"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "PwCedNQAAAAJ",
+    "nom_complet": "Soumia BELOUAFA",
+    "affiliation": "Faculty of Sciences Ben M'Sick. Hassan II  University of Casablanca, Morocco",
+    "laboratoire": "Laboratoire Biologie et Santé",
+    "h_index": 9,
+    "i10_index": 9,
+    "citations_total": 430,
+    "publications_count": 11,
+    "top_papers": [
+      {
+        "article_id": "PwCedNQAAAAJ:Wp0gIr-vW9MC",
+        "title": "Wastewater remediation using multi-soil layering (MSL) eco-technology: A comprehensive and critical review",
+        "year": "2023"
+      },
+      {
+        "article_id": "PwCedNQAAAAJ:M3ejUd6NZC8C",
+        "title": "Modelization and optimization of the treatment of the reactive black-5 dye from industry effluents using experimental design methodology",
+        "year": "2022"
+      },
+      {
+        "article_id": "PwCedNQAAAAJ:LkGwnXOMwfcC",
+        "title": "Optimization synthesis geopolymer based mixture metakaolin and fly ash activated by alkaline solution",
+        "year": "2020"
+      },
+      {
+        "article_id": "PwCedNQAAAAJ:u-x6o8ySG0sC",
+        "title": "Application of statistical experimental design and surface plot technique to optimize oxygenated apatite synthesis",
+        "year": "2020"
+      },
+      {
+        "article_id": "PwCedNQAAAAJ:Y0pCki6q_DkC",
+        "title": "Biocomposite based on collagen/calcium salts extraction from sardine scales",
+        "year": "2018"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "u_jsBCoAAAAJ",
+    "nom_complet": "MOUNIR SADIQ",
+    "affiliation": "professeur d'informatique",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "h_index": 6,
+    "i10_index": 4,
+    "citations_total": 110,
+    "publications_count": 3,
+    "top_papers": [
+      {
+        "article_id": "u_jsBCoAAAAJ:u5HHmVD_uO8C",
+        "title": "Comparative study between automatic hint generation approaches in Intelligent Programming Tutors",
+        "year": "2022"
+      },
+      {
+        "article_id": "u_jsBCoAAAAJ:LkGwnXOMwfcC",
+        "title": "Formative E-assessment and behavioral commitment of students: Case of the Faculty of Science Ben M’sik",
+        "year": "2019"
+      },
+      {
+        "article_id": "u_jsBCoAAAAJ:ufrVoPGSRksC",
+        "title": "Modélisation des unités d'apprentissage sur des plates-formes de formation à distance",
+        "year": "2010"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "6fywzcgAAAAJ",
+    "nom_complet": "MOHAMED GHAZOUANI",
+    "affiliation": "Unknown affiliation",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "h_index": 6,
+    "i10_index": 3,
+    "citations_total": 173,
+    "publications_count": 13,
+    "top_papers": [
+      {
+        "article_id": "6fywzcgAAAAJ:UebtZRa9Y70C",
+        "title": "From manual review to AI automation: An NLP-powered system for efficient CV processing in academic admissions",
+        "year": "2025"
+      },
+      {
+        "article_id": "6fywzcgAAAAJ:9yKSN-GCB0IC",
+        "title": "Artificial intelligence in the context of digital learning environments (DLEs): Towards adaptive learning",
+        "year": "2024"
+      },
+      {
+        "article_id": "6fywzcgAAAAJ:Tyk-4Ss8FVUC",
+        "title": "Engineering applications of artificial intelligence",
+        "year": "2024"
+      },
+      {
+        "article_id": "6fywzcgAAAAJ:d1gkVwhDpl0C",
+        "title": "Towards adaptive learning: Ai chatbot for users profiling and learning styles",
+        "year": "2024"
+      },
+      {
+        "article_id": "6fywzcgAAAAJ:YsMSGLbcyi4C",
+        "title": "Metaverse for the recruitment process: Towards an intelligent virtual recruiter",
+        "year": "2024"
+      }
+    ]
+  },
+  {
+    "chercheur_id": "NC6PfXIAAAAJ",
+    "nom_complet": "Bentaib Mohssine",
+    "affiliation": "Hassan II University of Casablanca Faculty of sciences Ben M’sick",
+    "laboratoire": "Technologie de l'Information et Modélisation",
+    "h_index": 5,
+    "i10_index": 4,
+    "citations_total": 85,
+    "publications_count": 6,
+    "top_papers": [
+      {
+        "article_id": "NC6PfXIAAAAJ:WF5omc3nYNoC",
+        "title": "A comprehensive systematic review of deep learning techniques for anomaly detection in urban video surveillance",
+        "year": "2025"
+      },
+      {
+        "article_id": "NC6PfXIAAAAJ:qjMakFHDy7sC",
+        "title": "Adaptive help system based on learners ‘Digital traces’ and learning styles",
+        "year": "2021"
+      },
+      {
+        "article_id": "NC6PfXIAAAAJ:ufrVoPGSRksC",
+        "title": "Integration of a computer device for learning and training situations: The case of Faculty of Sciences Ben M'sik (FSBM)",
+        "year": "2019"
+      },
+      {
+        "article_id": "NC6PfXIAAAAJ:2osOgNQ5qMEC",
+        "title": "Using students’ data to improve the quality of the education in Moroccan institution",
+        "year": "2019"
+      },
+      {
+        "article_id": "NC6PfXIAAAAJ:u5HHmVD_uO8C",
+        "title": "Eportfolio as a tool of learning, presentation, orientation and evaluation skills",
+        "year": "2015"
+      }
+    ]
   }
 ]
