@@ -107,6 +107,26 @@ researcher, merges global metrics from the raw JSON, selects top papers, and
 writes `frontend/data/faculty_metrics.json`. This file is imported by the
 Next.js faculty routes, so rerun the export after changing the source data.
 
+### Dataset and results
+
+The latest completed pipeline run produced the following corpus. The
+ineligible count is the difference between the unique raw publication records
+and the records loaded by the vectorization step.
+
+| Measure | Final corpus |
+| --- | ---: |
+| Collected researcher profiles | 89 |
+| Raw publication records | 1,066 |
+| Unique publication records | 1,066 |
+| Eligible for embeddings | 993 |
+| Ineligible for embeddings | 73 |
+| Final embedding vectors | 993 x 2,560 |
+| Final ChromaDB records | 993 |
+
+The vectorization run used `zeroentropy/zembed-1-embedding` and reported a
+vector dimension of `2,560`. The ChromaDB index was built from the same 993
+vectorized records and stored in `nlp_engine/chroma_data`.
+
 ### Vector layer
 
 `generate_vectors.py` reads the clean Parquet and embeds
